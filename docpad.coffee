@@ -2,31 +2,6 @@
 # Misc Configuration
 
 envConfig = process.env
-githubAuthString = "client_id=#{envConfig.BALUPTON_GITHUB_CLIENT_ID}&client_secret=#{envConfig.BALUPTON_GITHUB_CLIENT_SECRET}"
-getRankInUsers = (users, fallback=null) ->
-	rank = null
-
-	for user,index in users
-		if user.login is 'balupton'
-			rank = String(index+1)
-			break
-
-	return fallback  if rank is null
-
-	if rank >= 10 and rank < 20
-		rank += 'th'
-	else switch rank.substr(-1)
-		when '1'
-			rank += 'st'
-		when '2'
-			rank += 'nd'
-		when '3'
-			rank += 'rd'
-		else
-			rank += 'th'
-
-	return rank or fallback
-
 
 # =================================
 # DocPad Configuration
@@ -51,34 +26,15 @@ module.exports =
 			url: "http://crystalpalacefestival.org"
 			title: "Crystal Palace Festival 2013"
 			author: "Nick Rowlands"
-			email: "info@crystalpalacefestival.org"
+			email: "nick@rowlando.com"
 			description: """
-				Website of Benjamin Lupton. Founder of Bevry, DocPad and HistoryJS. Aficionado of HTML5, CoffeeScript and NodeJS. Available for consulting, training and talks. ENTP.
+									 The Crystal Palace festival has been running successfully for the last six years. In 2011, it expanded to Westow Park, with a live music stage, food and craft stalls, arts workshops, sports and kids’ activities, adding to the many events around the Triangle.
 				"""
 			keywords: """
-				balupton, benjamin lupton, lupton, coffeescript, node.js, javascript, history.js, html5, docpad, nowpad, jquery, css3, ruby, git, nosql, cson, html5 history api, ajax, html, web development, web design, nlp, git, neuro-linguistic programming, programming, hacking, hackathon, aloha editor, contenteditable, hallo, jekyll, entp, inventor, web 2.0
+				crystal palace festival, crystal palace overground festival, se19 festival, westow park, crystal palace music festival, crystal palace what's on, crystal palace summer, arts, crafts, music, kids entertainment, food
 				"""
 
 			text:
-				heading: "Benjamin Lupton"
-				subheading: '''
-					<t render="html.coffee">
-						link = @getPreparedLink.bind(@)
-						text """
-							Founder of #{link 'bevry'}, #{link 'docpad'}, #{link 'historyjs'}  &amp; #{link 'hostel'}.<br/>
-							Aficionado of #{link 'javascript'}, #{link 'nodejs'}, #{link 'opensource'} and #{link 'html5'}.<br/>
-							Available for consulting, training and speaking. #{link 'contact'}.
-							"""
-					</t>
-					'''
-				about: '''
-					<t render="html.coffee">
-						link = @getPreparedLink.bind(@)
-						text """
-							This website was created with #{link 'bevry'}’s #{link 'docpad'} and is #{link 'source'}
-							"""
-					</t>
-					'''
 				copyright: '''
 					<t render="html.md">
 						Unless stated otherwise; all works are Copyright © 2011+ [Benjamin Lupton](http://balupton.com) and licensed [permissively](http://en.wikipedia.org/wiki/Permissive_free_software_licence) under the [MIT License](http://creativecommons.org/licenses/MIT/) for code and the [Creative Commons Attribution 3.0 Unported License](http://creativecommons.org/licenses/by/3.0/) for everything else (including content, media and design), enjoy!
@@ -93,30 +49,28 @@ module.exports =
 					username: 'balupton'
 				twitterTweetButton: "se19festival"
 				twitterFollowButton: "se19festival"
-				disqus: 'balupton'
-				googleAnalytics: 'UA-4446117-1'
+				disqus: 'crystalpalacefestival'
+				googleAnalytics: 'UA-38376680-1'
 
 			social:
 				"""
 				facebook
 				linkedin
-				github
 				twitter
 				vimeo
 				""".trim().split('\n')
 
 			scripts: """
-				/vendor/jquery-1.7.1.js
-				/vendor/fancybox-2.0.5/jquery.fancybox.js
+				/vendor/jquery-1.9.1.js
+				/vendor/foundation.js
+				/vendor/foundation.topbar.js
+				/vendor/foundation.dropdown.js
 				/scripts/script.js
 				""".trim().split('\n')
 
 			feeds: [
 					href: 'http://feeds.feedburner.com/balupton.atom'
 					title: 'Blog Posts'
-				,
-					href: 'https://github.com/balupton.atom'
-					title: 'GitHub Activity'
 				,
 					href: 'http://vimeo.com/api/v2/balupton/videos.atom'
 					title: 'Vimeo Videos'
@@ -220,29 +174,6 @@ module.exports =
 		getPreparedDescription: -> @document.description or @site.description
 		getPreparedKeywords: -> @site.keywords.concat(@document.keywords or []).join(', ')
 
-		# Ranking Helpers
-		getAustraliaJavaScriptRank: ->
-			feed = @feedr.feeds['github-australia-javascript']?.users ? null
-			return getRankInUsers(feed,'2nd')
-		getAustraliaRank: ->
-			feed = @feedr.feeds['github-australia']?.users ? null
-			return getRankInUsers(feed,'4th')
-		getGithubFollowers: (floorToNearest=50) ->
-			followers = @feedr.feeds['github-profile']?.followers
-			if followers
-				result = Math.floor(followers/floorToNearest)*floorToNearest
-			else
-				result = 250
-			return result
-		getStackoverflowReputation: (floorToNearest=1000) ->
-			reputation = @feedr.feeds['stackoverflow-profile']?.users?[0]?.reputation ? null
-			if reputation
-				result = Math.floor(reputation/floorToNearest)*floorToNearest
-			else
-				result = 9000
-			return result
-
-
 	# =================================
 	# Collections
 
@@ -279,29 +210,8 @@ module.exports =
 	plugins:
 		feedr:
 			feeds:
-				'stackoverflow-profile':
-					url: 'http://api.stackoverflow.com/1.0/users/130638/'
-				'github-australia-javascript':
-					url: "https://api.github.com/legacy/user/search/location:Australia%20language:JavaScript?#{githubAuthString}"
-				'github-australia':
-					url: "https://api.github.com/legacy/user/search/location:Australia?#{githubAuthString}"
-					# https://github.com/search?q=location%3AAustralia&type=Users&s=followers
-				'github-profile':
-					url: "https://api.github.com/users/balupton?#{githubAuthString}"
-				'balupton-projects':
-					url: "https://api.github.com/users/balupton/repos?per_page=100&#{githubAuthString}"
-				'bevry-projects':
-					url: "https://api.github.com/users/bevry/repos?per_page=100&#{githubAuthString}"
-				'browserstate-projects':
-					url: "https://api.github.com/users/browserstate/repos?per_page=100&#{githubAuthString}"
-				'docpad-projects':
-					url: "https://api.github.com/users/docpad/repos?per_page=100&#{githubAuthString}"
-				'github':
-					url: "https://github.com/balupton.atom"
 				'twitter':
 					url: "https://api.twitter.com/1/statuses/user_timeline.json?screen_name=se19festival&count=20&include_entities=true&include_rts=true"
-				'vimeo':
-					url: "http://vimeo.com/api/v2/balupton/videos.json"
 				#'flickr':
 				#	url: "http://api.flickr.com/services/feeds/photos_public.gne?id=35776898@N00&lang=en-us&format=json"
 
@@ -311,3 +221,4 @@ module.exports =
 				site:
 					services:
 						reddit: false
+						googleAnalytics: false

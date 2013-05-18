@@ -1,0 +1,256 @@
+@pink: #EA4398;
+@dark-pink: #9C0058;
+@body-color: #004C5C;
+@sponsor-text: #C8BEA5;
+@heading-color: #009DA2;
+@link-color: #EA4398;
+@secondary-color: #f0ede6;
+
+@garage-font: "GarageGothic Regular";
+//@base-font: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+@base-font: "AmericanTypewriter", "Courier New", Courier, monospace;
+
+html,
+body {
+    background-color: #c4ca4c;
+}
+
+/****************************
+* Header
+*****************************/
+
+.splash {
+    display: none;
+    position: absolute;
+    top: -13px;
+    right: 0;
+    width: 35%;
+    img {
+        max-width: 100%;
+        float: right;
+    }
+    a {
+        position: absolute;
+        top: 58%;
+        right: 12%;
+        z-index: 1;
+        -webkit-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        &:hover {
+            -ms-transform: scale(1.3);
+            -webkit-transform: scale(1.3);
+        }
+    }
+}
+
+@media only screen and (min-width: 48em) {
+    .splash { display: block; }
+}
+
+.header {
+    padding-top: 1.5em;
+    margin-bottom: 1em;
+}
+.header-date {
+    font-family: @garage-font;
+    font-size: 3.72em;
+    line-height: 1;
+    margin-top: 0.15em;
+    margin-bottom: 0;
+    color: #9d0152;
+}
+
+// Common elements
+
+.page-sidebar,
+.social-buttons,
+.page-comments,
+.page-content,
+.box {
+    border: 15px solid #fff;
+    padding: 15px;
+    background: #e0e662 url('/images/decoration/greenbg.png') repeat;
+    margin-bottom: 17px;
+}
+
+/****************************
+* Topbar
+*****************************/
+.contain-to-grid,
+.top-bar {
+    background-color: transparent;
+    //background-color: #e0e662;
+    text-transform: uppercase;
+    font-family: @garage-font;
+}
+
+.contain-to-grid .top-bar {
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+}
+
+.top-bar-section ul {
+    background-color: transparent;
+}
+
+@media only screen and (min-width: 40em) {
+    .contain-to-grid {
+        background: transparent;
+    }
+    .top-bar .title-area {
+        margin-right: 0.9375em;
+    }
+    .top-bar-section ul li {
+        margin-right: 0.9375em;
+    }
+    .top-bar-section .dropdown {
+        box-shadow: 0px 4px 6px 2px rgba(167, 177, 65,0.8);
+    }
+    .top-bar-section li a:not(.button):hover {
+        background: #be006a;
+        color: #e0e662;
+    }
+}
+
+.title-area,
+.top-bar-section li a:not(.button) {
+    background: #e0e662 url('/images/decoration/greenbg.png') repeat;
+}
+
+.top-bar .name h1 a {
+    color: #980452;
+    font-family: @garage-font;
+    font-size: 1.56250em;
+    font-weight: normal;
+    &:hover {
+        background-color: #be006a;
+        color: #e0e662;
+    }
+}
+
+.top-bar-section ul li > a {
+    font-weight: normal;
+}
+
+.top-bar-section li a:not(.button) {
+    font-size: 1.56250em;
+    color: #980452;
+}
+
+.top-bar-section ul li.active > a {
+    color: #e0e662;
+    background: #c9016b url('/images/decoration/purplebg.png') repeat;
+}
+
+/****************************
+* Headings
+*****************************/
+
+.block-heading {
+    text-transform: uppercase;
+    font-family: @garage-font;
+    background: #c9016b url('/images/decoration/purplebg.png') repeat;
+    color: #e9e061;
+    padding: 11px 15px;
+    font-size: 2.5em;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+/****************************
+* Sidebar
+*****************************/
+.related-documents {
+    h2 {
+        font-size: 1.56250em;
+        color: #161206;
+    }
+}
+
+.side-nav {
+    padding-top: 0;
+    li {
+        border-bottom: 4px solid #c3ca48;
+        margin-top: 0.875em;
+        padding-bottom: 0.875em;
+        a {
+            color: #ad0e60;
+        }
+    }
+}
+
+
+/****************************
+* Posterize
+*****************************/
+
+.posterize {
+    margin-top: 20px;
+    width: 50%;
+    font-family: @garage-font;
+    font-size: 3.31250em;
+    line-height: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+    span {
+        display: block;
+    }
+    .line-1 { color: @link-color; }
+    .line-2 { color: @dark-pink; font-size: 108%; }
+    .line-3 { color: @heading-color; font-size: 98%; }
+    .line-4{
+        font-size: 142%;
+        color: @heading-color;
+        span {
+            color: @body-color;
+            display: inline;
+        }
+    }
+    .line-5 { color: @heading-color; font-size: 65%; }
+    .line-6 { color: @dark-pink; font-size: 109%; }
+    .line-7 { color: @body-color; font-size: 57%; }
+    .line-8 { color: @dark-pink; font-size: 96%; }
+    .line-9 { color: @link-color; font-size: 64%; }
+    .hr {
+        border-top: 1px solid #ad3776;
+        border-bottom: 3px solid @heading-color;
+        display: block;
+        width: 137px;
+        margin: 16px auto 0;
+    }
+}
+
+/****************************
+* Blog post
+*****************************/
+.blog-list {
+    .document-link {
+        font-size: 1.4375em;
+        color: #000;
+    }
+    .readmore {
+        padding-bottom: 1.25em;
+    }
+}
+
+.page-content {
+    img.left {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        border: 4px solid #fff;
+        box-shadow: 4px 4px 5px rgba(196, 202, 76,0.7);
+    }
+}
+
+/****************************
+* Blog post Social Buttons
+*****************************/
+.social-buttons { overflow: hidden; }
+.social-button { float: left; }
+.google-plus-one-button { width: 75px; }
+.twitter-tweet-button { width: 91px; }
+.twitter-follow-button { width: 152px; }
+.facebook-like-button { width: 103px; }
+.facebook-follow-button { width: 120px; }
+
+

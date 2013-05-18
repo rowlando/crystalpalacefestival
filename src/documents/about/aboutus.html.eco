@@ -1,0 +1,11 @@
+---
+title: 'About the festival'
+layout: 'detail'
+url: '/about'
+urls: ['/about/','/about/index.html','/about.html']
+---
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus assumenda at culpa, cupiditate dolorum ea, eius illum ipsum itaque nam necessitatibus neque nostrum officiis pariatur provident sunt temporibus ut.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus assumenda at culpa, cupiditate dolorum ea, eius illum ipsum itaque nam necessitatibus neque nostrum officiis pariatur provident sunt temporibus ut.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus assumenda at culpa, cupiditate dolorum ea, eius illum ipsum itaque nam necessitatibus neque nostrum officiis pariatur provident sunt temporibus ut.</p>
+

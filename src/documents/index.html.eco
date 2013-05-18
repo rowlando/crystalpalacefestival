@@ -1,0 +1,36 @@
+---
+name: 'Home'
+layout: 'home'
+---
+
+
+<!--<div class="row">-->
+<!--<div class="large-9 columns">-->
+<!--<h1>Thursday / Friday</h1>-->
+<!--</div>-->
+<!--<div class="large-3 columns">Fringe</div>-->
+<!--</div>-->
+
+<article class="day">
+
+    <header class="row">
+        <div class="large-9 columns"><h1>Saturday</h1></div>
+        <div class="large-3 columns"><span class="h1"><small>Park</small></span></div>
+    </header>
+
+    <div class="row">
+        <div class="large-9 columns">
+            <img src="/images/day/placeholder.jpg" alt="" width="200"/>
+        </div>
+        <div class="large-3 columns"></div>
+    </div>
+
+</article>
+
+
+<!--<div class="row">-->
+<!--<div class="large-9 columns">-->
+<!--<h1>Sunday</h1>-->
+<!--</div>-->
+<!--<div class="large-3 columns">Triangle</div>-->
+<!--</div>-->

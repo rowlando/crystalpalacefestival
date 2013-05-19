@@ -1,3 +1,20 @@
+// Gradients
+    .gradient-vertical(@startColor: #555; @endColor: #333) {
+    background-color: mix(@startColor, @endColor, 60%);
+    background-image: -moz-linear-gradient(top, @startColor, @endColor);							// FF 3.6+
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor));		// Safari 4+, Chrome 2+
+    background-image: -webkit-linear-gradient(top, @startColor, @endColor);							// Safari 5.1+, Chrome 10+
+    background-image: -o-linear-gradient(top, @startColor, @endColor);								// Opera 11.10
+    background-image: linear-gradient(to bottom, @startColor, @endColor);							// Standard, IE10
+    background-repeat: repeat-x;
+
+    @ieStartColHex: argb(@startColor);
+    @ieEndColHex: argb(@endColor);
+    @ieStartColInt: `parseInt('@{ieStartColHex}'.substr(1), 16)`;
+    @ieEndColInt: `parseInt('@{ieEndColHex}'.substr(1), 16)`;
+    filter: ~"progid:DXImageTransform.Microsoft.gradient(startColor='@{ieStartColInt}', endColor='@{ieEndColInt}')";		// IE9 and down
+}
+
 @pink: #EA4398;
 @dark-pink: #9C0058;
 @body-color: #004C5C;
@@ -12,7 +29,17 @@
 
 html,
 body {
-    background-color: #c4ca4c;
+    font-family: @base-font;
+    .gradient-vertical( #c4ca4c, #8abecc );
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: normal;
+    font-family: @base-font;
+}
+
+h2,.h2 {
+
 }
 
 /****************************
@@ -53,25 +80,111 @@ body {
 }
 .header-date {
     font-family: @garage-font;
-    font-size: 3.72em;
+    font-size: 1.6em;
     line-height: 1;
     margin-top: 0.15em;
     margin-bottom: 0;
     color: #9d0152;
 }
 
-// Common elements
+@media only screen and (min-width: 48em) {
+    .header-date {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 62.5em) {
+    .header-date {
+        font-size: 3.72em;
+    }
+}
+
+/****************************
+* Footer
+*****************************/
+
+.footer {
+    //background: transparent url('/images/decoration/treehill.png') no-repeat 0 bottom;
+    padding-top: 4em;
+}
+
+/****************************
+* Common Elements
+*****************************/
 
 .page-sidebar,
 .social-buttons,
 .page-comments,
 .page-content,
 .box {
-    border: 15px solid #fff;
-    padding: 15px;
+    border: 0.9375em solid #fff;
+    padding: 0.9375em;
     background: #e0e662 url('/images/decoration/greenbg.png') repeat;
     margin-bottom: 17px;
 }
+
+.page-sidebar-map {
+    padding: 0;
+    a {
+        text-align: center;
+        background-color: #fff;
+        margin: 5px 8px 8px;
+        display: block;
+        padding: 0.9375em;
+    }
+}
+
+/****************************
+* Events
+*****************************/
+
+.event-container {
+    margin-bottom: 0.9375em;
+    padding: 0.9375em;
+    background: #e0e662 url('/images/decoration/greenbg.png') repeat;
+    ul {
+        list-style-type: none;
+    }
+    li {
+        border-bottom: 8px solid #c3ca48;
+    }
+
+    li:first-child {
+        border-top: none;
+    }
+}
+
+.event {
+    p {
+        margin-bottom: 0.9375em;
+    }
+}
+
+.event-heading {
+    margin-bottom: 0;
+}
+
+.event-title {
+    text-transform: uppercase;
+    font-family: @garage-font;
+    color: #160e0b;
+    font-size: 2em;
+    font-weight: normal;
+    margin-top: 0.4em;
+    margin-bottom: 0;
+    .event:first-child & {
+        margin-top: 0;
+    }
+}
+.event-time {
+    margin-bottom: 0.9375em;
+    display: block;
+    color: #004c5c;
+}
+a.event-time {
+    text-decoration: underline;
+}
+
 
 /****************************
 * Topbar
@@ -87,6 +200,28 @@ body {
 .contain-to-grid .top-bar {
     padding-left: 0.9375em;
     padding-right: 0.9375em;
+}
+
+.top-bar .name h1 a {
+    color: #980452;
+    font-family: @garage-font;
+    font-size: 1.56250em;
+    font-weight: normal;
+    &:hover {
+        background-color: #be006a;
+        color: #e0e662;
+    }
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+    color: #980452;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-indent: -33px;
+    span {
+        -webkit-box-shadow: 0 10px 0 1px #980452, 0 16px 0 1px #980452, 0 22px 0 1px #980452;
+        box-shadow: 0 10px 0 1px #980452, 0 16px 0 1px #980452, 0 22px 0 1px #980452;
+    }
 }
 
 .top-bar-section ul {
@@ -117,17 +252,6 @@ body {
     background: #e0e662 url('/images/decoration/greenbg.png') repeat;
 }
 
-.top-bar .name h1 a {
-    color: #980452;
-    font-family: @garage-font;
-    font-size: 1.56250em;
-    font-weight: normal;
-    &:hover {
-        background-color: #be006a;
-        color: #e0e662;
-    }
-}
-
 .top-bar-section ul li > a {
     font-weight: normal;
 }
@@ -140,6 +264,10 @@ body {
 .top-bar-section ul li.active > a {
     color: #e0e662;
     background: #c9016b url('/images/decoration/purplebg.png') repeat;
+}
+
+.top-bar-section .divider {
+    border-color: #c3ca48;
 }
 
 /****************************
@@ -162,8 +290,10 @@ body {
 *****************************/
 .related-documents {
     h2 {
-        font-size: 1.56250em;
-        color: #161206;
+        font-size: 1.25em;
+        line-height: 1.30000em;
+        color: #160e0b;
+        margin-top: 0;
     }
 }
 
@@ -173,8 +303,13 @@ body {
         border-bottom: 4px solid #c3ca48;
         margin-top: 0.875em;
         padding-bottom: 0.875em;
+        font-size: inherit;
+
+        &:first-child {
+            margin-top: 0;
+        }
         a {
-            color: #ad0e60;
+            color: #004c5c;
         }
     }
 }
@@ -226,7 +361,6 @@ body {
 .blog-list {
     .document-link {
         font-size: 1.4375em;
-        color: #000;
     }
     .readmore {
         padding-bottom: 1.25em;
@@ -234,6 +368,50 @@ body {
 }
 
 .page-content {
+    h2 {
+        font-size: 1.25em;
+        line-height: 1.30000em;
+        margin-top: 1.3em;
+        color: #160e0b;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    a {
+        text-decoration: underline;
+        color: #004c5c;
+
+        &:focus {
+            background-color: #004c5c;
+            color: #e0e662;
+        }
+    }
+
+    ul {
+        list-style-position: inside;
+    }
+
+    .document-link {
+        font-size: 1.25em;
+        line-height: 1.30000em;
+        text-decoration: none;
+    }
+
+    .document-title {
+        text-decoration: underline;
+    }
+
+    .side-nav small {
+        line-height: 2.7em;
+    }
+
+    .page-date {
+        display: block;
+        margin-bottom: 1.7em;
+        margin-top: 0.5em;
+    }
+
     img.left {
         margin-right: 15px;
         margin-bottom: 15px;
@@ -252,5 +430,23 @@ body {
 .twitter-follow-button { width: 152px; }
 .facebook-like-button { width: 103px; }
 .facebook-follow-button { width: 120px; }
+
+/****************************
+* Responsive map
+*****************************/
+.iframe-rwd  {
+    position: relative;
+    padding-bottom: 87%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 

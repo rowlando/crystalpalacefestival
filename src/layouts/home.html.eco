@@ -104,11 +104,6 @@
     <%- @partial('content/footer.html') %>
 
     <%- @getBlock('styles') %>
-    <script>
-        $(function(){
-            $(document).foundation();
-        })
-    </script>
 
 </body>
 </html>

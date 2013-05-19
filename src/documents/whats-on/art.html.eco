@@ -1,0 +1,63 @@
+---
+title: 'Art at the festival'
+layout: default
+isDay: true
+order: 2
+mapUrl: "https://maps.google.co.uk/maps/ms?msa=0&amp;msid=217159076880039177715.0004cdb15c156ce8355a0&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=51.419095,-0.079994&amp;spn=0.009367,0.012059&amp;z=15&amp;"
+---
+
+<div class="row">
+    <div class="columns large-8">
+        <div class="page-content">
+            <h2>Mapping the Palace <br> &ndash; an art installation by Drumz of the South</h2>
+
+            <p>Explore Crystal Palace through the eyes of its locals!</p>
+
+            <p>For the duration of the festival, you will find framed snapshots and memories of Crystal Palace dotted 
+                around the area. Grab a map from the Antenna Studios Café and other local shops to discover a 
+                Crystal Palace that you won't find anywhere else!</p>
+
+            <p>You are welcome to add your own views of the area via <a href="http://www.mappingthepalace.co.uk/">mappingthepalace.co.uk/</a>. Follow on twitter:
+                <a href="https://twitter.com/palacemap">@palacemap</a>.</p>
+        </div>
+
+    </div>
+
+    <div class="columns large-4">
+        <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl, linkTitle: "View Palace Map" } ) %>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="columns large-8">
+
+        <div class="page-content">
+
+            <h2>The Great Exhibition <br> &ndash; an art project by local primary school children</h2>
+
+            <p>Pupils from local schools, Rockmount, Cypress, Malcolm and All Saints, will be submitting their best
+                artwork for The Great Exhibition. 10 shortlisted pieces will be exhibited in shop windows during the
+                festival. The winning piece will be professionally framed as a prize. Participating traders are</p>
+
+            <ul>
+                <li><a href="http://www.acorn.ltd.uk/">Acorn Residential Sales and Lettings, 29 Westow St (the winner)</a></li>
+                <li><a href="http://www.bluedoorbicycles.com/">Blue Door Bicycles, 5 and 7 Central Hill</a></li>
+                <li><a href="http://www.winkball.com/entries/yigR6FEiMwTp/">Top Quality Dry Cleaners, 9 Westow Hill</a></li>
+                <li>Top Quality Shoe Repairs and Key Cutting, 38 Westow Hill</li>
+                <li><a href="http://www.crystaleyecentre.com/">Opticians Crystal Eye Centre, 20 Westow Hill</a></li>
+                <li><a href="http://www.planta.co.uk/">Planta, 32 Westow Hill</a></li>
+                <li><a href="https://www.facebook.com/papagaiotoys">Papa Gaio, 83 Church Road.</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="columns large-4">
+        <div class="box">
+            <p>Don’t forget to visit the traders to view the exhibition during the festival! Thanks to our lovely independent shops for supporting this initiative. Frames kindly provided by The Picture Palace, 65 Westow Street.</p>
+        </div>
+    </div>
+</div>
+

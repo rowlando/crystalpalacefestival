@@ -1,6 +1,8 @@
 # Wait
 wait = (delay,callback) -> setTimeout(callback,delay)
 
+$(document).foundation()
+
 # Hide failed images
 images = document.getElementsByTagName('img')
 for img in images
@@ -178,3 +180,4 @@ $ ->
 	$('.read-more').click ->
 		_gaq?.push(['_trackEvent', "Read More", document.title, document.location.href, 0, true])
 		$(this).hide().next('.more-to-read').show()
+

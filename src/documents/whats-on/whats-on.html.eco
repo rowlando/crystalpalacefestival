@@ -1,0 +1,9 @@
+---
+title: "What's on"
+layout: detail
+url: /whats-on
+order: 1
+collectionName: whatson
+---
+
+<p>This is the landing page for what's on - need content</p>

@@ -15,17 +15,15 @@
                 <% for page in @site.pages: %>
                     <% match = page.match or page.url %>
                     <% cssname = if @document.url.indexOf(match) is 0 then 'active' else 'inactive' %>
-                    <% if match is '/whats-on':%>
-                        <li class="has-dropdown"><a href="#">What's on</a>
+
+                    <% if page.pages: %>
+                        <li class="has-dropdown <%-cssname%>"><a href="<%-page.url%>"><%-page.label%></a>
                             <ul class="dropdown">
-                                <li><a href="#">Dropdown Level 1b</a></li>
-                                <li><a href="#">Dropdown Level 1c</a></li>
+                            <% for subpage in page.pages: %>
+                                <li><a href="<%-subpage.url%>"><%-subpage.label%></a></li>
+                            <% end %>
                                 <li class="divider"></li>
-                                <li><a href="#">Dropdown Level 1d</a></li>
-                                <li><a href="#">Dropdown Level 1e</a></li>
-                                <li><a href="#">Dropdown Level 1f</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">See all &rarr;</a></li>
+                                <li><a href="/whats-on/art">Art at the festival</a></li>
                             </ul>
                         </li>
                     <% else: %>

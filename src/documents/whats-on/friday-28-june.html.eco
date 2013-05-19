@@ -1,0 +1,30 @@
+---
+title: 'Friday 28 June'
+layout: 'default'
+isDay: true
+order: 3
+---
+
+<div class="row">
+    <div class="large-12 columns">
+
+        <div class="page-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolores doloribus, eaque eius ex facere iusto labore nobis quam quo, rerum sint voluptatem! Eum excepturi ipsam maxime nesciunt quisquam sequi?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus molestiae quibusdam quo quod! Animi atque praesentium repellendus sint tempora veritatis. Deleniti error esse facilis inventore ipsa pariatur quo saepe vel.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="large-6 columns">
+        <h3 class="block-heading event-heading"><%- @site.highlights.friday.daytime.heading %></h3>
+        <%- @partial('content/event-list.html.coffee', { events: @site.highlights.friday.daytime.events, showProgrammeLink: true }) %>
+    </div>
+
+    <div class="large-6 columns">
+        <h3 class="block-heading event-heading"><%- @site.highlights.friday.evening.heading %></h3>
+        <%- @partial('content/event-list.html.coffee', { events: @site.highlights.friday.evening.events, showProgrammeLink: true }) %>
+    </div>
+
+</div>

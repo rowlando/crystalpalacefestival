@@ -5,7 +5,7 @@ url: '/blog'
 urls: ['/blog/','/blog/index.html','/blog.html']
 ---
 div '.row', ->
-	div '.large-9.columns', ->
+	div '.large-8.columns', ->
 		div '.page-content.blog-list', property: 'sioc:content', ->
 			# Related Posts
 			recentPosts = []
@@ -19,13 +19,14 @@ div '.row', ->
 				showReadMore: true
 				}
 
-	div '.large-3.columns', ->
+	div '.large-4.columns', ->
 		div '.page-sidebar', ->
-			h3 ".h5", -> "Blogs we like"
-			blogsWeLike = [
-				{url: 'http://blog.com', title: 'Crystal Palace Farmers Market' },
-				{url: 'http://blog2.com', title: 'blog 2' }
-			]
-			text @partial 'content/document-list.html.coffee', {
-			documents: blogsWeLike,
-			}
+			section '.related-documents', ->
+				h2 -> "Blogs we like"
+				blogsWeLike = [
+					{url: 'http://blog.com', title: 'Crystal Palace Farmers Market' },
+					{url: 'http://blog2.com', title: 'blog 2' }
+				]
+				text @partial 'content/document-list.html.coffee', {
+				documents: blogsWeLike,
+				}

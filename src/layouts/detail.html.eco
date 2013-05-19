@@ -2,22 +2,60 @@
 layout: 'default'
 ---
 
+<% if @document.collectionName?: %>
+    <% collection = @getCollection(@document.collectionName) %>
+<% else: %>
+    <% collection = @getFilesAtPath(".", [order: 1]) %>
+<% end %>
+
 <div class="row">
-    <div class="large-9 columns">
-        <div class="page-content">
-            <%- @content %>
+
+    <div class="large-8 columns">
+
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="page-content">
+                    <%- @content %>
+                </div>
+            </div>
         </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+                <% if @document.highlights: %>
+                <%- @partial('content/highlights.html.coffee', { partial: @partial, highlights: @site.highlights[@document.highlights] }) %>
+                <% end %>
+            </div>
+        </div>
+
     </div>
-    <div class="large-3 columns">
+
+    <div class="large-4 columns">
         <div class="page-sidebar">
             <ul class="side-nav">
-                <% for page in @getFilesAtPath('.').toJSON(): %>
+                <% for page in collection.toJSON(): %>
                     <li class="<%= if page.id is @document.id then 'active' else '' %>">
-                        <a href="<%= page.url %>"><%= page.title %></a>
+                        <a href="<%= page.url %>"><%= page.sidebarTitle or page.title %></a>
                     </li>
                 <% end %>
             </ul>
         </div>
+
+        <% if @document.mapUrl: %>
+            <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl } ) %>
+        <% end %>
+
+        <div class="page-sidebar">
+            <h4>Facilities</h4>
+            <p>Facilities in the park include food court, three festival bars, festival HQ and meeting point,
+                St John’s Ambulance, toilets (kids’ zone and lower end of park), community information and festival
+                stewards to keep you safe.</p>
+            <h4>Volunteer</h4>
+            <p>For more information about volunteering at the festival and if you can
+                spare just 4 hours to help please visit our <a href="/get-involved/volunteer">volunteer page</a>.</p>
+
+        </div>
+
     </div>
 </div>
 

@@ -23,18 +23,19 @@
 
     <div class="row">
         <div class="large-12 columns">
-            <h2 class="block-heading"><%- @document.title %></h2>
+            <h1 class="block-heading"><%- @document.title %></h1>
         </div>
     </div>
 
     <%- @content %>
 
-    <%- @getBlock('scripts').toHTML() %>
-    <script>
-        $(function(){
-            $(document).foundation();
-        })
-    </script>
+    <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+
+    <footer class="footer row">
+        <div class="columns large-12">
+            <img src="/images/decoration/treehill.png" alt=""/>
+        </div>
+    </footer>
 
 </body>
 </html>

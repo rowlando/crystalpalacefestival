@@ -1,0 +1,15 @@
+<% if @document.collectionName?: %>
+    <% collection = @getCollection(@document.collectionName) %>
+<% else: %>
+    <% collection = @getFilesAtPath(".", [order: 1]) %>
+<% end %>
+
+<div class="page-sidebar">
+    <ul class="side-nav">
+        <% for page in collection.toJSON(): %>
+        <li class="<%= if page.id is @document.id then 'active' else '' %>">
+            <a href="<%= page.url %>"><%= page.sidebarTitle or page.title %></a>
+        </li>
+        <% end %>
+    </ul>
+</div>

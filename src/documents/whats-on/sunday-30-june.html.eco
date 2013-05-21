@@ -1,8 +1,9 @@
 ---
-title: 'Sunday 30 June'
+title: 'Sunday 30'
 layout: 'detail'
 isDay: true
 order: 5
+collectionName: whatson
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus assumenda at culpa, cupiditate dolorum ea, eius illum ipsum itaque nam necessitatibus neque nostrum officiis pariatur provident sunt temporibus ut.</p>

@@ -1,5 +1,5 @@
 ---
-title: 'Friday 28 June'
+title: 'Friday 28'
 layout: 'default'
 isDay: true
 order: 3
@@ -9,8 +9,24 @@ order: 3
     <div class="large-12 columns">
 
         <div class="page-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolores doloribus, eaque eius ex facere iusto labore nobis quam quo, rerum sint voluptatem! Eum excepturi ipsam maxime nesciunt quisquam sequi?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus molestiae quibusdam quo quod! Animi atque praesentium repellendus sint tempora veritatis. Deleniti error esse facilis inventore ipsa pariatur quo saepe vel.</p>
+
+            <img src="/associated-files/friday-28-june/open-air-cinema-2011.jpg" alt="" width="270" class="left"/>
+            <p class="image-credit"><small>Image credit: Guy Milnes</small></p>
+
+            <p>A cultural feast for film and spoken word enthusiasts today with a special Spoken Word night at
+                Antenna Café Thing and open air cinema at Coopers Yard. The cinema features a rare showing of
+                The Pleasure Garden shot in Crystal Palace park in 1953.</p>
+
+            <img src="/associated-files/friday-28-june/A_Morning_Stroll.jpg" alt="" width="290" class="right"/>
+            <p>Other events include a reminiscence
+                morning at the library, bingo and a tea dance moving on into the evening with lots of retro
+                entertainment. Westow House’s 1950s extravaganza will transport you back to the rock ‘n’ roll
+                era while you can dance the night away to some of the best classic songs at The White Hart. For
+                something different check out the Guinness and oyster fest at
+                the Gipsy Hill Tavern – <a href="#">see the full programme here</a>.</p>
+
+
+
         </div>
 
     </div>

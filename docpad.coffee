@@ -65,6 +65,7 @@ module.exports =
 				/vendor/foundation.js
 				/vendor/foundation.topbar.js
 				/vendor/foundation.dropdown.js
+				/vendor/foundation.orbit.js
 				/scripts/script.js
 				""".trim().split('\n')
 
@@ -99,18 +100,46 @@ module.exports =
 							url: '/whats-on/sunday-30-june'
 							label: 'Sunday 30'
 					]
+					otherPages: [
+							url: "/whats-on/art"
+							label: "Art at the festival"
+					]
 				,
-					url: '/about'
-					label: 'About'
-					title: 'Find out more about the festival'
+					url: '/info'
+					label: 'Info'
+					title: 'Need to know stuff'
+					pages: [
+							url: '/info/travel'
+							label: 'Getting to the festival'
+						,
+							url: '/info/safety'
+							label: 'Safety'
+						,
+							url: '/info/food-drink'
+							label: 'Food & drink'
+					]
 				,
 					url: '/get-involved'
 					label: 'Get Involved'
 					title: 'Help make the festival more brilliant'
+					pages: [
+							url: '/get-involved/bloggers-wanted'
+							label: 'Bloggers wanted'
+						,
+							url: '/get-involved/photographers'
+							label: 'Photographers'
+						,
+							url: '/get-involved/stall-holders'
+							label: 'Stall holders'
+					]
 				,
 					url: '/blog'
 					label: 'blog'
 					title: 'View articles'
+				,
+					url: '/about'
+					label: 'About'
+					title: 'Find out more about the festival'
 			]
 
 			highlights:
@@ -199,10 +228,10 @@ module.exports =
 						heading: "In the evening"
 						events: [
 								title: "Table tennis competition"
-								description: "Masters (over 55), veterans (over 40) – trophies awarded for top three in each event. Click here to download an application form and instructions on how to enter."
+								description: "Masters (over 55), veterans (over 40) – trophies awarded for top three in each event. <a href='/documents/crystal-palace-overground-festival-table-tennis-application-form-2013.pdf'>Download an application form and instructions on how to enter</a>."
 								location: "Methodist Church Lower Hall"
 								time: "19:00"
-								url: "http://linktopdf"
+								url: "/documents/crystal-palace-overground-festival-table-tennis-application-form-2013.pdf"
 							,
 								title: "Longfellow and Co",
 								description: "Longfellow have drawn comparisons in the press to artists such as Fleet Foxes, Bon Iver, Coldplay and Elbow, and have rapidly built a fan base from their success performing at the Olympics and with Universal Music's Emerging Icons programme."

@@ -116,11 +116,32 @@ h2,.h2 {
 .social-buttons,
 .page-comments,
 .page-content,
-.box {
+.box,
+.box-image {
     border: 0.9375em solid #fff;
     padding: 0.9375em;
     background: #e0e662 url('/images/decoration/greenbg.png') repeat;
     margin-bottom: 17px;
+}
+
+.box-image {
+    background: #fff;
+    padding: 0;
+}
+
+.page-orbit {
+    margin-bottom: 0.9375em;
+    p {
+        margin: 0;
+    }
+    .orbit-bullets {
+        margin-bottom: 5px;
+    }
+    @media only screen and (min-width: 40em) {
+        margin-bottom: 0;
+    }
+
+
 }
 
 .page-sidebar-map {
@@ -412,11 +433,21 @@ a.event-time {
         margin-top: 0.5em;
     }
 
+    img.right,
     img.left {
         margin-right: 15px;
         margin-bottom: 15px;
         border: 4px solid #fff;
         box-shadow: 4px 4px 5px rgba(196, 202, 76,0.7);
+    }
+
+    img.right {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    .image-credit {
+        margin: 0;
     }
 }
 

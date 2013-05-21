@@ -22,8 +22,12 @@
                             <% for subpage in page.pages: %>
                                 <li><a href="<%-subpage.url%>"><%-subpage.label%></a></li>
                             <% end %>
+                            <% if page.otherPages: %>
                                 <li class="divider"></li>
+                                <% for otherPage in page.otherPages: %>
                                 <li><a href="/whats-on/art">Art at the festival</a></li>
+                                <% end %>
+                            <% end %>
                             </ul>
                         </li>
                     <% else: %>

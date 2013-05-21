@@ -1,5 +1,5 @@
 ---
-title: 'Thursday 27 June'
+title: 'Thursday 27'
 layout: default
 isDay: true
 order: 2
@@ -9,11 +9,36 @@ order: 2
     <div class="large-12 columns">
 
         <div class="page-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolores doloribus, eaque eius ex facere iusto labore nobis quam quo, rerum sint voluptatem! Eum excepturi ipsam maxime nesciunt quisquam sequi?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus molestiae quibusdam quo quod! Animi atque praesentium repellendus sint tempora veritatis. Deleniti error esse facilis inventore ipsa pariatur quo saepe vel.</p>
+
+            <div class="row">
+
+                <div class="columns large-8">
+
+                    <div class="page-orbit">
+                        <%- @partial('content/orbit-list.html.eco', @) %>
+                    </div>
+
+                </div>
+
+                <div class="columns large-4">
+
+                    <p>There's lots of kids’ stuff today with events at Upper Norwood Library, Crystal Palace FC at Westow Park
+                        and table tennis at the Methodist Church Lower Hall. For the adults there’s Irish folk at
+                        the Gipsy Hill Tavern, a six course beer and food matching event at Westow House and comedy
+                        at Brown & Green at Crystal Palace station – <a href="#">see the full programme here</a>.</p>
+
+                </div>
+
+            </div>
+
+
         </div>
 
+
     </div>
+
+
+
 </div>
 
 <div class="row">
@@ -28,4 +53,5 @@ order: 2
     </div>
 
 </div>
+
 

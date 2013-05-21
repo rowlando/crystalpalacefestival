@@ -1,0 +1,13 @@
+<% if @getDocument().getAssociatedFiles().length > 0: %>
+
+<ul data-orbit>
+    <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+    <li>
+
+        <img src="<%- file.url %>" alt=""/>
+        <div class="orbit-caption"><p><%- file.title or file.basename %></p></div>
+    </li>
+    <% end %>
+</ul>
+
+<% end %>

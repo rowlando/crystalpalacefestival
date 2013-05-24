@@ -101,6 +101,9 @@ module.exports =
 							label: 'Sunday 30'
 					]
 					otherPages: [
+							url: "/whats-on/venues-around-town"
+							label: "Venues around town"
+						,
 							url: "/whats-on/art"
 							label: "Art at the festival"
 					]
@@ -189,22 +192,353 @@ module.exports =
 							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 						]
 				]
-				triangle: [
-						heading: "Blah"
-						events: [
-							title: "Sporty stuff"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+				bands:
+					heading: "Line-up"
+					events: [
+							title: "Joel Bullen"
+							description: "A Sydenham based singer songwriter with a voice like pure gold, performing indie/blues compositions of his own"
+							time: "11:20"
+							url: "https://www.facebook.com/pages/Joel-Bullen/"
+							photoUrl: "/associated-files/bands/joelbullen.jpg"
 						,
-							title: "Performance tent",
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							title: "Floodliners"
+							description: "A young female led indie band from south London. But don’t let the indie title fool you, their sound has so many different dimensions, including urban and hip-hop influences thrown into the mix, meaning the indie genre can barely contain them. Bordering on a genre all their own, the band best describe themselves and their music as “fuzzface, powerpunk, beatsynth and strafin’ rock”. All aged between 16 and 19 years old, they met at a song writing workshop at Goldsmiths College, New Cross. Floodliners are what the musical world need right now - a fresh, raw, immediate teenage band, creatively self-sufficient with a unique sound."
+							time: "12:00"
+							url: "https://www.facebook.com/FloodlinersMusic"
+							photoUrl: "/associated-files/bands/floodliners.jpg"
 						,
-							title: "Get arty"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							title: "Civil Love"
+							description: "They're a four piece band based in Peckham, drawing members from around the world they give a diverse and unique sound firmly rooted in sunshine and melody. Defined by humble yet powerful vocals and chiming guitars Civil love offer a polished and harmonic live show with a wide eyed and welcoming feel through psychedelic pop and rock and roll."
+							time: "12:40"
+							url: "https://www.facebook.com/civiloveband"
+							photoUrl: "/associated-files/bands/civillove.jpg"
 						,
-							title: "Storytelling"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							title: "Offbeat South"
+							description: "Offbeat South is a talented and exciting young band from London with a hybrid commercial sound. Their recent national success at Jamie Cullum's Big Audition with Pizza Express involved a huge support for the band’s future career from the likes of Clive Davis (The Times’ music critic), and Sir Michael Parkinson who expressed that the group, “defined the joy of music making”, Davis commented, “this is a band I couldn’t put in a box”. Offbeat South have released their hard-hitting single 'King' with a kaleidoscopic music video as a taster of their dynamic five track EP. They have collectively written and produced the entire EP, which also features BBC Introducing rapper Little Simz. King is available for free download from the band's website"
+							time: "13:20"
+							url: "http://offbeatsouth.com/"
+							photoUrl: "/associated-files/bands/offbeatsouth.jpg"
+						,
+							title: "Breezy Lee"
+							description: "Be transported to another world by the velvety voice and soulful tones of Breezy backed by trip hop beats and beautiful stringed instrumentation from some of the finest players south London has to offer"
+							time: "14:10"
+							url: "https://www.facebook.com/pages/Breezy-Lee/369527569742297"
+							photoUrl: "/associated-files/bands/breezy-lee.jpg"
+						,
+							title: "The Hornets"
+							description: "The Hornets collective are an 8-piece instrumental funk band who recreate the rarest and heaviest funk grooves from the seventies to present day. The brainchild of Russ Holdsworth and Titch Walker, the collective have an insatiable passion for funk and have been wowing their rapidly growing fanbase with sensationally upbeat performances since their incarnation in 2012. Already highly sought after by summer festivals and music venues this year, the Hornets are buzzing and ready for more!"
+							time: "15:05"
+							url: "http://www.thehornetsband.co.uk/"
+							photoUrl: "/associated-files/bands/the-hornets.jpg"
+						,
+							title: "Hallouminati"
+							description: "Over the last couple of years Hallouminati have been carefully blending their unique and high octane gypsy/punk/ska/Greek/ragga/jazz mash-up and sweating it out for all to hear. Mixing the gritty realms of skankin' ragga punk with traditional Greek rembetiko vibes, they're throwin' deranged beats for an unforgettable live show."
+							time: "16:05"
+							url: "http://www.hallouminati.com/"
+							photoUrl: "/associated-files/bands/hallouminati.jpg"
+						,
+							title: "Metamono"
+							description: "Formed by composer/producer Jono Podmore, electronic musician Paul Conboy and fine artist Mark Hill, Metamono follow the dictates of their uncompromising manifesto – barring themselves from using digital sound generation and processing, rejecting overdubs and microphones, and informing their unique approach to music making."
+							time: "16:05"
+							url: "http://www.metamono.co.uk/"
+							photoUrl: "/associated-files/bands/metamono.jpg"
 						]
-					]
+				venues:
+					wednesday:
+						heading: "Wednesday"
+						events: [
+							title: "Pre-festival warm up gig, Fascinating Rhythm"
+							description: "Swing and big band music with new arrangements of classics by legends such as Duke Ellington, Herbie Hancock, Burt Bacharach, Jimmy Forrest, and more, along with original compositions by musical director Keith Abbs. Featuring a swing and electro-swing DJ set by DJ Mighty Craic"
+							time: "19:30"
+							location: "Gipsy Hill Tavern"
+							url: "https://www.facebook.com/events/367866663334137/"
+						]
+					thursday:
+						heading: "Thursday"
+						events: [
+							title: "Longfellow and Co",
+							description: "Longfellow have drawn comparisons in the press to artists such as Fleet Foxes, Bon Iver, Coldplay and Elbow, and have rapidly built a fan base from their success performing at the Olympics and with Universal Music's Emerging Icons programme."
+							location: "The White Hart"
+							time: "19:00"
+							url: "http://www.thewhitehartse19.co.uk/"
+						,
+							title: "Traditional Irish folk"
+							description: "Celtic Crunch and SICAD folk jam session plus DJ Mighty Craic"
+							location: "Gipsy Hill Tavern"
+							time: "19:30"
+							url: "https://www.facebook.com/events/110739549131028/"
+						,
+							title: "Six course food and beer matching night"
+							description: "Six course food and beer matching night with guest speaker Rod Jones from Meantime Brewing Company. You will get to try some of the best beers from all over the world matched with some mouth-watering food and get to listen to one of the most knowledgeable men in London explain the pairings. Rod was Meantime’s Head Brewer for a number of years before recently taking a step back and spending more time on training and spreading his knowledge with others in the monthly beer and food nights at the Meantime Old Brewery. Tickets £50 each, including food and drink"
+							location: "Westow House"
+							time: "19:30"
+							url: "http://www.westowhouse.com/cpfestival/"
+						,
+							title: "Comedy at the Café"
+							description: "Line-up includes Tom Allen, star of Radio 4’s Bleak Expectations and Angela Barnes, BBC New Act Winner – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets £5, available in advance from the café."
+							location: "Brown & Green, Crystal Palace station"
+							time: "19:30"
+							url: "http://www.brownandgreencafe.com/"
+						]
+					friday:
+						heading: "friday"
+					saturday:
+						heading: "Saturday"
+						events: [
+							title: "DJ with funky, soul, indie and party tunes"
+							description: "The pub opens for breakfast at 11am followed by BBQ and Craft Fair from noon. The evening brings some extra special entertainment with the fabulous Thrill Billes Burlesque group at 8pm rounded off with an extra long performance from the especially awesome Hipster Ray - a rabble rousing ska punk band from 9.30pm Along with our usual menu, massive draught range and huge CIDER FEST, where else would you possibly want to be?"
+							location: "The White Hart"
+							time: "11:00"
+							url: "https://www.facebook.com/events/121709477851587/"
+						,
+							title: "Cocktails and more at the Sparrowhawk"
+							description: "Pop in for a post festival summer cocktail or grab one of our legendary homemade burgers on your way down to the park, served all day from our garden BBQ!"
+							time: "12:00"
+							location: "The Sparrowhawk"
+							url: "http://thesparrowhawkpub.co.uk/"
+						,
+							title: "Big live music day"
+							description: "The famous hog roast in the garden as well as an outdoor cider bar. Live music line-up features: 17:45 Rhys Lewis and the Relics 18:45 Casper and the Howling 19:45 Emile Gerber and the Stone Faced Travellers Followed by DJ Christos on the decks to keep the party going til 3am."
+							location: "Westow House"
+							time: "17:00"
+							url: "http://www.westowhouse.com/cpfestival/"
+						,
+							title: "The Reminisce Reggae Band and 70s fancy dress disco"
+							description: "Saturday Night Fever with great BBQ food in the beer garden, live reggae, ska and lovers rock from one of London’s top reggae bands followed by a 70s fancy dress disco."
+							location: "Gipsy Hill Tavern"
+							time: "18:00"
+							url: "https://www.facebook.com/events/622530291108270/"
+						,
+							title: "Live music at The Grape & Grain"
+							description: "Longfellow plays a mix of covers and original songs followed by Red Rooster at 9pm featuring Al Hunter, a five piece swing band playing hot jazz."
+							location: "The Grape & Grain"
+							time: "18:30"
+							url: "http://thegrapeandgrainse19.co.uk/"
+						,
+							title: "RPM Club Mind the Gap special"
+							description: "The infamous speaker blowing open-decks night – turn up, chalk your name on the board and spin up to 3 records. All genres welcome. Strictly 100% vinyl. Limited capacity, arrive early to avoid disappointment."
+							location: "Antenna Café Thing"
+							time: "18:30"
+							url: "https://www.facebook.com/events/339586789497641/"
+						]
+					sunday:
+						heading: "Sunday"
+						events: [
+							title: "BBQ and live music"
+							description: "Live music from Dulwich Ukulele band plus guests til late"
+							time: "12:00"
+							location: "The Alma"
+							url: "http://www.thealmapub.com/home.html"
+						,
+							title: "Session in the recession"
+							description: "Longfellow and other bands – all day in the front garden"
+							time: "12:00"
+							location: "The White Hart"
+							url: "http://www.thewhitehartse19.co.uk/"
+						,
+							title: "Café Sessions Alight Here special"
+							description: "Stay floating on the festival vibes with a BBQ and luminous live music from Breezy Lee & The Spaceshipman, The Lovebirds, The No Frills Band, Franck Alba, Dani Cali, Nina Walsh and more TBA. Limited capacity, arrive early to avoid disappointment."
+							time: "12:00"
+							location: "Antenna Café Thing"
+							url: "https://www.facebook.com/events/373180479466748/"
+						,
+							title: "Triangle day"
+							description: "The garden fun continues to help celebrate the first ever Triangle Day with yet another hog roast, BBQ and outdoor cider bar with buskers and entertainers to captivate."
+							time: "13:00"
+							location: "Westow House"
+							url: "http://www.westowhouse.com/cpfestival/"
+						,
+							title: "Live music at The Grape & Grain"
+							description: "The fantastic Parry Ray & John Crawford, playing the coolest, laid back lounge jazz followed by The Sax Pastilles at 5pm, a six piece version of our now legendary house band, putting the swing into swing/jazz."
+							time: "14:00"
+							location: "The Grape & Grain"
+							url: "http://thegrapeandgrainse19.co.uk/"
+						,
+							title: "Live music at The Royal Albert"
+							description: "Longfellow and other bands – all day in the front garden"
+							time: "14:00"
+							location: "The Royal Albert"
+							url: "https://www.facebook.com/theroyalalbertpub"
+						,
+							title: "DJ sessions"
+							description: "Live DJs playing rare vinyl, Brazilian specialities and own compositions"
+							time: "15:00"
+							location: "The Exhibition Rooms"
+							url: "https://www.facebook.com/pages/The-Exhibition-Rooms/115167471066"
+						,
+							title: "Beer garden BBQ, jazz, cajun and blues"
+							description: "Dakota Jim and his family band plus DJ"
+							time: "18:00"
+							location: "Gipsy Hill Tavern"
+							url: "https://www.facebook.com/events/152493464930545/"
+						,
+							title: "The Cracked"
+							description: "A seven piece Afrobeat, calypso, Latin inspired band"
+							time: "22:00"
+							location: "Domali"
+							url: "https://www.facebook.com/domalicafe"
+						]
+				kidszone:
+					sporty:
+						heading: "Sporty area"
+						events: [
+							title: "Hulahooping"
+							description: "Hulahooping with Polina Katkova, ages 4 and above"
+							time: "11:00"
+							url: "http://www.yellokat.com/"
+						,
+							title: "KickStars Football"
+							description: "KickStars fun football skills and space hopping from 2-11 years"
+							time: "13:00"
+							url: "http://www.kickstars.co.uk/"
+						,
+							title: "Zumba for 4-7 years"
+							description: "Packed with specially choreographed routines and the latest music - like hip-hop and reggaeton - Zumbatomic classes increase focus and self-confidence, boost metabolism and improve co-ordination"
+							time: "16:15"
+							url: "http://www.thedancerooms.co.uk/"
+						,
+							title: "Zumba for 7-11 years"
+							description: "Packed with specially choreographed routines and the latest music - like hip-hop and reggaeton - Zumbatomic classes increase focus and self-confidence, boost metabolism and improve co-ordination"
+							time: "17:00"
+							url: "http://www.thedancerooms.co.uk/"
+						]
+					activities:
+						heading: "Activities tent"
+						events: [
+							title: "Art4Space"
+							description: "Two hour drop-in session with award-winning local community arts group to create your own mosaic to take home"
+							time: "11:00"
+							url: "http://www.art4space.co.uk/"
+						,
+							title: "Blue Sparrow Fine Arts"
+							description: "Create your own Van Gogh masterpieces in oil pastels, crayons, watercolour tins and colouring pencils to take home"
+							time: "13:00"
+							url: "http://www.bluesparrowsartclub.co.uk/"
+						,
+							title: "Artastic Art Club"
+							description: "Come along and join the festive crowns and flags art activity – creating festive crowns and flags with poster paint, tissue paper, gems, buttons and much more up to 6pm!"
+							time: "16:00"
+							url: "http://www.club-tastic.co.uk/"
+
+						]
+					performance:
+						heading: "Performance tent"
+						events: [
+							title: "Rockmount Primary School Choir "
+							time: "11:00"
+						,
+							title: "Brooke Laing, Little Supernovas"
+							description: "Creative drama workshop suitable for all ages. Let your child’s imagination explode with an action adventure! They’ll travel to mystical lands, boogie with baboons, trick dragons, tickle an octopus or even blast off into space"
+							time: "11:30"
+							url: "http://www.littlesupernovas.com/"
+						,
+							title: "Gems Performing Arts"
+							description: "Come and join the team for a free drama and dance lesson"
+							time: "12:15"
+							url: "http://www.gemsperformingarts.com/"
+						,
+							title: "Ellie Lawrie and Alice Sarsha"
+							description: "Local teenagers, aged 13, sing to raise funds for their Scout group, Goldfinch Pack"
+							time: "13:30"
+						,
+							title: "Simply Smiley Productions presents Detect Egg"
+							description: "Sponsored by Sell It Mama and Crystal Palace Sports Injury Clinic, the magic of theatre comes to the children of Crystal Palace with a fun filled show that will entertain and turn your kids into detectives, whilst they also learn about the English farm. Hattie Hen's eggs have gone missing and Herlock Bones is called to solve the mystery. Follow the chase across Biddlesdown Farm with Hunny Bunny and Rodney Rooster as they try to uncover the case."
+							time: "14:00"
+							url: "http://www.littlesupernovas.com/"
+						,
+							title: "Jelly Bean Jake's Kids Club"
+							description: "Where kids create drama, games, music and fun! Jelly Bean Jake has lost his energy and muscle power. In this lively fun filled session he is hoping the children of Crystal Palace will help him get it back, so he can be fit and healthy again. Suitable for 5-9 years with Caroline Sargeant. Contact: 07956 305178"
+							time: "15:30"
+						,
+							title: "Tunnels original soundtrack composed for the film"
+							description: "Performed by Crystal Palace Young Filmmakers"
+							time: "16:45"
+						,
+							title: "Kids’ disco"
+							description: "With local father and son DJ team, The Wilky Bar Kid and Finlay (aged 6)"
+							time: "17:15"
+						]
+					storytelling:
+						heading: "Storytelling tent - sponsored by The Bookseller Crow"
+						events: [
+							title: "Alex Milway, author of The Mousehunter and the Mythical 9th Division series"
+							description: "Alex brings creative storytelling event to the tent where children can draw creatures and make up monsters"
+							time: "11:30"
+							url: "http://www.alexmilway.com/"
+						,
+							title: "All aboard the story train!"
+							description: "Fiona Byers from Upper Norwood Library entertains with stories based on the themes of dinosaurs and trains. Suitable for ages 4-10 years with their parents. Audience participation permissable!"
+							time: "12:30"
+							url: "http://uppernorwoodlibrary.org/"
+						,
+							title: "Adventure storytelling trail from Little Supernovas"
+							description: "Meet outside the tent to follow the ribbon trail and meet different characters along the way! Parents to accompany their children."
+							time: "13:00"
+							url: "http://www.gemsperformingarts.com/"
+						,
+							title: "Marion and Tim Sharville present Picklemouse Pumpkin"
+							description: "An illustrated rhyming story from local residents aimed at younger children, celebrating friendship, working together, and sharing different cultures. Get illustrating with Tim too by drawing some mice – nice! Suitable for ages 3-7 years"
+							time: "13:15"
+							url: "http://www.timsharville.co.uk/"
+						,
+							title: "All aboard the story train!"
+							description: "(repeat session) Fiona Byers from Upper Norwood Library entertains with stories based on the themes of dinosaurs and trains. Suitable for ages 4-10 years with their parents. Audience participation permissable!"
+							time: "14:00"
+							url: "http://uppernorwoodlibrary.org/"
+						,
+							title: "Gary Northfield, Phoenix, Beano and Teenytinysaurs cartoonist"
+							description: "Learn how to draw mad and crazy dinosaurs with local author. Age 6 years upwards."
+							time: "15:00"
+							url: "http://www.garynorthfield.com/"
+						,
+							title: "Marion and Tim Sharville present Picklemouse Pumpkin"
+							description: "(repeat session) An illustrated rhyming story from local residents aimed at younger children, celebrating friendship, working together, and sharing different cultures. Get illustrating with Tim too by drawing some mice – nice! Suitable for ages 3-7 years"
+							time: "16:00"
+							url: "http://www.littlesupernovas.com/"
+						,
+							title: "Reading chill out time"
+							time: "16:45"
+						]
+				soundtracks: [
+						heading: "Morning"
+						events: [
+							title: "Matthew McCarthy – clarinet quartet"
+							description: "S.P.A.M. music from the past 500 years, written or arranged for four clarinets"
+							time: "10:15"
+						,
+							title: "Keziah Thomas – harp",
+							description: "Award-winning local harpist presents music first performed at the Crystal Palace by John Thomas and Arthur Sullivan"
+							time: "11:00"
+						,
+							title: "Tim Bridgen – vibraphone"
+							description: "Percussionist Tim will transport listeners to the vibe of a late night jazz club, playing an eclectic mix of music from J.S Bach to Joe Locke"
+							time: "11:30"
+						]
+					,
+						heading: "Afternoon"
+						events: [
+							title: "Elizabeth Hungerford – soprano"
+							description: "Early music specialist performs works by Handel, Purcell and more"
+							time: "12:15"
+						,
+							title: "Abigail Sudbury – soprano",
+							description: "Continuing the theme of music at the Crystal Palace, songs by Arthur Sullivan, Ivor Novello and August Manns accompanied by the harp"
+							time: "13:00"
+						,
+							title: "Ensemble Tramontana"
+							description: "Music that crosses medieval and Renaissance Europe, stirring the emotions, focusing on themes of travel, madness, and love"
+							time: "13:45"
+						,
+							title: "Kate Proudlove – soprano and piano"
+							description: "Songs capturing the spirit of England accompanied by Charlotte Way on the piano"
+							time: "14:30"
+						,
+							title: "Brother G and The Trouble"
+							description: "Experimental music and sound with spoken word using piano, reel to reel tape machines, accordion, clarinet, percussion and the voice."
+							time: "14:30"
+						]
+				]
+				,
 				thursday:
 					daytime:
 						heading: "In the daytime"

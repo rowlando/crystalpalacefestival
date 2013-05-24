@@ -1,0 +1,73 @@
+---
+title: "Kids' zone in Westow Park"
+layout: 'default'
+isDay: true
+order: 7
+highlights: bands
+---
+
+<div class="row">
+    <div class="large-8 columns">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div class="page-content">
+
+                    <p>The Kids' Zone is Sponsored by <a href="http://www.smashbangwallop.co.uk/"><img style="border: none; box-shadow: none;" src="/images/sponsors/sbwlogo.png" width="220" alt="Sainsburys "/></a>.</p>
+                    <p>See below for details about our <a href="#sporty-area">Sporty Area</a>, <a href="#activities-tent">Activities Tent</a>,
+                        <a href="#performance-tent">Performance Tent</a> and <a href="#storytelling-tent">Storytelling Tent</a>.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading" id="sporty-area"><%- @site.highlights.kidszone.sporty.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.kidszone.sporty.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading" id="activities-tent"><%- @site.highlights.kidszone.activities.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.kidszone.activities.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading" id="performance-tent"><%- @site.highlights.kidszone.performance.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.kidszone.performance.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading" id="storytelling-tent"><%- @site.highlights.kidszone.storytelling.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.kidszone.storytelling.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="large-4 columns">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+        <%- @partial('content/sidebar-westowpark-info.html') %>
+        <%- @partial("content/sidebar-info.html") %>
+
+    </div>
+
+</div>

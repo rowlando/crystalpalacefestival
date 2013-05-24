@@ -61,7 +61,6 @@ collectionName: whatson
             <p>Don’t forget to visit the traders to view the exhibition during the festival! Thanks to our lovely independent shops for supporting this initiative. Frames kindly provided by The Picture Palace, 65 Westow Street.</p>
         </div>
 
-        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
 
     </div>
 

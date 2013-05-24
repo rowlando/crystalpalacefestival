@@ -1,0 +1,54 @@
+---
+title: "Performing Arts Tent"
+layout: 'default'
+isDay: true
+order: 8
+highlights: bands
+---
+
+<div class="row">
+    <div class="large-8 columns">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div class="page-content">
+
+                    <p><img src="/associated-files/performing-arts/great-exhibition.jpg" alt="The Great Exhibition"/></p>
+
+                    <p>Sponsored by <a href="http://www.thetransmitter.co.uk/"><img width="144" class="performing-arts-transmitter" src="/associated-files/performing-arts/transmitter.png" alt="The Transmitter"/></a></p>
+                    
+                    <p>Step inside and enter a Victorian wonderland of curiosities and oddities with theatrical,
+                        inventive and mind-boggling interpretations of The Great Exhibition and beyond! Let your
+                        hair down, loosen your corset and twiddle that moustache whilst poets, bands and theatremakers take to the main stage.</p>
+
+                    <p>Or perhaps take an afternoon perambulation around our Cabinet of Curiosities to meet
+                        inspiring minds and take part in workshops that inform and amaze. With a mixture of
+                        local talent and theatrical beaux from further afield the <a href="http://www.lastheatre.com/">LAStheatre</a>
+                        team and festival producers create an event which celebrates the inquiring mind of the
+                        Victorian and the golden age of the Crystal Palace!</p>
+
+                    <img src="/associated-files/performing-arts/lastheatre.png" alt="LAS Theatre Logo"/>
+
+                    <p>LAStheatre specialises in creating interactive and immersive theatrical events. We create
+                        worlds with our audience – transforming spaces through play and adventure, spirit and
+                        imagination. We strive to incorporate language, form and narrative to create performances
+                        that blur reality. Ultimately, we aim to leave a legacy for our audience: the newfound
+                        confidence to make-believe, anywhere – <a href="http://www.lastheatre.com/">www.lastheatre.com</a></p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="large-4 columns">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+        <%- @partial('content/sidebar-westowpark-info.html') %>
+        <%- @partial("content/sidebar-info.html") %>
+
+    </div>
+
+</div>

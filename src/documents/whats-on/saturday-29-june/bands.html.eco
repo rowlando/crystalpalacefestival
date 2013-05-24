@@ -1,0 +1,47 @@
+---
+title: 'Main music stage in Westow Park'
+layout: 'default'
+isDay: true
+order: 6
+highlights: bands
+---
+
+<div class="row">
+    <div class="large-8 columns">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div class="page-content">
+
+                    <p>Once again the festival organisers have scoured south London to bring you the best,
+                        freshest and funkiest music around. We hope you enjoy our choices and continue on dancing
+                        all through the festival!</p>
+
+                    <p>Refreshments for the main stage performers sponsored by <img style="border: none; box-shadow: none;" src="/associated-files/bands/sainsburys_logo.png" width="100" alt="Sainsburys "/></p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading"><%- @site.highlights.bands.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.bands.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="large-4 columns">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+        <%- @partial('content/sidebar-westowpark-info.html') %>
+        <%- @partial("content/sidebar-info.html") %>
+
+    </div>
+
+</div>

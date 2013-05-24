@@ -1,7 +1,7 @@
 ---
 title: What's going on in the Triangle?
 layout: 'default'
-order: 6
+order: 8
 mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;source=embed&amp;ll=51.418426,-0.08081&amp;spn=0.006691,0.012016&amp;z=15&amp;
 highlights: triangle
 ---
@@ -139,23 +139,8 @@ highlights: triangle
 
         <div class="row">
             <div class="columns large-12">
-                <div class="box-image">
-
-                    <ul data-orbit>
-                        <li>
-                            <img src="/images/pages/content/westow-house-hog-roast-2012-guy-milnes.jpg" alt="Westow House"/>
-                            <div class="orbit-caption"><p>Westow House &copy; Guy Milnes</p></div>
-                        </li>
-                        <li>
-                            <img src="/images/pages/content/westow-house-hog-roast-2012-guy-milnes.jpg" alt="Westow House"/>
-                            <div class="orbit-caption"><p>Westow House &copy; Guy Milnes</p></div>
-                        </li>
-                        <li>
-                            <img src="/images/pages/content/westow-house-hog-roast-2012-guy-milnes.jpg" alt="Westow House"/>
-                            <div class="orbit-caption"><p>Westow House &copy; Guy Milnes</p></div>
-                        </li>
-                    </ul>
-
+                <div class="page-orbit box-image">
+                    <%- @partial('content/orbit-list.html.eco', @) %>
                 </div>
             </div>
         </div>
@@ -164,18 +149,7 @@ highlights: triangle
 
     <div class="columns large-4">
 
-        <div class="page-sidebar">
-            <h4>Our programme</h4>
-            <p>For a full programme of events <a href="#">download the programme</a> or <a href="#">view the programme</a></p>
-
-            <h4>Need directions</h4>
-            <p>If you're coming from afar and need directions, please visit our <a href="/info/travel">Getting here</a> page.</p>
-
-            <h4>Can you help us?</h4>
-            <p>For more information about volunteering at the festival and if you can
-                spare just 4 hours to help please visit our <a href="/get-involved">volunteer page</a>.</p>
-
-        </div>
+        <%- @partial("content/sidebar-info.html") %>
 
         <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl } ) %>
 

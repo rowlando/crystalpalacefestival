@@ -41,14 +41,36 @@ highlights: westowpark
         </div>
 
         <div class="row">
-            <div class="large-12 columns">
-                <%- @partial('content/highlights.html.coffee', { partial: @partial, highlights: @site.highlights[@document.highlights] }) %>
+
+            <div class="large-4 columns">
+
+                <h3 class="block-heading event-heading" id="sporty-area"><%- @site.highlights.westowpark[0].heading %></h3>
+                <%- @partial('content/event-list.html.coffee', @, { events: @site.highlights.westowpark[0].events, showProgrammeLink: false, programmeLink: '/whats-on/saturday-29-june/kidz-zone', programmeLinkText: 'More kids stuff' }) %>
+                <a href="/whats-on/saturday-29-june/kidz-zone"></a>
+
             </div>
+
+            <div class="large-4 columns">
+
+                <h3 class="block-heading event-heading" id="sporty-area"><%- @site.highlights.westowpark[1].heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.westowpark[1].events, showProgrammeLink: false, programmeLink: '/whats-on/saturday-29-june/bands', programmeLinkText: 'See all music' }) %>
+
+            </div>
+
+            <div class="large-4 columns">
+
+                <h3 class="block-heading event-heading" id="sporty-area"><%- @site.highlights.westowpark[2].heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.westowpark[2].events, showProgrammeLink: false, programmeLink: '/whats-on/saturday-29-june/performing-arts', programmeLinkText: 'More performing arts' }) %>
+
+            </div>
+
         </div>
 
     </div>
 
     <div class="columns large-4">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 June" }) %>
 
         <%- @partial('content/sidebar-westowpark-info.html') %>
 

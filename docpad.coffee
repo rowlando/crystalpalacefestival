@@ -120,21 +120,14 @@ module.exports =
 						,
 							url: '/info/food-drink'
 							label: 'Food & drink'
-					]
-				,
-					url: '/get-involved'
-					label: 'Get Involved'
-					title: 'Help make the festival more brilliant'
-					pages: [
-							url: '/get-involved/bloggers-wanted'
-							label: 'Bloggers wanted'
 						,
-							url: '/get-involved/photographers'
-							label: 'Photographers'
-						,
-							url: '/get-involved/stall-holders'
+							url: '/info/stall-holders'
 							label: 'Stall holders'
 					]
+				,
+					url: '/volunteer'
+					label: 'Volunteer'
+					title: 'Help make the festival more brilliant'
 				,
 					url: '/blog'
 					label: 'blog'
@@ -143,6 +136,16 @@ module.exports =
 					url: '/about'
 					label: 'About'
 					title: 'Find out more about the festival'
+					pages: [
+							url: "/about/contact"
+							label: "Contact us"
+						,
+							url: "/about/press"
+							label: "Press"
+						,
+							url: "about/sponsors"
+							label: "Our sponsors"
+					]
 			]
 
 			highlights:
@@ -150,37 +153,37 @@ module.exports =
 						heading: "Kids' zone"
 						events: [
 								title: "Sporty stuff"
-								description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+								description: "Zumba and KickStars fun football, "
 							,
 								title: "Performance tent",
-								description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+								description: "Drama workshop, Detect Egg, games, music and fun"
 							,
 								title: "Get arty"
-								description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+								description: "Art4space, Blue Sparrow Fine Arts &amp; Artastic Art Club."
 							,
 								title: "Storytelling"
-								description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+								description: "Alex Milway, All aboard the story train! Picklemouse Pumpkin."
 						]
 					,
 						heading: "Music stage"
 						events: [
 							title: "Joel Bullen"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Sydenham based singer songwriter with a voice like pure gold"
 						,
 							title: "Breezy",
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Be transported to another world by her velvety voice and soulful tones."
 						,
-							title: "All Beats South"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							title: "Offbeats South"
+							description: "Talented and exciting young band from London with a hybrid commercial sound."
 						,
 							title: "Metamono"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Metamono follow the dictates of their uncompromising manifesto."
 						]
 					,
 						heading: "Performing arts"
 						events: [
 							title: "Cabinet of Curiosities"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Celebrates the inquiring mind of the Victorian and the golden age of the Crystal Palace."
 						,
 							title: "Puppetry",
 							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."

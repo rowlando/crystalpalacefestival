@@ -17,4 +17,5 @@ div '.event-container', ->
 					eventItem.description
 				if eventItem.url and !eventItem.location
 					a '.event-url', href:eventItem.url, -> "Visit " + eventItem.title + "'s webpage"
-	a href:'seemore', "See full programme" if @showProgrammeLink
+	if @programmeLink
+		a href:@programmeLink, @programmeLinkText or "See full programme"

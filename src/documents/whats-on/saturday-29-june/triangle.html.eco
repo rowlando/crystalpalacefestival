@@ -11,6 +11,14 @@ highlights: triangle
 
         <div class="row">
             <div class="columns large-12">
+                <div class="page-orbit box-image">
+                    <%- @partial('content/orbit-list.html.eco', @) %>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="columns large-12">
                 <div class="page-content">
 
                     <p>We who live in Crystal Palace have a lovely shopping, grazing and drinking area we call the
@@ -35,29 +43,29 @@ highlights: triangle
                                     <h4 class="event-title">
                                         Westow House
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Big live music day, roast hog &amp; more</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         The Grape &amp; Grain
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Live music from Longfellow plus lots more</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         The White Hart
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>BBQ, live music and cider festival</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         The SparrowHawk
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Summer cocktails and a garden BBQ</p>
                                 </li>
 
                             </ul>
-                            <a href="seemore">See more venues</a>
+                            <a href="/whats-on/venues-around-town">See all venues</a>
                         </div>
 
                     </div>
@@ -70,25 +78,25 @@ highlights: triangle
                                     <h4 class="event-title">
                                         Patchwork Farm
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Seasonal local produce from SE19 and very nearby.</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         Jacob's Ladder
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Sussex Red cattle, Romney sheep, Berkshire pigs</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         Perry Court Farm
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Organic vegetables, fruit (in season), salads, herbs & flour</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         Mootown
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Cheeses produced in a railway arch near Bermondsey</p>
                                 </li>
 
                             </ul>
@@ -105,25 +113,25 @@ highlights: triangle
                                     <h4 class="event-title">
                                         RPM Special
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Turn up, chalk your name on the board and spin up to 3 records</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         Methodist Market
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Bric a brac, plants, books, cakes, jams</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         Phoenix Fayre
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Facepainting, Arts &amp; Craft, Local Memorabilia</p>
                                 </li>
                                 <li class="event">
                                     <h4 class="event-title">
                                         Fitness fun
                                     </h4>
-                                    <p> Lorem ipsum dolor sit amet </p>
+                                    <p>Ballet, Zumba, street dance, CrossFit, Brazilian Jiu-Jitsu &hellip;</p>
                                 </li>
 
                             </ul>
@@ -137,17 +145,11 @@ highlights: triangle
             </div>
         </div>
 
-        <div class="row">
-            <div class="columns large-12">
-                <div class="page-orbit box-image">
-                    <%- @partial('content/orbit-list.html.eco', @) %>
-                </div>
-            </div>
-        </div>
-
     </div>
 
     <div class="columns large-4">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 June" }) %>
 
         <%- @partial("content/sidebar-info.html") %>
 

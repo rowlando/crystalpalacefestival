@@ -64,7 +64,7 @@ highlights: bands
 
     <div class="large-4 columns">
 
-        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 June" }) %>
         <%- @partial('content/sidebar-westowpark-info.html') %>
         <%- @partial("content/sidebar-info.html") %>
 

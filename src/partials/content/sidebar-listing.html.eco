@@ -5,6 +5,11 @@
 <% end %>
 
 <div class="page-sidebar">
+
+    <% if @title: %>
+        <h3><%- @title %></h3>
+    <% end %>
+
     <ul class="side-nav">
         <% for page in collection.toJSON(): %>
         <li class="<%= if page.id is @document.id then 'active' else '' %>">

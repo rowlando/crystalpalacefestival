@@ -18,6 +18,7 @@
 </head>
 <body>
     <%- @partial('content/header.html') %>
+    <%- @partial('content/primary-nav.html.eco', @) %>
 
     <div class="row main">
 
@@ -66,12 +67,12 @@
             <div class="side-bd">
                 <div class="sponsors">
                     <h2 class="h2">Lead sponsor</h2>
-                    <a href="#"><img src="/images/sidebar/sponsors/acorn.png" alt="Acorn"/></a>
+                    <a href="#"><img src="/images/sponsors/acorn.png" alt="Acorn"/></a>
                     <h2 class="h3">Other sponsors</h2>
-                    <a href="#"><img src="/images/sidebar/sponsors/kfh.png" alt="KFH"/></a>
-                    <a href="#"><img src="/images/sidebar/sponsors/sbw.png" alt="Smash Bang Wallop"/></a>
-                    <a href="#"><img src="/images/sidebar/sponsors/little-escape.png" alt="Little Escape"/></a>
-                    <a href="#"><img src="/images/sidebar/sponsors/transmitter.png" alt="Transmitter"/></a>
+                    <a href="#"><img src="/images/sponsors/kfh.png" alt="KFH"/></a>
+                    <a href="#"><img src="/images/sponsors/sbw.png" alt="Smash Bang Wallop"/></a>
+                    <a href="#"><img src="/images/sponsors/little-escape.png" alt="Little Escape"/></a>
+                    <a href="#"><img src="/images/sponsors/transmitter.png" alt="Transmitter"/></a>
                 </div>
 
             </div>
@@ -80,30 +81,14 @@
 
     </div>
 
-    <div class="row main" style="background-color: #d6e03d; border-top: 3px solid #009ea3;">
+    <%- @content %>
 
-        <div class="large-9 columns">
-            <%- @content %>
+    <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+
+    <footer class="footer row">
+        <div class="columns large-12">
+            <img src="/images/decoration/treehill.png" alt=""/>
         </div>
-        <div class="large-3 columns side">
-
-            <div class="side-hd"></div>
-                <div class="side-bd">
-
-                <div class="socials">
-                    <%- @partial("social/facebook", @) %>
-                    <%- @partial("social/twitter", @) %>
-                </div>
-
-           </div>
-
-        </div>
-
-    </div>
-
-    <%- @partial('content/footer.html') %>
-
-    <%- @getBlock('styles') %>
-
+    </footer>
 </body>
 </html>

@@ -138,7 +138,7 @@ h2,.h2 {
         margin-bottom: 5px;
     }
     @media only screen and (min-width: 40em) {
-        margin-bottom: 0;
+        //margin-bottom: 0;
     }
 
 
@@ -315,6 +315,10 @@ a.event-time {
     line-height: 1.1;
 }
 
+.block-heading-sponsor {
+    margin-bottom: 0;
+}
+
 /****************************
 * Sidebar
 *****************************/
@@ -458,6 +462,11 @@ a.event-time {
     .image-credit {
         margin: 0;
     }
+
+    .no-border {
+        border: none !important;
+        box-shadow: none !important;
+    }
 }
 
 /****************************
@@ -493,4 +502,32 @@ a.event-time {
     vertical-align: bottom;
 }
 
+/**************
+* Media object
+**************/
+
+.media {margin:10px;}
+.media, .bd {overflow:hidden; _overflow:visible; zoom:1;}
+.media .img {float:left; margin-right: 10px;}
+.media .img img{display:block;}
+.media .imgExt{float:right; margin-left: 10px;}
+
+.row-sponsor {
+    border-top: 8px solid #c3ca48;
+    padding-top: 0.875em;
+    padding-bottom: 1.25em;
+    &:first-child {
+        border-top: none;
+    }
+    .large-8 p:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+.sponsor-heading {
+    margin: 0;
+    padding: 15px 15px 0;
+    background-color: #fff;
+}
 

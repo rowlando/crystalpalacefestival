@@ -256,7 +256,7 @@ layout: 'default'
 
     <div class="columns large-4">
 
-        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "About the festival" } ) %>
 
     </div>
 

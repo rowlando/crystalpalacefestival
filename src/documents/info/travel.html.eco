@@ -2,6 +2,8 @@
 title: 'Travel'
 layout: 'default'
 mapUrl: "https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41765,-0.083127&amp;spn=0.009367,0.012016&amp;z=15&amp;"
+sidebarHeading: 'Festival information'
+order: 6
 ---
 
 <div class="row">

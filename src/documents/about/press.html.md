@@ -1,7 +1,7 @@
 ---
 title: Press
-author: Nick
 layout: detail
+sidebarHeading: 'About the festival'
 ---
 
 For press enquiries, email <press@crystalpalacefestival.org>.

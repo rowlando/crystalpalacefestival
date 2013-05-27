@@ -22,7 +22,7 @@ div '.row', ->
 	div '.large-4.columns', ->
 		div '.page-sidebar', ->
 			section '.related-documents', ->
-				h2 -> "Blogs we like"
+				h3 '.h4', -> "Blogs we like"
 				blogsWeLike = [
 					{url: 'http://blog.com', title: 'Crystal Palace Farmers Market' },
 					{url: 'http://blog2.com', title: 'blog 2' }

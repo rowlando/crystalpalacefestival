@@ -1,8 +1,9 @@
 ---
-title: 'Festival Info'
+title: 'Overview'
 layout: 'detail'
 url: '/info'
-urls: ['/info/','/info/index.html','/info.html']
+sidebarHeading: 'Festival information'
+order: 1
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus assumenda at culpa, cupiditate dolorum ea, eius illum ipsum itaque nam necessitatibus neque nostrum officiis pariatur provident sunt temporibus ut.</p>

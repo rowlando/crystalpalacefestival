@@ -1,5 +1,5 @@
 ---
-title: "Kids' zone in Westow Park"
+title: "Westow Park: Kids' zone"
 layout: 'default'
 isDay: true
 order: 7
@@ -64,7 +64,7 @@ highlights: bands
 
     <div class="large-4 columns">
 
-        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 June" }) %>
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 Jne" }) %>
         <%- @partial('content/sidebar-westowpark-info.html') %>
         <%- @partial("content/sidebar-info.html") %>
 

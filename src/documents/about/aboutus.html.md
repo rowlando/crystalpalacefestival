@@ -1,8 +1,8 @@
 ---
-title: 'About the festival'
+title: 'Overview'
 layout: 'detail'
 url: '/about'
-urls: ['/about/','/about/index.html','/about.html']
+sidebarHeading: 'About the festival'
 ---
 The Crystal Palace festival has been running successfully for the last six years. In 2011, it expanded to Westow Park, with a live music stage, food and craft stalls, arts workshops, sports and kids' activities, adding to the many events around the Triangle.
 

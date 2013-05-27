@@ -15,7 +15,7 @@ layout: 'default'
                 <div class="page-content">
 
                     <div class="row row-sponsor">
-                        <div class="columns large-4">
+                        <div class="columns large-4 text-center">
                             <a href="http://www.acorn.ltd.uk/" class="img"><img src="/images/sponsors/acorn.png" alt="Acorn" class="no-border"/></a>
                         </div>
                         <div class="columns large-8">

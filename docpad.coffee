@@ -143,7 +143,7 @@ module.exports =
 							url: "/about/press"
 							label: "Press"
 						,
-							url: "about/sponsors"
+							url: "/about/sponsors"
 							label: "Our sponsors"
 					]
 			]

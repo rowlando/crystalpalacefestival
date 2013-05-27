@@ -112,17 +112,20 @@ module.exports =
 					label: 'Info'
 					title: 'Need to know stuff'
 					pages: [
-							url: '/info/travel'
-							label: 'Getting to the festival'
-						,
-							url: '/info/safety'
-							label: 'Safety'
+							url: '/info/programme'
+							label: 'Programme'
 						,
 							url: '/info/food-drink'
 							label: 'Food & drink'
 						,
 							url: '/info/stall-holders'
 							label: 'Stall holders'
+						,
+							url: '/info/safety'
+							label: 'Safety'
+						,
+							url: '/info/travel'
+							label: 'Getting to the festival'
 					]
 				,
 					url: '/volunteer'

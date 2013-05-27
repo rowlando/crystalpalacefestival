@@ -21,11 +21,13 @@
 
     <%- @partial('content/primary-nav.html.eco', @) %>
 
+    <% if @document.title: %>
     <div class="row">
         <div class="large-12 columns">
             <h1 class="block-heading"><%- @document.title %></h1>
         </div>
     </div>
+    <% end %>
 
     <%- @content %>
 

@@ -2,6 +2,7 @@
 title: Lover of Creating Flavours sponsors food tasting tent
 author: noreen
 layout: post
+date: '2013-05-19'
 description: >
     Inspired by the huge success of A Taste of SE19, the food tasting tent at last year’s Crystal Palace Overground
     Festival, Anita-Clare Field, founder of Lover of Creating Flavours, leapt at the opportunity to come on board

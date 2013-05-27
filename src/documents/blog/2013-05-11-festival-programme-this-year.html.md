@@ -1,7 +1,8 @@
 ---
-title: So what's happening with the festival's programme this year?
+title: What's happening with the programme this year?
 author: noreen
 layout: post
+date: '2013-05-11'
 description: >
     Noreen Meehan, chair and programme director for the festival, gives us an update about
     all the hard work going on organising 2013's festival

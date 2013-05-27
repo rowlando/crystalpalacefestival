@@ -1,6 +1,102 @@
 ---
 name: 'Home'
-layout: 'home'
+layout: default
 ---
 
-<h1>todo</h1>
+<div class="row">
+
+    <div class="large-4 columns">
+
+        <div class="page-sidebar">
+            <h3 class="blog-heading h1">Latest news</h3>
+            <% blogposts = @getCollection('posts').toJSON() %>
+
+            <ul class="side-nav">
+            <% for blogIndex in [0..2]: %>
+                <% blogpost = blogposts[blogIndex] %>
+                <li>
+                    <a href="<%- blogpost.url %>"><%- blogpost.title %></a>
+                    <small><%- blogpost.date.toDateString() %></small>
+                </li>
+
+            <% end %>
+            </ul>
+        </div>
+
+    </div>
+    <div class="large-8 columns">
+
+        <div class="box orbit-homepage">
+
+            <ul data-orbit data-options="timer_speed:10000;bullets:false">
+                <li>
+                    <p class="posterize left">
+                        <span class="line-1">Good Vibes</span>
+                        <span class="line-2">Live Music</span>
+                        <span class="line-3">Great Food</span>
+                        <span class="line-4"><span>&amp;</span> Drink</span>
+                    </p>
+
+                    <p class="posterize right">
+                        <span class="line-5">Performing Arts</span>
+                        <span class="line-6">Family Fun</span>
+                        <span class="line-7">Poetry &amp; Tea Dance</span>
+                        <span class="line-8">Art & Craft</span>
+                        <span class="line-9">Bargains Galore!</span>
+                        <span class="hr"></span>
+                    </p>
+                </li>
+                <li>
+                    <img src="/associated-files/index/metamono.jpg" alt="" />
+                    <div class="orbit-caption"><p>Metamono play at 4.05pm on Saturday.<a href="/whats-on/saturday-29-june/bands">See who else is playing the main music stage</a></p></div>
+                </li>
+                <li>
+                    <img src="/associated-files/index/bambino.jpg" alt="" />
+                    <div class="orbit-caption"><p>Bambino, one of our amazing sponsors. <a href="/about/sponsors">See all our generous sponsors</a></p></div>
+                </li>
+                <li>
+                    <img src="/associated-files/index/great-exhibition.jpg" alt="" />
+                    <div class="orbit-caption"><p>LAStheatre present a Victorian wonderland of curiosities and oddities. <a href="/whats-on/saturday-29-june/performing-arts">More in the Performing Arts Tent</a></p></div>
+                </li>
+                <li>
+                    <img src="/associated-files/index/volunteer.jpg" alt="" />
+                    <div class="orbit-caption"><p>Two of last year's willing helpers. <a href="/volunteer">Your turn this year?</a></p></div>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="large-4 columns">
+
+        <div class="box text-center">
+
+            <h2 class="h2 sponsor-home-heading">Lead sponsor</h2>
+            <img width="72" src="/images/sponsors/acorn.png" alt="Acorn"/>
+
+        </div>
+
+    </div>
+    <div class="large-8 columns">
+
+        <div class="box box-sponsor">
+
+            <h2 class="h2 sponsor-home-heading">Other sponsors</h2>
+            <img width="85" src="/images/sponsors/page/sponsor-kfh.jpg" alt="KFH" />
+            <img width="61" src="/images/sponsors/sbw.png" alt="SBW"/>
+            <img width="133" src="/images/sponsors/page/sponsor-little-escape.jpg" alt="Little Escape"/>
+            <img width="130" src="/images/sponsors/transmitter.png" alt="Transmitter"/>
+
+            <a class="see-all-sponsors" href="/about/sponsors">See all our sponsors</a>
+
+        </div>
+
+    </div>
+
+</div>

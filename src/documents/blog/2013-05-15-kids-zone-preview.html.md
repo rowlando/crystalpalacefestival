@@ -1,7 +1,8 @@
 ---
-title: Special kids' zone preview! Our volunteer producers get excited!
+title: Special kids' zone preview! Our volunteers get excited!
 author: noreen
 layout: post
+date: '2013-05-15'
 description: >
     Rachel D'Cruze and Veryan Wilkie-Jones share their programme for this year's Kids Zone at Westow Park - “Keep
     them busy, keep them interested and mostly keep them entertained!”

@@ -42,6 +42,15 @@ h2,.h2 {
 
 }
 
+.sponsor-home-heading {
+    font-family: @garage-font;
+    letter-spacing: 0.1em;
+    color: #160e0b;
+    margin-top: 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
 /****************************
 * Header
 *****************************/
@@ -140,8 +149,6 @@ h2,.h2 {
     @media only screen and (min-width: 40em) {
         //margin-bottom: 0;
     }
-
-
 }
 
 .page-sidebar-map {
@@ -154,6 +161,62 @@ h2,.h2 {
         padding: 0.9375em;
     }
 }
+
+.box-sponsor {
+    position: relative;
+    img {
+        margin-right: 20px;
+    }
+    .see-all-sponsors {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+.orbit-homepage {
+
+    padding: 0;
+
+    .orbit-container {
+        background-color: transparent;
+        .orbit-timer span {
+            z-index: 100;
+        }
+        .orbit-next,
+        .orbit-prev {
+            //display: none;
+            bottom: 0;
+            top: auto;
+            background-color: transparent;
+        }
+        .orbit-caption {
+            padding-left: 50px;
+            padding-right: 50px;
+            a {
+                color: #e0e662;
+                text-decoration: underline;
+            }
+            p {
+                margin: 0;
+                a {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .orbit-bullets {
+        margin-bottom: 15px;
+        margin-left: 15px;
+        top: 0;
+    }
+
+    .orbit-slide-number {
+        color: #004c5c;
+    }
+}
+
 
 /****************************
 * Events
@@ -359,12 +422,13 @@ a.event-time {
 *****************************/
 
 .posterize {
-    margin-top: 20px;
-    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    width: 47%;
     font-family: @garage-font;
-    font-size: 3.31250em;
+    font-size: 5.75em;
     line-height: 0.8;
-    text-align: center;
+    text-align: right;
     text-transform: uppercase;
     span {
         display: block;
@@ -389,14 +453,32 @@ a.event-time {
         border-top: 1px solid #ad3776;
         border-bottom: 3px solid @heading-color;
         display: block;
-        width: 137px;
-        margin: 16px auto 0;
+        width: 216px;
+        margin: 16px 0 0;
+    }
+
+}
+
+.posterize.right {
+    text-align: left;
+}
+
+@media only screen and (max-width: 40em) {
+    .posterize {
+        font-size: 3em;
     }
 }
 
 /****************************
 * Blog post
 *****************************/
+.blog-heading {
+    font-family: @garage-font;
+    color: #160e0b;
+    margin-top: 0;
+    line-height: 1;
+}
+
 .blog-list {
     .document-link {
         font-size: 1.4375em;

@@ -8,6 +8,8 @@ For press enquiries, email <press@crystalpalacefestival.org>.
 
 ## 2013
 
+- [Festival fever returns to Crystal Palace][13]
+- [Acorn Group named as main sponsor for Crystal Palace festival][12]
 - [Popularity of festival leads to call for volunteers][11]
 - [Passionate foodie sponsors A Taste of SE19 food tent][10]
 - [Festival announces 2013 dates][9]
@@ -39,3 +41,5 @@ download the photographs.
 [9]: /documents/press/press-release-announces-2013-dates.doc
 [10]: /documents/press/press-release-passionate-foodie-sponsors-a-taste-of-SE19-food-tent.pdf
 [11]: /documents/press/popularity-of-festival-leads-to-call-for-volunteers.pdf
+[12]: /documents/press/acorn-group-named-as-main-sponsor-for-crystal-palace-festival.pdf
+[13]: /documents/press/festival-fever-returns-to-crystal-palace.pdf

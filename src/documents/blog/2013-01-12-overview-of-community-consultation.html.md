@@ -11,7 +11,7 @@ description: >
 
 The consultation evening brought together a wide range of local people who looked to review previous festivals, list all the stakeholders of the festival and identify the aims, objectives and priorities for the festival going forwards.
 
-A summary of each point and common threads can be found below and you can <a href="/files/festival-community-meeting-report-2012-12.pdf" title="Festival Community Meeting Report December 2012 (PDF 32KB)">download the Community Report</a>.
+A summary of each point and common threads can be found below and you can <a href="/documents/2012/festival-community-meeting-report-2012-12.pdf" title="Festival Community Meeting Report December 2012 (PDF 32KB)">download the Community Report</a>.
 
 ## Review of previous festivals
 

@@ -3,7 +3,7 @@ title: "Westow Park: Kids' zone"
 layout: 'default'
 isDay: true
 order: 7
-highlights: bands
+mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp;spn=0.007467,0.011587&amp;z=15&amp;
 ---
 
 <div class="row">
@@ -64,9 +64,10 @@ highlights: bands
 
     <div class="large-4 columns">
 
-        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 Jne" }) %>
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 June" }) %>
         <%- @partial('content/sidebar-westowpark-info.html') %>
         <%- @partial("content/sidebar-info.html") %>
+        <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl } ) %>
 
     </div>
 

@@ -58,7 +58,9 @@ collectionName: whatson
 
     <div class="columns large-4">
         <div class="box">
-            <p>Don’t forget to visit the traders to view the exhibition during the festival! Thanks to our lovely independent shops for supporting this initiative. Frames kindly provided by The Picture Palace, 65 Westow Street.</p>
+            <p>Don’t forget to visit the traders to view the exhibition during the festival! Thanks to our lovely
+                independent shops for supporting this initiative. Frames kindly provided
+                by <a href="http://www.the-picturepalace.com/">The Picture Palace</a>, 65 Westow Street.</p>
         </div>
 
 

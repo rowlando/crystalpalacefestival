@@ -13,10 +13,10 @@ collectionName: whatson
         <div class="page-content">
 
             <h2>Thursday 27 June <small><a href="/whats-on/thursday-27-june">Read more about Thursday</a></small></h2>
-            <p>Lots of kids’ stuff today with events at Upper Norwood Library, Crystal Palace FC at Westow Park
-                and table tennis at the Methodist Church Lower Hall. For the adults there’s Irish folk at
+            <p>Lots of kids' stuff today with events at Upper Norwood Library, Crystal Palace FC at Westow Park
+                and table tennis at the Methodist Church Lower Hall. For the adults there's Irish folk at
                 the Gipsy Hill Tavern, a six course beer and food matching event at Westow House and comedy
-                at Brown & Green at Crystal Palace station – <a href="#">see the full programme here</a>.</p>
+                at Brown & Green at Crystal Palace station – <a href="/info/programme">see the full programme here</a>.</p>
 
         </div>
 
@@ -29,23 +29,23 @@ collectionName: whatson
 
             <p>Other events include a reminiscence
                 morning at the library, bingo and a tea dance moving on into the evening with lots of retro
-                entertainment. Westow House’s 1950s extravaganza will transport you back to the rock ‘n’ roll
+                entertainment. Westow House's 1950s extravaganza will transport you back to the rock ‘n' roll
                 era while you can dance the night away to some of the best classic songs at The White Hart. For
                 something different check out the Guinness and oyster fest at
-                the Gipsy Hill Tavern – <a href="#">see the full programme here</a>.</p>
+                the Gipsy Hill Tavern – <a href="/info/programme">see the full programme here</a>.</p>
 
         </div>
 
         <div class="page-content">
 
             <h2>Saturday 29 June <small><a href="/whats-on/saturday-29-june">Read more about Saturday</a></small></h2>
-            <p>There’s too much going on to mention in any detail here but you can find the full programme here.
+            <p>There's so much going on – you can find the <a href="/info/programme">full programme here</a>.
                 Highlights include Westow Park where you will find the best in food and drink, performing
-                arts, kids’ entertainment, holistic, exercise and green activities not to mention the best
-                music in south London this summer on the main stage. There’s tons going on in the Triangle – with
-                community fairs and markets at the farmers’ market in Haynes Lane, Phoenix Centre and
+                arts, kids' entertainment, holistic, exercise and green activities not to mention the best
+                music in south London this summer on the main stage. There's tons going on in the Triangle – with
+                community fairs and markets in Haynes Lane, Phoenix Centre and
                 Methodist Church, fitness fun at Victory Place and lots lots more. After the park head
-                off to our great pubs for more festival live music or a dedicated vinyl night if that’s
+                off to our great pubs for more festival live music or a dedicated vinyl night if that's
                 your bag at Antenna Café Thing.</p>
 
         </div>
@@ -58,8 +58,9 @@ collectionName: whatson
                 vintage culture on Church Road and also Kaleidoscope our fine art and craft market in
                 Haynes Lane. Come outside in the Triangle and down the hills for great events – from classical
                 music in Crystal Palace station, blues at the Gipsy Hill Tavern, more live music outside at
-                Westow House to jazz at the Grape & Grain – click here to find out more about venues and other
-                events on Sunday. We think you’ll find the only way to round off the weekend is to take the Monday off!</p>
+                Westow House to jazz at the Grape & Grain – find out <a href="/whats-on/venues-around-town">more about venues</a> and other
+                <a href="/whats-on/sunday-30-june">events on Sunday</a>. We think you'll find
+                the only way to round off the weekend is to take the Monday off!</p>
 
         </div>
 
@@ -67,7 +68,15 @@ collectionName: whatson
 
     <div class="columns large-4">
 
-        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+        <div class="page-sidebar">
+
+            <ul class="side-nav">
+                <li><a href="/whats-on/thursday-27-june">Thursday 27</a></li>
+                <li><a href="/whats-on/friday-28-june">Friday 28</a></li>
+                <li><a href="/whats-on/saturday-29-june">Overview of Saturday 29 June</a></li>
+                <li><a href="/whats-on/sunday-30-june">Overview of Sunday 30</a></li>
+            </ul>
+        </div>
 
     </div>
 

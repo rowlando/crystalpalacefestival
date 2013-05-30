@@ -48,7 +48,7 @@ layout: default
                 </li>
                 <li>
                     <img src="/associated-files/index/metamono.jpg" alt="" />
-                    <div class="orbit-caption"><p>Metamono play at 4.05pm on Saturday.<a href="/whats-on/saturday-29-june/bands">See who else is playing the main music stage</a></p></div>
+                    <div class="orbit-caption"><p>Metamono play at 5.05pm on Saturday.<a href="/whats-on/saturday-29-june/bands">See who else is playing the main music stage</a></p></div>
                 </li>
                 <li>
                     <img src="/associated-files/index/bambino.jpg" alt="" />
@@ -56,7 +56,7 @@ layout: default
                 </li>
                 <li>
                     <img src="/associated-files/index/great-exhibition.jpg" alt="" />
-                    <div class="orbit-caption"><p>LAStheatre present a Victorian wonderland of curiosities and oddities. <a href="/whats-on/saturday-29-june/performing-arts" style="display: inline;">More in the Performing Arts Tent</a></p></div>
+                    <div class="orbit-caption"><p>LAStheatre present a Victorian wonderland of curiosities and oddities. <a href="/whats-on/saturday-29-june/performing-arts" style="display: inline;">More on the Performing Arts Tent</a></p></div>
                 </li>
                 <li>
                     <img src="/associated-files/index/volunteer.jpg" alt="" />
@@ -87,7 +87,7 @@ layout: default
 
         <div class="box box-sponsor">
 
-            <h2 class="h2 sponsor-home-heading">Other sponsors</h2>
+            <h2 class="h2 sponsor-home-heading">Platinum sponsors</h2>
             <img width="85" src="/images/sponsors/page/sponsor-kfh.jpg" alt="KFH" />
             <img width="61" src="/images/sponsors/sbw.png" alt="SBW"/>
             <img width="133" src="/images/sponsors/page/sponsor-little-escape.jpg" alt="Little Escape"/>

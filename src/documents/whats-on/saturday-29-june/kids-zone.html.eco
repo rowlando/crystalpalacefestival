@@ -1,7 +1,6 @@
 ---
 title: "Westow Park: Kids' zone"
 layout: 'default'
-isDay: true
 order: 7
 mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp;spn=0.007467,0.011587&amp;z=15&amp;
 ---

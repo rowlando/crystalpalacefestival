@@ -183,13 +183,13 @@ module.exports =
 							description: "Celebrates the inquiring mind of the Victorian and the golden age of the Crystal Palace."
 						,
 							title: "Puppetry",
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Wooden Fingers puppetry workshop."
 						,
 							title: "The Peryls"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Strange and beautiful music from Crystal Palace’s presenters of the Extraordinarium"
 						,
 							title: "Panto"
-							description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+							description: "Doctor Death – History of Medicine"
 						]
 				]
 				bands:
@@ -208,7 +208,7 @@ module.exports =
 							photoUrl: "/associated-files/bands/floodliners.jpg"
 						,
 							title: "Civil Love"
-							description: "They're a four piece band based in Peckham, drawing members from around the world they give a diverse and unique sound firmly rooted in sunshine and melody. Defined by humble yet powerful vocals and chiming guitars Civil love offer a polished and harmonic live show with a wide eyed and welcoming feel through psychedelic pop and rock and roll."
+							description: "They're a four piece band based in Peckham, drawing members from around the world they give a diverse and unique sound firmly rooted in sunshine and melody. Defined by humble yet powerful vocals and chiming guitars Civil Love offer a polished and harmonic live show with a wide eyed and welcoming feel through psychedelic pop and rock and roll."
 							time: "12:40"
 							url: "https://www.facebook.com/civiloveband"
 							photoUrl: "/associated-files/bands/civillove.jpg"
@@ -232,14 +232,14 @@ module.exports =
 							photoUrl: "/associated-files/bands/the-hornets.jpg"
 						,
 							title: "Hallouminati"
-							description: "Over the last couple of years Hallouminati have been carefully blending their unique and high octane gypsy/punk/ska/Greek/ragga/jazz mash-up and sweating it out for all to hear. Mixing the gritty realms of skankin' ragga punk with traditional Greek rembetiko vibes, they're throwin' deranged beats for an unforgettable live show."
+							description: "Over the last couple of years Hallouminati have been carefully blending their unique and high octane gypsy/punk/ska/Greek/ ragga/jazz mash-up and sweating it out for all to hear. Mixing the gritty realms of skankin’ ragga punk with traditional Greek rembetiko vibes, they’re throwin’ deranged beats for a unforgettable live show. Having played Bestival, Boomtown and all manner of shanty town festivals, right to busking the Olympics, Amsterdam and squats all over the Netherlands, Hallouminati have been fine tuning a sound adaptable to everything and anything; from the midnight guerilla dancefloors of gypsy nights up and down the country to the soundtrack of a champagne-doused ballroom soiree."
 							time: "16:05"
 							url: "http://www.hallouminati.com/"
 							photoUrl: "/associated-files/bands/hallouminati.jpg"
 						,
 							title: "Metamono"
 							description: "Formed by composer/producer Jono Podmore, electronic musician Paul Conboy and fine artist Mark Hill, Metamono follow the dictates of their uncompromising manifesto – barring themselves from using digital sound generation and processing, rejecting overdubs and microphones, and informing their unique approach to music making."
-							time: "16:05"
+							time: "17:05"
 							url: "http://www.metamono.co.uk/"
 							photoUrl: "/associated-files/bands/metamono.jpg"
 						]
@@ -275,10 +275,16 @@ module.exports =
 							url: "http://www.westowhouse.com/cpfestival/"
 						,
 							title: "Comedy at the Café"
-							description: "Line-up includes Tom Allen, star of Radio 4’s Bleak Expectations and Angela Barnes, BBC New Act Winner – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets £5, available in advance from the café."
+							description: "Line-up includes Tom Allen, star of Radio 4’s Bleak Expectations and Angela Barnes, BBC New Act Winner and Sam Fletcher, Edinburgh Comedy Best Newcomer nominee – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets £5, available in advance from the café."
 							location: "Brown & Green, Crystal Palace station"
 							time: "19:30"
 							url: "http://www.brownandgreencafe.com/"
+						,
+							title: "Salsa"
+							description: "DJ and dancing continue after the class"
+							location: "Twenty-Five"
+							time: "20:00"
+							url: "http://www.bartwenty-five.co.uk/"
 						]
 					friday:
 						heading: "friday"
@@ -286,7 +292,7 @@ module.exports =
 						heading: "Saturday"
 						events: [
 							title: "DJ with funky, soul, indie and party tunes"
-							description: "The pub opens for breakfast at 11am followed by BBQ and Craft Fair from noon. The evening brings some extra special entertainment with the fabulous Thrill Billes Burlesque group at 8pm rounded off with an extra long performance from the especially awesome Hipster Ray - a rabble rousing ska punk band from 9.30pm Along with our usual menu, massive draught range and huge CIDER FEST, where else would you possibly want to be?"
+							description: "The pub opens for breakfast at 11am followed by a BBQ and craft fair from noon. The evening brings some extra special entertainment with the fabulous Thrill Billies burlesque group at 8pm rounded off with an extra long performance from the especially awesome The Hipster Ray - a rabble rousing ska punk band from 9:30pm Along with our usual menu, massive draught range and huge CIDER FEST, where else would you possibly want to be?"
 							location: "The White Hart"
 							time: "11:00"
 							url: "https://www.facebook.com/events/121709477851587/"
@@ -320,6 +326,12 @@ module.exports =
 							location: "Antenna Café Thing"
 							time: "18:30"
 							url: "https://www.facebook.com/events/339586789497641/"
+						,
+							title: "DJ club classics"
+							description: "DJ playing house, commercial and club classics till 2am"
+							location: "Twenty-Five"
+							time: "21:00"
+							url: "http://www.bartwenty-five.co.uk/"
 						]
 					sunday:
 						heading: "Sunday"
@@ -342,9 +354,15 @@ module.exports =
 							location: "Antenna Café Thing"
 							url: "https://www.facebook.com/events/373180479466748/"
 						,
+							title: "BBQ in the garden"
+							description: ""
+							location: "Twenty-Five"
+							time: "12:00"
+							url: "http://www.bartwenty-five.co.uk/"
+						,
 							title: "Triangle day"
 							description: "The garden fun continues to help celebrate the first ever Triangle Day with yet another hog roast, BBQ and outdoor cider bar with buskers and entertainers to captivate."
-							time: "13:00"
+							time: "12:00"
 							location: "Westow House"
 							url: "http://www.westowhouse.com/cpfestival/"
 						,
@@ -355,13 +373,13 @@ module.exports =
 							url: "http://thegrapeandgrainse19.co.uk/"
 						,
 							title: "Live music at The Royal Albert"
-							description: "Longfellow and other bands – all day in the front garden"
+							description: ""
 							time: "14:00"
 							location: "The Royal Albert"
 							url: "https://www.facebook.com/theroyalalbertpub"
 						,
 							title: "DJ sessions"
-							description: "Live DJs playing rare vinyl, Brazilian specialities and own compositions"
+							description: "Smooth out those festival rough edges downstairs at The Exhibition Rooms with cocktails and a selection of eclectic beats from local DJ The Wilkybar Kid, ranging from chilled electronic, ska and soul, to disco and downtempo house, followed by your favourite resident DJs playing rare vinyl, Brazilian specialities and his own compositions from 7pm onwards."
 							time: "15:00"
 							location: "The Exhibition Rooms"
 							url: "https://www.facebook.com/pages/The-Exhibition-Rooms/115167471066"
@@ -373,7 +391,7 @@ module.exports =
 							url: "https://www.facebook.com/events/152493464930545/"
 						,
 							title: "The Cracked"
-							description: "A seven piece Afrobeat, calypso, Latin inspired band"
+							description: "A seven piece Afrobeat, calypso, Latin inspired band. Tickets £3 on the door"
 							time: "22:00"
 							location: "Domali"
 							url: "https://www.facebook.com/domalicafe"
@@ -608,7 +626,7 @@ module.exports =
 							url: "http://www.livingwatersatisfies.org.uk/cafe"
 						,
 							title: "Tea dance"
-							description: "Lose yourself for the afternoon with music spun on an original 1950s gramophone, also with pianist, refreshments available. Tickets £X on the door."
+							description: "Lose yourself for the afternoon with music spun on an original 1950s gramophone, also with pianist, subsidised refreshments available. "
 							location: "Upper Norwood Methodist Church Hall"
 							time: "17:30"
 						]
@@ -634,16 +652,22 @@ module.exports =
 							url: "https://www.facebook.com/events/577861115590243/"
 						,
 							title: "1950s rock’n’roll extravaganza"
-							description: "Friday night we will be transforming Westow into a 1950s Rock n Roll bar - Live Performances from Boom Boom Booms, Genuine 1950s jukebox, Swing/jive dance lessons &amp; and much more!"
+							description: "Friday night Westow House will be transformed into a 1950s rock ‘n’ roll bar - live performances from the Boom Boom Booms, genuine 1950s jukebox, swing/jive dance lessons & and much more!"
 							location: "Westow House"
 							time: "20:00"
 							url: "http://www.westowhouse.com/cpfestival/"
 						,
 							title: "The Electric Palace open air cinema"
-							description: "A rare showing of The Pleasure Garden (1953), a BBC short film, on its 60th anniversary. This special event will be followed by the main feature Little Miss Sunshine. With bar and music – tickets £7.50 – click here to pay via PayPal (includes free drink on arrival)."
+							description: "A rare showing of The <em>Pleasure Garden</em> (1953), a BBC short film, on its 60th anniversary. This special event will be followed by BAFTA-winning short, <em>A Morning Stroll</em>, from local film-maker Grant Orchard and then the main feature <em>Little Miss Sunshine</em>. With bar and music – tickets £7.50 – click below to pay via PayPal (includes free drink on arrival)<br/> <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'><input type='hidden' name='cmd' value='_s-xclick'> <input type='hidden' name='hosted_button_id' value='93QRNAGSB6WK4'> <input type='image' src='https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal – The safer, easier way to pay online.'> <img alt='' border='0' src='https://www.paypalobjects.com/en_GB/i/scr/pixel.gif' width='1' height='1'></form>	"
 							location: "Coopers Yard"
 							time: "20:30"
 							url: "https://www.facebook.com/events/110739549131028/"
+						,
+							title: "DJ club classics"
+							description: "DJ playing commercial and club classics till 2am"
+							location: "Twenty-Five"
+							time: "21:00"
+							url: "http://www.bartwenty-five.co.uk/"
 						]
 
 

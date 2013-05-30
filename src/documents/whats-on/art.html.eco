@@ -1,7 +1,6 @@
 ---
 title: 'Art at the festival'
 layout: default
-isDay: true
 order: 7
 mapUrl: "https://maps.google.co.uk/maps/ms?msa=0&amp;msid=217159076880039177715.0004cdb15c156ce8355a0&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=51.419095,-0.079994&amp;spn=0.009367,0.012059&amp;z=15&amp;"
 collectionName: whatson

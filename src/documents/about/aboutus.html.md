@@ -33,7 +33,7 @@ to the festival. A live music stage and PA, stalls and tents were hired. Funds a
 **A.** Please email <volunteer@crystalpalacefestival.org> or [read our volunteering page][1].
 
 **Q. How can I trade at the festival?**<br/>
-**A.** You can make an application to trade at the festival by emailing <stalls@crystalpalacefestival.org>. The deadline is April 28th.
+**A.** We are afraid that the stalls have now sold out. Please check back early in 2014 for opportunities at next year’s festival.
 
 **Q. What are the plans for the future of the festival?**<br/>
 **A.** An open meeting was held in December 2012 to ask the community what the aims, objectives and priorities

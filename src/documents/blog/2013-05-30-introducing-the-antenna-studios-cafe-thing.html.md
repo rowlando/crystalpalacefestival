@@ -3,7 +3,8 @@ title: Introducing the Antenna Studios Café Thing
 layout: post
 date: '2013-05-30'
 description: >
-    Community, arts & ecology in an event led café
+    Rather symbiotically, the Crystal Palace Overground Festival is happening at approximately
+    one year since Antenna Studios opened its Café Thing.
 ---
 <img src="/images/blog/cafe-thing-2013-05-30.jpg" alt="Cafe Thing"  />
 
@@ -41,5 +42,5 @@ help, we aim to celebrate as part of the Crystal Palace Overground Festival this
 *Open: Weds-Fri, 11am-8pm. Sat 9am-8pm. Sun 11am-7pm. Events until 11pm.*
 
 
-[1]: www.antennastudios.co.uk
+[1]: http://www.antennastudios.co.uk/
 [2]: http://cafething.tumblr.com

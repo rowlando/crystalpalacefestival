@@ -269,7 +269,7 @@ module.exports =
 							url: "https://www.facebook.com/events/110739549131028/"
 						,
 							title: "Six course food and beer matching night"
-							description: "Six course food and beer matching night with guest speaker Rod Jones from Meantime Brewing Company. You will get to try some of the best beers from all over the world matched with some mouth-watering food and get to listen to one of the most knowledgeable men in London explain the pairings. Rod was Meantime’s Head Brewer for a number of years before recently taking a step back and spending more time on training and spreading his knowledge with others in the monthly beer and food nights at the Meantime Old Brewery. Tickets £50 each, including food and drink"
+							description: "Six course food and beer matching night with guest speaker Rod Jones from Meantime Brewing Company. You will get to try some of the best beers from all over the world, matched with some mouth-watering food, and get to listen to one of the most knowledgeable men in London explain the pairings. Rod was Meantime’s Head Brewer for a number of years, before recently taking a step back and spending more time on training and spreading his knowledge with others in the monthly beer and food nights at the Meantime Old Brewery. Tickets £50 each, including food and drink"
 							location: "Westow House"
 							time: "19:30"
 							url: "http://www.westowhouse.com/cpfestival/"
@@ -295,7 +295,6 @@ module.exports =
 							description: "The pub opens for breakfast at 11am followed by a BBQ and craft fair from noon. The evening brings some extra special entertainment with the fabulous Thrill Billies burlesque group at 8pm rounded off with an extra long performance from the especially awesome The Hipster Ray - a rabble rousing ska punk band from 9:30pm Along with our usual menu, massive draught range and huge CIDER FEST, where else would you possibly want to be?"
 							location: "The White Hart"
 							time: "11:00"
-							url: "https://www.facebook.com/events/121709477851587/"
 						,
 							title: "Cocktails and more at the Sparrowhawk"
 							description: "Pop in for a post festival summer cocktail or grab one of our legendary homemade burgers on your way down to the park, served all day from our garden BBQ!"
@@ -626,7 +625,7 @@ module.exports =
 							url: "http://www.livingwatersatisfies.org.uk/cafe"
 						,
 							title: "Tea dance"
-							description: "Lose yourself for the afternoon with music spun on an original 1950s gramophone, also with pianist, subsidised refreshments available. "
+							description: "Lose yourself for the afternoon with music spun on an original gramophone, also with pianist, subsidised refreshments available. "
 							location: "Upper Norwood Methodist Church Hall"
 							time: "17:30"
 						]
@@ -661,7 +660,6 @@ module.exports =
 							description: "A rare showing of The <em>Pleasure Garden</em> (1953), a BBC short film, on its 60th anniversary. This special event will be followed by BAFTA-winning short, <em>A Morning Stroll</em>, from local film-maker Grant Orchard and then the main feature <em>Little Miss Sunshine</em>. With bar and music – tickets £7.50 – click below to pay via PayPal (includes free drink on arrival)<br/> <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'><input type='hidden' name='cmd' value='_s-xclick'> <input type='hidden' name='hosted_button_id' value='93QRNAGSB6WK4'> <input type='image' src='https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal – The safer, easier way to pay online.'> <img alt='' border='0' src='https://www.paypalobjects.com/en_GB/i/scr/pixel.gif' width='1' height='1'></form>	"
 							location: "Coopers Yard"
 							time: "20:30"
-							url: "https://www.facebook.com/events/110739549131028/"
 						,
 							title: "DJ club classics"
 							description: "DJ playing commercial and club classics till 2am"

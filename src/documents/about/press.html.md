@@ -37,8 +37,8 @@ download the photographs.
 [5]: /documents/press/Press-release-20July2011.pdf
 [6]: /documents/press/Press-release-Mark-Steel.pdf
 [7]: /documents/press/press-release-for-open-meeting-dec2012.pdf
-[8]: https://www.dropbox.com/sh/u6kc273revy2rrl/0tTxdMlgtg
-[9]: /documents/press/press-release-announces-2013-dates.doc
+[8]: https://www.dropbox.com/sh/b4nsro4i62vu5q1/SxUmBPtgvY
+[9]: /documents/press/festival-announces-2013-dates.pdf
 [10]: /documents/press/press-release-passionate-foodie-sponsors-a-taste-of-SE19-food-tent.pdf
 [11]: /documents/press/popularity-of-festival-leads-to-call-for-volunteers.pdf
 [12]: /documents/press/acorn-group-named-as-main-sponsor-for-crystal-palace-festival.pdf

@@ -31,7 +31,5 @@ Look out for John Blood and the Highlys playing on Saturday 16th June in Westow 
 
 <p><iframe src="http://www.youtube.com/embed/EKRoh8tF6Lk" frameborder="0" width="463" height="315"> </iframe></p>
 
-Get to know the other bands taking to the stage by [checking out our program][2]!
 
- [1]: http://www.facebook.com/jbandthehighlys
- [2]: /whats-on/bands-in-westow-park/
+[1]: http://www.facebook.com/jbandthehighlys

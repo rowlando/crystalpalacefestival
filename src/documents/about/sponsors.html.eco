@@ -22,7 +22,8 @@ layout: 'default'
                             <p>"The Acorn Group are Main Sponsors of the festival for the 3rd year! We feel strongly about supporting
                                 our local community and promoting everything our area has to offer, so are delighted to again be
                                 the main sponsors of the event."</p>
-                            <p>"The Acorn stall will situated in prime position next to the main stage in Westow Park so please come and introduce yourself. We are looking forward to meeting you on the day!"</p>
+                            <p>"The Acorn stall will be situated in prime position next to the main stage in Westow Park,
+                                so please come and introduce yourself. We are looking forward to meeting you on the day!"</p>
                         </div>
                     </div>
 
@@ -113,7 +114,7 @@ layout: 'default'
 
                     <div class="row row-sponsor">
                         <div class="columns large-4">
-                            <p><a href='https://www.facebook.com/BambinoVolcano' class="img">
+                            <p><a href='http://bambinocoffee.wordpress.com' class="img">
                                 <img alt='Bambino' src='/images/sponsors/page/sponsor-bambino.jpg' />
                             </a></p>
                         </div>

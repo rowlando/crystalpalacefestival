@@ -8,10 +8,14 @@ description: >
     them busy, keep them interested and mostly keep them entertained!”
 ---
 
-Rachel D'Cruze and Veryan Wilkie-Jones share their programme for this year's Kids Zone at Westow Park - “Keep 
-them busy, keep them interested and mostly keep them entertained!” We think we've managed to get something for 
+Rachel D'Cruze and Veryan Wilkie-Jones share their programme for this year's Kids' Zone at Westow Park - “Keep
+them busy, keep them interested and mostly keep them entertained!”
+
+We think we've managed to get something for
 everyone and so we hope you'll love what we've put together. Having a dedicated Kids' Zone this year certainly 
-has made life easier, and we feel we've created a mini kids' festival full of delights. With a dedicated Sporty 
+has made life easier, and we feel we've created a mini kids' festival full of delights.
+
+With a dedicated Sporty
 Area including hulahooping, tootball, space hoppers and Zumba throughout the day, to our Performance Tent with 
 Rockmount Primary Children's Choir to open, followed by drama, music, dance performances and a fantastic piece 
 of theatre turning your kids into detectives with Detect Egg from [Simply Smiley Productions][11] – what's not to like?!

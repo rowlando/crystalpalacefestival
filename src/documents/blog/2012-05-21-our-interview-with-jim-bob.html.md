@@ -9,7 +9,7 @@ description: >
 ---
 **Are there any terrifying music teachers we have to thank for your pop career? How did you get your start in music?**
 
-He wasn’t terrifying, but my music teacher Mr Daley played guitar at my first ever live performance when I was about fifteen. There were three of us in and the band. And Mr Daley. He held it all together as he was the only one who could actually play. My daughter went to the same school and years later I went back as a parent and Mr Daley was still there. I was too timid to talk to him. There was also a guitar teacher but I gave up after two lessons because I wanted to play Summertime Blues, not Streets of London.
+He wasn’t terrifying, but my music teacher Mr Daley played guitar at my first ever live performance when I was about fifteen. There were three of us in the band. And Mr Daley. He held it all together as he was the only one who could actually play. My daughter went to the same school and years later I went back as a parent and Mr Daley was still there. I was too timid to talk to him. There was also a guitar teacher but I gave up after two lessons because I wanted to play Summertime Blues, not Streets of London.
 
 **Did you always think you’d end up playing in bands? What was the moment with your first band, Jamie Wednesday, when you knew music was what you wanted to do?**
 

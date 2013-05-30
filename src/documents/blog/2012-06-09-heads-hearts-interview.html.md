@@ -51,4 +51,4 @@ ABS: Pure entertainment, Amazing energy, a good mixture of electro sounds and li
 <p><iframe src="http://player.vimeo.com/video/5201853?title=0&amp;byline=0&amp;portrait=0" frameborder="0" width="400" height="300"> </iframe></p>
  
 
-[1]: http://headshearts.com/fr_headshearts.cfm
+[1]: http://headshearts.com/fr_home.cfm

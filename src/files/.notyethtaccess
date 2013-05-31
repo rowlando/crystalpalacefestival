@@ -338,12 +338,26 @@ FileETag None
 # performance impact: http://goo.gl/Mluzd
 
 <IfModule mod_rewrite.c>
-  Options +FollowSymlinks
-# Options +SymLinksIfOwnerMatch
-  RewriteEngine On
-# RewriteBase /
+    Options +FollowSymlinks
+    # Options +SymLinksIfOwnerMatch
+    RewriteEngine On
+    # RewriteBase /
+    Redirect 301 /category/sponsors http://crystalpalacefestival.org/about/sponsors
+    Redirect 301 /sponsorship-advertising-opportunities http://crystalpalacefestival.org/about/sponsors/
+    Redirect 301 /sponsors http://crystalpalacefestival.org/about/sponsors
+    Redirect 301 /category/get-involved http://crystalpalacefestival.org/volunteer/
+    Redirect 301 /category/news http://crystalpalacefestival.org/blog/
+    Redirect 301 /2011-festival-gallery http://crystalpalacefestival.org/gallery
+    Redirect 301 /gallery http://crystalpalacefestival.org/
+    Redirect 301 /getting-there http://crystalpalacefestival.org/info/travel
+    Redirect 301 /category/about http://crystalpalacefestival.org/about/
+    Redirect 301 /aboutfaqs/ http://crystalpalacefestival.org/about/
+    Redirect 301 /contact http://crystalpalacefestival.org/about/press
+    Redirect 301 /presscontact http://crystalpalacefestival.org/about/press
+    Redirect 301 /presscontact-2 http://crystalpalacefestival.org/about/press
+    Redirect 301 /press-media http://crystalpalacefestival.org/about/press
+    Redirect 301 /press/ http://crystalpalacefestival.org/about/press
 </IfModule>
-
 
 # ----------------------------------------------------------------------
 # Suppress or force the "www." at the beginning of URLs

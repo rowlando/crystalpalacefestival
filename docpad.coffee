@@ -625,7 +625,7 @@ module.exports =
 							url: "http://www.livingwatersatisfies.org.uk/cafe"
 						,
 							title: "Tea dance"
-							description: "Lose yourself for the afternoon with music spun on an original gramophone, also with pianist, subsidised refreshments available. "
+							description: "Lose yourself for the afternoon with music spun on an original gramophone, also with pianist Alison Chai. It's free and subsidised refreshments available. "
 							location: "Upper Norwood Methodist Church Hall"
 							time: "17:30"
 						]

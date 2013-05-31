@@ -22,10 +22,13 @@ div '.row', ->
 	div '.large-4.columns', ->
 		div '.page-sidebar', ->
 			section '.related-documents', ->
-				h3 '.h4', -> "Blogs we like"
+				h3 '.h4', -> "Sites we like"
 				blogsWeLike = [
-					{url: 'http://blog.com', title: 'Crystal Palace Farmers Market' },
-					{url: 'http://blog2.com', title: 'blog 2' }
+					{url: 'http://www.crystalpalacefoodmarket.co.uk/', title: 'Crystal Palace Food Market' },
+					{url: 'http://www.crystalpalacetransition.org.uk/', title: 'Crystal Palace Transition Town' },
+					{url: 'http://drumzofthesouth.com/', title: 'Drumz of the South' },
+					{url: 'http://thetrianglese19.blogspot.co.uk/', title: 'The Triangle SE19' },
+					{url: 'http://www.unlc.org.uk/', title: 'Save Upper Norwood Library' }
 				]
 				text @partial 'content/document-list.html.coffee', {
 				documents: blogsWeLike,

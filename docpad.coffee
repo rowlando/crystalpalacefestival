@@ -603,7 +603,7 @@ module.exports =
 								url: "http://www.westowhouse.com/cpfestival/"
 							,
 								title: "Comedy at the Café"
-								description: "Line-up includes Tom Allen, star of Radio 4’s Bleak Expectations and Angela Barnes, BBC New Act Winner – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets £5, available in advance from the café."
+								description: "Line-up includes Tom Allen, star of Radio 4’s Bleak Expectations and Angela Barnes, BBC New Act Winner and Sam Fletcher, Edinburgh Comedy Best Newcomer nominee – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets £5, available in advance from the café."
 								location: "Brown & Green, Crystal Palace station"
 								time: "19:30"
 								url: "http://www.brownandgreencafe.com/"
@@ -625,7 +625,7 @@ module.exports =
 							url: "http://www.livingwatersatisfies.org.uk/cafe"
 						,
 							title: "Tea dance"
-							description: "Lose yourself for the afternoon with music spun on an original gramophone, also with pianist Alison Chai. It's free and subsidised refreshments available. "
+							description: "Lose yourself for the afternoon with music spun on an original gramophone, also with pianist Alison Chai. It's free and subsidised refreshments are available."
 							location: "Upper Norwood Methodist Church Hall"
 							time: "17:30"
 						]

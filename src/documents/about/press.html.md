@@ -8,6 +8,7 @@ For press enquiries, email <press@crystalpalacefestival.org>.
 
 ## 2013
 
+- [Crystal Palace Festival unveils new branding and programme launch][14]
 - [Festival fever returns to Crystal Palace][13]
 - [Acorn Group named as main sponsor for Crystal Palace festival][12]
 - [Popularity of festival leads to call for volunteers][11]
@@ -43,3 +44,4 @@ download the photographs.
 [11]: /documents/press/popularity-of-festival-leads-to-call-for-volunteers.pdf
 [12]: /documents/press/acorn-group-named-as-main-sponsor-for-crystal-palace-festival.pdf
 [13]: /documents/press/festival-fever-returns-to-crystal-palace.pdf
+[14]: /documents/press/Crystal-Palace-Festival-unveils-new-branding-and-programme-launch.pdf

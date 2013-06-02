@@ -14,7 +14,6 @@ results
 node_modules
 npm-debug.log
 
-out
 env.coffee
 .env
 .idea

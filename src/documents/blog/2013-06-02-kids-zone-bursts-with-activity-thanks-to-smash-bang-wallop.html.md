@@ -34,4 +34,4 @@ reminding the rest of us why we've made Crystal Palace our home. Each year it ge
 listen to the music, eat the food, shop the shops and bask in the atmosphere that is Crystal Palace'.
 
 [1]: http://www.smashbangwallop.co.uk/
-[2]: http://crystalpalacefestival.org/blog/2013/05/15/kids-zone-preview/
+[2]: /blog/2013-05-15-kids-zone-preview/

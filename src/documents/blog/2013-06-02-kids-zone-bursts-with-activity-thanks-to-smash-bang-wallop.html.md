@@ -1,5 +1,5 @@
 ---
-title: Kids' Zone bursts with activity thanks to Smash Bang Wallop!
+title: Kids’ Zone bursts with activity thanks to Smash Bang Wallop!
 layout: post
 date: '2013-06-02'
 description: >

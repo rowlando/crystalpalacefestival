@@ -198,7 +198,7 @@ module.exports =
 							title: "Joel Bullen"
 							description: "A Sydenham based singer songwriter with a voice like pure gold, performing indie/blues compositions of his own"
 							time: "11:20"
-							url: "https://www.facebook.com/pages/Joel-Bullen/"
+							url: "https://www.facebook.com/pages/Joel-Bullen/343136222452407"
 							photoUrl: "/associated-files/bands/joelbullen.jpg"
 						,
 							title: "Floodliners"
@@ -295,6 +295,7 @@ module.exports =
 							description: "The pub opens for breakfast at 11am followed by a BBQ and craft fair from noon. The evening brings some extra special entertainment with the fabulous Thrill Billies burlesque group at 8pm rounded off with an extra long performance from the especially awesome The Hipster Ray - a rabble rousing ska punk band from 9:30pm Along with our usual menu, massive draught range and huge CIDER FEST, where else would you possibly want to be?"
 							location: "The White Hart"
 							time: "11:00"
+							url: "http://www.thewhitehartse19.co.uk/"
 						,
 							title: "Cocktails and more at the Sparrowhawk"
 							description: "Pop in for a post festival summer cocktail or grab one of our legendary homemade burgers on your way down to the park, served all day from our garden BBQ!"
@@ -461,7 +462,7 @@ module.exports =
 							title: "Simply Smiley Productions presents Detect Egg"
 							description: "Sponsored by Sell It Mama and Crystal Palace Sports Injury Clinic, the magic of theatre comes to the children of Crystal Palace with a fun filled show that will entertain and turn your kids into detectives, whilst they also learn about the English farm. Hattie Hen's eggs have gone missing and Herlock Bones is called to solve the mystery. Follow the chase across Biddlesdown Farm with Hunny Bunny and Rodney Rooster as they try to uncover the case."
 							time: "14:00"
-							url: "http://www.littlesupernovas.com/"
+							url: "http://www.simplysmileyproductions.co.uk/"
 						,
 							title: "Jelly Bean Jake's Kids Club"
 							description: "Where kids create drama, games, music and fun! Jelly Bean Jake has lost his energy and muscle power. In this lively fun filled session he is hoping the children of Crystal Palace will help him get it back, so he can be fit and healthy again. Suitable for 5-9 years with Caroline Sargeant. Contact: 07956 305178"
@@ -491,7 +492,7 @@ module.exports =
 							title: "Adventure storytelling trail from Little Supernovas"
 							description: "Meet outside the tent to follow the ribbon trail and meet different characters along the way! Parents to accompany their children."
 							time: "13:00"
-							url: "http://www.gemsperformingarts.com/"
+							url: "http://www.littlesupernovas.com/"
 						,
 							title: "Marion and Tim Sharville present Picklemouse Pumpkin"
 							description: "An illustrated rhyming story from local residents aimed at younger children, celebrating friendship, working together, and sharing different cultures. Get illustrating with Tim too by drawing some mice – nice! Suitable for ages 3-7 years"
@@ -511,7 +512,7 @@ module.exports =
 							title: "Marion and Tim Sharville present Picklemouse Pumpkin"
 							description: "(repeat session) An illustrated rhyming story from local residents aimed at younger children, celebrating friendship, working together, and sharing different cultures. Get illustrating with Tim too by drawing some mice – nice! Suitable for ages 3-7 years"
 							time: "16:00"
-							url: "http://www.littlesupernovas.com/"
+							url: "http://www.timsharville.co.uk/"
 						,
 							title: "Reading chill out time"
 							time: "16:45"
@@ -639,10 +640,11 @@ module.exports =
 							url: "http://www.thewhitehartse19.co.uk/"
 						,
 							title: "The Overground Special Festival Spoken Word",
-							description: "The very popular Spoken Word Nights in Antenna take it up a few notches for the festival with an absolutely electric line-up of performers featuring El Crisis+ David J Pugilist+Tamsin Kendrick+ Jazzman John Clarke+K L Gillespie +Zuli Stenson+Open Mic. Hosted by Joe Duggan. Free admission."
+							description: "The very popular Spoken Word Nights in Antenna take it up a few notches for the festival with an absolutely electric line-up of performers featuring El Crisis+ David J Pugilist+Tamsin Kendrick+ Jazzman John Clarke+K L Gillespie +Zuli Stenson+Open Mic. Hosted by Joe Duggan. Free admission. (Photo by John Barret)"
 							location: "Antenna Studios"
 							time: "19:30"
 							url: "https://www.facebook.com/events/162160223950808/"
+							photoUrl: "/associated-files/friday-28-june/spoken-word.jpg"
 						,
 							title: "Guinness and Oyster Festival"
 							description: "Fresh Irish oysters served up by the Oyster Meister, featuring live music from Irish folk rockers The Reels plus DJ Mighty Craic."

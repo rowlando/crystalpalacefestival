@@ -18,3 +18,4 @@ out
 env.coffee
 .env
 .idea
+.DS_Store

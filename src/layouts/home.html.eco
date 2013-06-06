@@ -12,8 +12,7 @@
     <%- @getBlock('meta').toHTML() %>
     <link href="//cloud.webtype.com/css/2f3c9337-8c23-493e-bbf3-f3d3e7813330.css" rel="stylesheet" type="text/css" />
     <!-- DocPad Styles + Our Own -->
-    <%- @getBlock('styles').add(["/styles/style.css"]).toHTML() %>
-    <!--<link rel="stylesheet" href="/styles/style.css" media="screen, projection">-->
+    <%- @getBlock('styles').add(["/styles/style1.css"]).toHTML() %>
     <script src="/vendor/custom.modernizr.js"></script>
 </head>
 <body>

@@ -88,23 +88,23 @@ module.exports =
 					label: "What's on"
 					title: 'Return home'
 					pages: [
-							url: '/whats-on/thursday-27-june'
+							url: '/whats-on/thursday-27-june/'
 							label: 'Thursday 27'
 						,
-							url: '/whats-on/friday-28-june'
+							url: '/whats-on/friday-28-june/'
 							label: 'Friday 28'
 						,
-							url: '/whats-on/saturday-29-june'
+							url: '/whats-on/saturday-29-june/'
 							label: 'Saturday 29'
 						,
-							url: '/whats-on/sunday-30-june'
+							url: '/whats-on/sunday-30-june/'
 							label: 'Sunday 30'
 					]
 					otherPages: [
-							url: "/whats-on/venues-around-town"
+							url: "/whats-on/venues-around-town/"
 							label: "Venues around town"
 						,
-							url: "/whats-on/art"
+							url: "/whats-on/art/"
 							label: "Art at the festival"
 					]
 				,
@@ -112,35 +112,35 @@ module.exports =
 					label: 'Info'
 					title: 'Need to know stuff'
 					pages: [
-							url: '/info/programme'
+							url: '/info/programme/'
 							label: 'Programme'
 						,
-							url: '/info/food-drink'
+							url: '/info/food-drink/'
 							label: 'Food & drink'
 						,
-							url: '/info/travel'
+							url: '/info/travel/'
 							label: 'Getting to the festival'
 					]
 				,
-					url: '/volunteer'
+					url: '/volunteer/'
 					label: 'Volunteer'
 					title: 'Help make the festival more brilliant'
 				,
-					url: '/blog'
+					url: '/blog/'
 					label: 'blog'
 					title: 'View articles'
 				,
-					url: '/about'
+					url: '/about/'
 					label: 'About'
 					title: 'Find out more about the festival'
 					pages: [
-							url: "/about/contact"
+							url: "/about/contact/"
 							label: "Contact us"
 						,
-							url: "/about/press"
+							url: "/about/press/"
 							label: "Press"
 						,
-							url: "/about/sponsors"
+							url: "/about/sponsors/"
 							label: "Our sponsors"
 					]
 			]

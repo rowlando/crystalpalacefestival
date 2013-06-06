@@ -243,6 +243,103 @@ module.exports =
 							url: "http://www.metamono.co.uk/"
 							photoUrl: "/associated-files/bands/metamono.jpg"
 						]
+				triangle:
+					heading: "Triangle Day"
+					events: [
+							title: "Papagaio’s Pirate Party"
+							description: "Drop in all day up to 3pm with kids’ craft table and the Name our Parrot competition"
+							time: "11:00"
+							location: "83 Church Road"
+							url: "http://www.papagaioworld.com/"
+						,
+							title: "Victory Place arts and fitness"
+							description: "A festival within the festival with demonstrations, performances and more. Ballet, Zumba, street dance, CrossFit, Brazilian Jiu-Jitsu, Calisthentics and boxing with BBQ, bouncy castle and music"
+							time: "12:00"
+							location: "CrossFit Performance 360 London"
+							url: "http://www.p360uk.com"
+						,
+							title: " Dulwich Ukulele band"
+							description: "BBQ and live music from Dulwich Ukulele band plus guests until late"
+							time: "12:00"
+							location: "The Alma"
+							url: "http://www.thealmapub.com/"
+						,
+							title: "The White Hart’s session in the recession"
+							description: "Longfellow and other bands – all day in the front garden"
+							time: "12:00"
+							location: "The White Hart"
+							url: "http://www.thewhitehartse19.co.uk/"
+						,
+							title: "Café Sessions Alight Here special"
+							description: "Stay floating on the festival vibes with a BBQ and luminous live music from Breezy Lee & The Spaceshipman, The Lovebirds, The No Frills Band, Franck Alba, Dani Cali, Nina Walsh and more TBA. Limited capacity, arrive early to avoid disappointment"
+							time: "12:00"
+							location: "Antenna Studios"
+							url: "http://www.antennastudios.co.uk/"
+							photoUrl: "/images/blog/cafe-thing-2013-05-30.jpg"
+						,
+							title: "Grooveschool"
+							description: "Don’t miss out on our very special DJ and basic music technology workshops for young people aged 8-19 – open until 6pm."
+							time: "12:00"
+							location: "Antenna Studios' car park, Haynes Lane"
+							url: "http://www.grooveschool.co.uk/"
+							photoUrl: "/associated-files/sunday-triangle/grooveschool.jpg"
+						,
+							title: "Westow House's Triangle day"
+							description: "The garden fun continues to help celebrate the first ever Triangle Day with yet another hog roast, BBQ and outdoor cider bar with buskers and entertainers to captivate."
+							time: "12:00"
+							location: "Antenna Studios’ car park, Haynes Lane"
+							url: "http://www.westowhouse.com/cpfestival/"
+						,
+							title: "BBQ in the garden"
+							description: ""
+							time: "12:00"
+							location: "Twenty-Five"
+							url: "http://www.bartwenty-five.co.uk/"
+						,
+							title: "The Grape & Grain live music"
+							description: "The fantastic Parry Ray & John Crawford, playing the coolest, laid back lounge jazz followed by The Sax Pastilles at 5pm, a six piece version of our now legendary house band, putting the swing into swing/jazz."
+							time: "14:00"
+							location: "The Grape & Grain"
+							url: "http://thegrapeandgrainse19.co.uk/"
+						,
+							title: "DJ sessions"
+							description: "Smooth out those festival rough edges downstairs at The Exhibition Rooms with cocktails and a selection of eclectic beats from local DJ The Wilkybar Kid, ranging from chilled electronic, ska and soul, to disco and downtempo house, followed by your favourite resident DJs playing rare vinyl, Brazilian specialities and own compositions from 7pm onwards."
+							time: "15:00"
+							location: "The Exhibition Rooms"
+							url: "http://www.theexhibitionrooms.com/home.php"
+						,
+							title: "Live music at The Royal Albert"
+							description: ""
+							time: "16:00"
+							location: "The Royal Albert"
+							url: "https://www.facebook.com/theroyalalbertpub",
+						,
+							title: "Ron McElroy"
+							description: "This is Ron’s first time performing at the festival, with lifelong friend and musical partner Jim Cartwright on drums. Jim is a natural, he makes playing drums look like slamming a door or dropping a cup – the easiest thing in the world. With an emphasis on dynamics, soul-style energy and rhythm you will not see them waste a note. Together they are 'Stronger than a forged crank, Sweeter than a sugar mouse.'"
+							time: "16:00"
+							location: "Bambino's, Church Road"
+							url: "http://www.ron-mcelroy.com/"
+							photoUrl: "/associated-files/sunday-triangle/ron-mcelroy.jpg"
+						,
+							title: "Local history walk with the Norwood Society"
+							description: "A 90 minute walk around the Church Road/Fox Hill area looking at some of the houses and buildings, and the lives of the people who lived in them."
+							time: "16:15"
+							location: "Starts at Crystal Palace station"
+							url: "http://www.norwoodsociety.co.uk/"
+						,
+							title: "Beer garden BBQ, jazz, cajun and blues"
+							description: "Dakota Jim and his family band plus DJ. "
+							time: "18:00"
+							location: "Gipsy Hill Tavern"
+							url: "https://www.facebook.com/events/152493464930545/"
+						,
+							title: "Spectrum Ensemble London"
+							description: "An evening of pieces from the string, piano and symphonic repertoire as you've never heard them before, newly arranged for wind and brass ensemble. Shostakovich, Debussy, Sibelius, Ravel, Holst, Mahler and more all in one concert! Tickets £5 pay on the door, under 16s free. Spectrum Ensemble London was formed in 2012 with the specific aim of creating new music for and wind and brass ensemble.  The instruments of the group have been deliberately chosen for their individual sonority which when combined form a uniquely rich, dark sound palette. The players, most local to south east London, are all professional and their collective CVs make for impressive reading."
+							time: "19:30"
+							location: "St. John the Evangelist Church, Auckland Road"
+							url: "http://www.stjohn-uppernorwood.org.uk/"
+					]
+
 				venues:
 					wednesday:
 						heading: "Wednesday"
@@ -372,17 +469,17 @@ module.exports =
 							location: "The Grape & Grain"
 							url: "http://thegrapeandgrainse19.co.uk/"
 						,
-							title: "Live music at The Royal Albert"
-							description: ""
-							time: "14:00"
-							location: "The Royal Albert"
-							url: "https://www.facebook.com/theroyalalbertpub"
-						,
 							title: "DJ sessions"
 							description: "Smooth out those festival rough edges downstairs at The Exhibition Rooms with cocktails and a selection of eclectic beats from local DJ The Wilkybar Kid, ranging from chilled electronic, ska and soul, to disco and downtempo house, followed by your favourite resident DJs playing rare vinyl, Brazilian specialities and his own compositions from 7pm onwards."
 							time: "15:00"
 							location: "The Exhibition Rooms"
 							url: "https://www.facebook.com/pages/The-Exhibition-Rooms/115167471066"
+						,
+							title: "Live music at The Royal Albert"
+							description: ""
+							time: "16:00"
+							location: "The Royal Albert"
+							url: "https://www.facebook.com/theroyalalbertpub"
 						,
 							title: "Beer garden BBQ, jazz, cajun and blues"
 							description: "Dakota Jim and his family band plus DJ"

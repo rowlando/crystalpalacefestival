@@ -1,0 +1,111 @@
+---
+title: Celebrate all things vintage and Crystal Palace!
+layout: 'default'
+order: 9
+mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;source=embed&amp;ll=51.418426,-0.08081&amp;spn=0.006691,0.012016&amp;z=15&amp;
+---
+
+<div class="row">
+    <div class="columns large-8">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div class="page-content">
+
+                    <p>At festival HQ we thought it was about time the lively and growing vintage and antiques culture
+                        in Crystal Palace had its own event so here it is!</p>
+
+                    <p>Get yourselves down to the cul de sac of St Aubyn’s Road and Church Road in your best vintage
+                        gear for an afternoon of music, food and shopping with our best vintage clothing traders, food
+                        and music from the best in live bands and DJs! From 12pm to 6pm.</p>
+
+                    <p>Food from <a href="http://shakecattleandroll.co.uk/">Shakey’s Diner</a> – American diner themed food - and the
+                        <a href="http://www.thefryingsquad.co.uk/">vintage ice-cream van</a>.</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading">From 12pm to 6pm</h3>
+
+                <div class="event-container">
+                    <ul>
+                        <li class="event">
+                            <h4 class="event-title"> The Boom Boom Booms</h4>
+                            <a class="event-time" href="http://www.theboomboombooms.co.uk"> Go check 'em out!</a>
+                            <img class="event-img" src="/associated-files/vintage/theboomboombooms.jpg" alt="The Boom Boom Booms">
+                            <p>
+                                Four singers, big double bass, two screaming gretsch guitars, and one hot sax are the bedrock
+                                sound of a truly international band of miscreants with personnel hailing from Liverpool,
+                                London, Toronto, and New York City. Meeting in the depths of an East End rockabilly strip
+                                club the Booms formed and started rocking London venues within a few weeks. They quickly
+                                gained a weekly residency at What the Jive in Highbury before forming their own monthly
+                                event Aliens Ate My Cadillac in Shoreditch.
+                            </p>
+                        </li>
+
+                        <li class="event">
+                            <h4 class="event-title"> The Boom Boom Booms </h4>
+                            <a class="event-time" href="http://www.theobscuritones.com/"> Listen to The Obscurities</a>
+                            <img class="event-img" src="/associated-files/vintage/the-obscuritones.jpg" alt="The Obscurities">
+                            <p>
+                                Close harmony and rockin’ rhythm. Like the Andrews Sisters singin’ with the Stray Cats after a night out with the Cramps.
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="page-content">
+
+                    <h2 class="listing" style="border-top: none; padding-top: 0;">Shop til you drop onto the nearest spot at these great vintage traders</h2>
+
+                    <p><strong>Lady Crimplene</strong> – mobile pop up shop selling retro clothes and curios, playing retro tunes and talking retro things!
+                        <a href="https://www.facebook.com/ladycrimplene">www.facebook.com/ladycrimplene</a></p>
+
+                    <p><strong>Naomi Purkiss Boutique</strong> – clutch bags (and other things) from vintage fabrics
+                        <a href="https://www.facebook.com/NaomiPurkissBoutique">www.facebook.com/NaomiPurkissBoutique</a></p>
+
+                    <p><strong>Boo to a Goose Vintage</strong> - Boo's mission is simple "SAVE VINTAGE.....SAVE THE WORLD"
+                        <a href="https://www.facebook.com/pages/Boo-to-a-Goose/121276111230693">www.facebook.com/pages/Boo-to-a-Goose</a></p>
+
+                    <p><strong>Charlie Foxtrot Vintage</strong> - pop-up vintage stall and Scrabble enthusiasts
+                        <a href="https://www.facebook.com/CharlieFoxtrotVintage">www.facebook.com/CharlieFoxtrotVintage</a></p>
+
+                    <p><strong>Peace Bitch</strong> - old performance clothes, vintage and homemade women's clothes</p>
+
+                    <p><strong>To Have and to Hold Vintage</strong> – vintage inspired unique, affordable, stylish and inspiring ideas for your celebration
+                        <a href="http://www.tohaveandtoholdvintage.co.uk/">www.tohaveandtoholdvintage.co.uk</a></p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="columns large-4">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+
+        <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl } ) %>
+
+        <%- @partial("content/sidebar-info.html") %>
+
+    </div>
+
+</div>
+
+
+
+
+

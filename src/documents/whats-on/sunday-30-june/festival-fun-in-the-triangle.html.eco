@@ -1,0 +1,51 @@
+---
+title: Festival fun in the Triangle
+layout: 'default'
+order: 9
+mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;source=embed&amp;ll=51.418426,-0.08081&amp;spn=0.006691,0.012016&amp;z=15&amp;
+---
+
+<div class="row">
+    <div class="columns large-8">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div class="page-content">
+
+                    <p>The very first Triangle day launches this year so dust yourself off and come back out for
+                        more fun! As well as the vintage hub and the fine art and craft market, our traders,
+                        churches and pubs host a ton of events to continue the festival and round off the weekend!</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading"><%- @site.highlights.triangle.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.triangle.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="columns large-4">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ ) %>
+
+        <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl } ) %>
+
+        <%- @partial("content/sidebar-info.html") %>
+
+    </div>
+
+</div>
+
+
+
+
+

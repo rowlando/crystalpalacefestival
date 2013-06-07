@@ -359,7 +359,7 @@ module.exports =
 							time: "19:00"
 							url: "http://www.thewhitehartse19.co.uk/"
 						,
-							title: "Traditional Irish folk"
+							title: "Traditional Irish folk music"
 							description: "Celtic Crunch and SICAD folk jam session plus DJ Mighty Craic"
 							location: "Gipsy Hill Tavern"
 							time: "19:30"
@@ -688,7 +688,7 @@ module.exports =
 								time: "19:00"
 								url: "http://www.thewhitehartse19.co.uk/"
 							,
-								title: "Traditional Irish folk"
+								title: "Traditional Irish folk music"
 								description: "Celtic Crunch and SICAD folk jam session plus DJ Mighty Craic"
 								location: "Gipsy Hill Tavern"
 								time: "19:30"

@@ -154,6 +154,19 @@ layout: 'default'
 
                     <div class="row row-sponsor">
                         <div class="columns large-4">
+                            <a href="http://www.williesmarts.co.uk/" class="img">
+                                <img src="/images/sponsors/page/sponsor-willie-smarts-logo.jpg" alt="Willie Smarts"/>
+                            </a>
+                        </div>
+                        <div class="columns large-8">
+                            <p>A big thanks to all the lovely customers and a massive thanks to the staff for looking
+                                after them and continually producing wonderful work. Pop into the shop on festival
+                                weekend for goodies – 1 Westow Hill</p>
+                        </div>
+                    </div>
+
+                    <div class="row row-sponsor">
+                        <div class="columns large-4">
                             <a href="http://www.loverofcreatingflavours.co.uk/" class="img">
                                 <img src="/images/sponsors/page/sponsors-loverofflavourslogo.jpg" alt="Lover of Creating Flavours"/>
                             </a>

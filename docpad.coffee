@@ -185,9 +185,6 @@ module.exports =
 							title: "Puppetry",
 							description: "Wooden Fingers puppetry workshop."
 						,
-							title: "The Peryls"
-							description: "Strange and beautiful music from Crystal Palace’s presenters of the Extraordinarium"
-						,
 							title: "Panto"
 							description: "Doctor Death – History of Medicine"
 						]

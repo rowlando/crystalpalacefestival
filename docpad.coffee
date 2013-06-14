@@ -88,23 +88,23 @@ module.exports =
 					label: "What's on"
 					title: 'Return home'
 					pages: [
-							url: '/whats-on/thursday-27-june/'
+							url: '/whats-on/thursday-27-june'
 							label: 'Thursday 27'
 						,
-							url: '/whats-on/friday-28-june/'
+							url: '/whats-on/friday-28-june'
 							label: 'Friday 28'
 						,
-							url: '/whats-on/saturday-29-june/'
+							url: '/whats-on/saturday-29-june'
 							label: 'Saturday 29'
 						,
-							url: '/whats-on/sunday-30-june/'
+							url: '/whats-on/sunday-30-june'
 							label: 'Sunday 30'
 					]
 					otherPages: [
-							url: "/whats-on/venues-around-town/"
+							url: "/whats-on/venues-around-town"
 							label: "Venues around town"
 						,
-							url: "/whats-on/art/"
+							url: "/whats-on/art"
 							label: "Art at the festival"
 					]
 				,
@@ -112,35 +112,35 @@ module.exports =
 					label: 'Info'
 					title: 'Need to know stuff'
 					pages: [
-							url: '/info/programme/'
+							url: '/info/programme'
 							label: 'Programme'
 						,
-							url: '/info/food-drink/'
+							url: '/info/food-drink'
 							label: 'Food & drink'
 						,
-							url: '/info/travel/'
+							url: '/info/travel'
 							label: 'Getting to the festival'
 					]
 				,
-					url: '/volunteer/'
+					url: '/volunteer'
 					label: 'Volunteer'
 					title: 'Help make the festival more brilliant'
 				,
-					url: '/blog/'
+					url: '/blog'
 					label: 'blog'
 					title: 'View articles'
 				,
-					url: '/about/'
+					url: '/about'
 					label: 'About'
 					title: 'Find out more about the festival'
 					pages: [
-							url: "/about/contact/"
+							url: "/about/contact"
 							label: "Contact us"
 						,
-							url: "/about/press/"
+							url: "/about/press"
 							label: "Press"
 						,
-							url: "/about/sponsors/"
+							url: "/about/sponsors"
 							label: "Our sponsors"
 					]
 			]
@@ -489,6 +489,49 @@ module.exports =
 							time: "22:00"
 							location: "Domali"
 							url: "https://www.facebook.com/domalicafe"
+						]
+				holisticzone:
+						heading: "Holistic Zone"
+						events: [
+							title: "Sian Jones – hatha yoga"
+							description: "Open the morning in the holistic tent with gentle, friendly hatha yoga focusing on the mind-body relationship, conditioning movements, yoga asanas, breath work and meditation, whilst keeping a relaxed and fun attitude to our yoga practice."
+							time: "12:00"
+						,
+							title: "Peter Schimke – osteopathy"
+							description: "Find out more about osteopathy and how it can benefit you."
+							time: "12:45"
+						,
+							title: "Marion Colledge – herbal remedies"
+							description: "An introduction to Western herbal medicine with some simple suggestions on herbal remedies for minor ailments. Come along and find out what you can do with herbs to fight off colds and infections and to boost your immune system and general wellbeing."
+							time: "13:00"
+						,
+							title: "Liza Kiazim – systematic kinesiology"
+							description: "A talk and demonstration on systematic kinesiology, a holistic therapy incorporating muscle allergy testing, gentle manipulative adjustments, nutritional therapy, five elements meridian therapy, and gentle stress and past trauma release techniques."
+							time: "13:45"
+						,
+							title: "Simon Pimenta – improve your sleep"
+							description: "A good night's sleep is essential for our health and wellbeing. It is thought that around a third of people experience sleep problems including difficulties getting to sleep, difficulties getting back to sleep and feeling tired during the day. Hypnotherapist Simon Pimenta will talk about some of the factors that prevent a good night's sleep."
+							time: "14:15"
+						,
+							title: "Amal Aloui – craniosacral therapy"
+							description: "When our nervous system is out of balance we can experience feelings of anxiety, panic, sleepless nights, and even digestive disorders.  Many people, including babies and the elderly, have found craniosacral therapy a highly beneficial solution for these ailments because of its gentle but very potent form of treatment."
+							time: "15:00"
+						,
+							title: "Lisbetta Vilela – Makko-ho"
+							description: "Lisabetta will present the Makko-ho exercise sequence, a self-help technique, easily learnt and used at home, to balance and harmonise the body's vital energy. Each stretch activates a pair of energy pathways (meridians) and balances the flow of Qi within them, thus unblocking and nourishing the body's vital energy and improving one's sense of well-being."
+							time: "15:30"
+						,
+							title: "Claire McCarthy – the Bowen Technique"
+							description: "A talk and demonstration on the Bowen Technique, a remedial, holistic therapy which uses a truly light-touch to prompt the body to reset, repair and balance itself. Recipients report pain relief and recovery of mobility and energy."
+							time: "16:15"
+						,
+							title: "Antonella – Satyananda yoga"
+							description: "Antonella will be leading a relaxing yoga practice in the holistic tent to help you chill out as the festival day winds down."
+							time: "16:45"
+						,
+							title: "Katie-Rose’s Sound Bath"
+							description: "Relax completely and allow the soothing sounds of gong, singing bowls, flute and voice to wash away stress and tension and restore a sense of calm and stillness."
+							time: "17:15"
 						]
 				kidszone:
 					sporty:

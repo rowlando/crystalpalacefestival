@@ -1,0 +1,49 @@
+---
+title: "Westow Park: Holistic zone"
+layout: 'default'
+order: 8
+mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp;spn=0.007467,0.011587&amp;z=15&amp;
+---
+
+<div class="row">
+    <div class="large-8 columns">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <div class="page-content">
+
+                    <a href="http://www.thelittleescape.com/"><img width="168" src="/images/sponsors/page/sponsor-little-escape.jpg" alt="The Little Escape" class="right"/></a>
+                    <p>Calm down and relax – the holistic zone is at the festival to help you find out more about
+                        dealing with the stresses and strains of life. Sponsored by the
+                        wonderful <a href="http://www.thelittleescape.com/">The Little Escape</a>,
+                        our local escape from it all, you can explore a myriad of holistic
+                        activities which will make your life so much better!</p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading" id="sporty-area"><%- @site.highlights.holisticzone.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.holisticzone.events, showProgrammeLink: true }) %>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="large-4 columns">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Saturday 29 June" }) %>
+        <%- @partial('content/sidebar-westowpark-info.html') %>
+        <%- @partial("content/sidebar-info.html") %>
+        <%- @partial('content/responsive-map.html.eco', { mapUrl: @document.mapUrl } ) %>
+
+    </div>
+
+</div>

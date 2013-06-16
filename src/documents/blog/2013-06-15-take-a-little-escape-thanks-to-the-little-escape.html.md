@@ -9,7 +9,7 @@ description: >
 
 <div class='img-caption-right right'>
     <img src='/images/blog/2013-06-15-little-escape.jpg' alt='Karen and Lilja from The Little Escape' width='250' />
-    <span class='caption'>Karen and Lilja</span>
+    <span class='caption'>Fiona and Lilja</span>
 </div>
 
 The top of Westow Park is set to be transformed into an oasis of tranquility on Saturday 29 June, as our holistic 

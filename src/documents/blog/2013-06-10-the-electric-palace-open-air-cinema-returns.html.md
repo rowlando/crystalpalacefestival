@@ -7,6 +7,11 @@ description: >
     itself – our open air cinema at Coopers Yard
 ---
 
+**Stop press!** A new addition to our programme – *The Library (2012)* – a short animated film by Leo Crane. This 4-minute
+computer animation takes the viewer into their fantasies to share in what could happen if library etiquette
+is overridden by carnal urges.
+
+
 We have a rare treat in store for Crystal Palace lovers and historians of the wondrous palace
 itself – our open air cinema at [Coopers Yard][1] will show *The Pleasure Garden* (1953),
 a BBC short film, on its 60th anniversary. Filmed among the ruins of the Crystal Palace terraces, The

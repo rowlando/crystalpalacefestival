@@ -741,7 +741,7 @@ module.exports =
 								url: "http://www.westowhouse.com/cpfestival/"
 							,
 								title: "Comedy at the Café"
-								description: "Line-up includes Tom Allen, star of Radio 4’s Bleak Expectations and Angela Barnes, BBC New Act Winner and Sam Fletcher, Edinburgh Comedy Best Newcomer nominee – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets £5, available in advance from the café."
+								description: "Line-up includes Suzie Rufell, a real stand up gem, and Angela Barnes, BBC New Act Winner and Sam Fletcher, Edinburgh Comedy Best Newcomer nominee – all accompanied by tea, coffee, cake, tasty snacks and BYOB! Tickets now sold out."
 								location: "Brown & Green, Crystal Palace station"
 								time: "19:30"
 								url: "http://www.brownandgreencafe.com/"
@@ -796,7 +796,7 @@ module.exports =
 							url: "http://www.westowhouse.com/cpfestival/"
 						,
 							title: "The Electric Palace open air cinema"
-							description: "A rare showing of The <em>Pleasure Garden</em> (1953), a BBC short film, on its 60th anniversary. This special event will be followed by BAFTA-winning short, <em>A Morning Stroll</em>, from local film-maker Grant Orchard and then the main feature <em>Little Miss Sunshine</em>. With bar and music – tickets £7.50 – click below to pay via PayPal (includes free drink on arrival)<br/> <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'><input type='hidden' name='cmd' value='_s-xclick'> <input type='hidden' name='hosted_button_id' value='93QRNAGSB6WK4'> <input type='image' src='https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal – The safer, easier way to pay online.'> <img alt='' border='0' src='https://www.paypalobjects.com/en_GB/i/scr/pixel.gif' width='1' height='1'></form>	"
+							description: "Opening the programme is <em>The Library</em> (2012) an animated short by Leo Crane and following this is a rare showing of The <em>Pleasure Garden</em> (1953), a BBC short film, on its 60th anniversary. This special event will be followed by BAFTA-winning short, <em>A Morning Stroll</em>, from local film-maker Grant Orchard and then the main feature <em>Little Miss Sunshine</em>. With bar and music – tickets £7.50 – click below to pay via PayPal (includes free drink on arrival)<br/> <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top'><input type='hidden' name='cmd' value='_s-xclick'> <input type='hidden' name='hosted_button_id' value='93QRNAGSB6WK4'> <input type='image' src='https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif' border='0' name='submit' alt='PayPal – The safer, easier way to pay online.'> <img alt='' border='0' src='https://www.paypalobjects.com/en_GB/i/scr/pixel.gif' width='1' height='1'></form> <br>With thanks to our sponsors <a href='http://www.kinopto.com'>www.kinopto.com</a>"
 							location: "Coopers Yard"
 							time: "20:30"
 						,

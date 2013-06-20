@@ -2,12 +2,14 @@
 title: Press
 layout: detail
 sidebarHeading: 'About the festival'
+order: 3
 ---
 
 For press enquiries, email <press@crystalpalacefestival.org>.
 
 ## 2013
 
+- [Crystal Palace Festival set to be bigger and better thanks to sponsors][15]
 - [Crystal Palace Festival unveils new branding and programme launch][14]
 - [Festival fever returns to Crystal Palace][13]
 - [Acorn Group named as main sponsor for Crystal Palace festival][12]
@@ -45,3 +47,4 @@ download the photographs.
 [12]: /documents/press/acorn-group-named-as-main-sponsor-for-crystal-palace-festival.pdf
 [13]: /documents/press/festival-fever-returns-to-crystal-palace.pdf
 [14]: /documents/press/Crystal-Palace-Festival-unveils-new-branding-and-programme-launch.pdf
+[15]: /documents/press/crystal-palace-festival-set-to-be-bigger-and-better-thanks-to-sponsors.pdf

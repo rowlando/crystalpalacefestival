@@ -3,6 +3,7 @@ title: 'Overview'
 layout: 'detail'
 url: '/about'
 sidebarHeading: 'About the festival'
+order: 1
 ---
 **Approximately 5000 people attended in 2012**. The event was a roaring success, with many people from neighbouring areas joining locals for a joyous day of fun and festivities. The festival once again proved what a great place Crystal Palace is to live and visit, and after community consultation the organisers are looking forward to a festival that fulfils the priorities for the area in 2013.
 

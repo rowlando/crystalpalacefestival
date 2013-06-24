@@ -9,6 +9,7 @@ For press enquiries, email <press@crystalpalacefestival.org>.
 
 ## 2013
 
+- [Crystal Palace Festival main stage line-up revealed][16]
 - [Crystal Palace Festival set to be bigger and better thanks to sponsors][15]
 - [Crystal Palace Festival unveils new branding and programme launch][14]
 - [Festival fever returns to Crystal Palace][13]
@@ -48,3 +49,4 @@ download the photographs.
 [13]: /documents/press/festival-fever-returns-to-crystal-palace.pdf
 [14]: /documents/press/Crystal-Palace-Festival-unveils-new-branding-and-programme-launch.pdf
 [15]: /documents/press/crystal-palace-festival-set-to-be-bigger-and-better-thanks-to-sponsors.pdf
+[16]: /documents/press/crystal-palace-festival-main-stage-line-up-revealed.pdf

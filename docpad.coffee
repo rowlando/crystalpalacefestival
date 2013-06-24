@@ -533,6 +533,45 @@ module.exports =
 							description: "Relax completely and allow the soothing sounds of gong, singing bowls, flute and voice to wash away stress and tension and restore a sense of calm and stillness."
 							time: "17:15"
 						]
+				foodtent:
+						heading: "Food Tasting Tent"
+						events: [
+							title: "Manish Utton-Mishra of Good Taste Food and Drink presents Beer & Cheese"
+							description: "Manish pops along from Good Taste, a cheese shop in Crystal Palace selling cheeses, charcuterie, beers and wines, to reveal the secrets of pairing cheese with beer"
+							time: "12:00"
+							url: "http://www.goodtaste-fd.co.uk/"
+							anchorText: "Visit Good Taste Food and Drink's website"
+						,
+							title: "Rachel de Thample’s tour of Crystal Palace Transition Town’s Edible Garden"
+							description: "Rachel is a food writer for Abel & Cole and one of the leading lights in our local Transition Town movement. Join Rachel for a harvest in the garden followed by a demo of how to turn these beautiful foods into delicious dishes. Meet at the garden at 12:30 with demo in the tent from 13:00."
+							time: "12:30"
+							url: "https://twitter.com/dethample"
+							anchorText: "Find Rachel on Twitter"
+						,
+							title: "Mariana Camarotte of Braziliana’s Feijoada "
+							description: "Find out how to make the Brazilian national dish, Feijoada, a black bean stew with pork and beef, with Mariana from the ever popular Braziliana. Located on Westow Hill, this Brazilian café and restaurant brings another cuisine to the already international line up of food haunts in Crystal Palace."
+							time: "14:00"
+							url: "https://www.facebook.com/pages/Braziliana-Cafe/205022469517902"
+							anchorText: "Go to Braziliana's Facebook page"
+						,
+							title: "Afternoon tea gets a makeover with Jayne Totty of Supernourished"
+							description: "Sharing highlights from her healthy baking course, Jayne will explain what ingredients you should have in your pantry and how to become a natural baking expert. Jayne is a raw food expert, trained chef and culinary instructor who offers classes and workshops demonstrating how to add more fresh and energising foods into any diet."
+							time: "15:00"
+							url: "http://supernourished.com/"
+							anchorText: "Visit Supernourished's website"
+						,
+							title: "Selina Periampillai creator of Yummy Choo, Mauritian cuisine"
+							description: "Foodie chick Selina will be delighting the tastebuds with Gateaux Piment (split pea chilli balls) popular Mauritian street food. Her inspiration is her mother’s cooking and her enduring passion for food not least authentic Mauritian home cooking."
+							time: "16:00"
+							url: "http://yummychooeats.com/"
+							anchorText: "Visit Yummy Choo's website"
+						,
+							title: "Flavours with Anita-Clare Field of Lover of Creating Flavours"
+							description: "Create flavours that ignite your palate and make your taste buds dance with joy. Anita-Clare, creator of the massively popular food website, Lover of Creating Flavour invites you to help create some alchemy in the kitchen using simple flavours that turn into a taste explosion when combined. She’ll even throw in a cocktail for good measure."
+							time: "17:00"
+							url: "http://www.loverofcreatingflavours.co.uk/"
+							anchorText: "Visit Lover of Creating Flavours website"
+						]
 				kidszone:
 					sporty:
 						heading: "Sporty area"

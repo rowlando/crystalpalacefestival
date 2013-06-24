@@ -15,7 +15,9 @@ div '.event-container', ->
 					img '.event-img', src:eventItem.photoUrl, alt: eventItem.title
 				p ->
 					eventItem.description
-				if eventItem.url and !eventItem.location
+				if eventItem.anchorText
+					a '.event-url', href:eventItem.url, -> eventItem.anchorText
+				if eventItem.url and !eventItem.location and !eventItem.anchorText
 					a '.event-url', href:eventItem.url, -> "Visit " + eventItem.title + "'s webpage"
 	if @showProgrammeLink
 		a href:"/info/programme", @programmeLinkText or "See full programme"

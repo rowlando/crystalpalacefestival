@@ -13,7 +13,6 @@
     img = images[_i];
     img.onerror = function() {
       var a, li;
-
       a = this.parentNode;
       li = a.parentNode;
       if (li.tagName.toLowerCase() === 'li') {
@@ -33,7 +32,6 @@
 
   getRootUrl = function() {
     var rootUrl;
-
     rootUrl = document.location.protocol + "//" + (document.location.hostname || document.location.host);
     if (document.location.port || false) {
       rootUrl += ":" + document.location.port;
@@ -44,7 +42,6 @@
 
   $.expr[":"].internal = function(obj, index, meta, stack) {
     var $this, isInternalLink, rootUrl, url;
-
     $this = $(obj);
     url = $this.attr("href") || $this.data("href") || "";
     rootUrl = getRootUrl();

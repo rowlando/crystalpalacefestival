@@ -9,6 +9,7 @@ For press enquiries, email <press@crystalpalacefestival.org>.
 
 ## 2013
 
+- [Overground festival back after funding success][17]
 - [Crystal Palace Festival main stage line-up revealed][16]
 - [Crystal Palace Festival set to be bigger and better thanks to sponsors][15]
 - [Crystal Palace Festival unveils new branding and programme launch][14]
@@ -50,3 +51,4 @@ download the photographs.
 [14]: /documents/press/Crystal-Palace-Festival-unveils-new-branding-and-programme-launch.pdf
 [15]: /documents/press/crystal-palace-festival-set-to-be-bigger-and-better-thanks-to-sponsors.pdf
 [16]: /documents/press/crystal-palace-festival-main-stage-line-up-revealed.pdf
+[17]: /documents/press/overground-festival-back-after-funding-success.pdf

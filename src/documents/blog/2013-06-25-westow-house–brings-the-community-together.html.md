@@ -1,5 +1,5 @@
 ---
-title: "Westow House"
+title: "Westow House - bringing the community together"
 layout: post
 date: '2013-06-25'
 description: >

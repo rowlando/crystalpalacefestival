@@ -3,8 +3,9 @@ title: "Floodliners and Offbeat South blast onto the music scene"
 layout: post
 date: '2013-06-26'
 description: >
-    A festival is not quite the same with out a bar, and thanks to our gold sponsors Westow House,
-    we have all bases covered. Organising a festival is thirsty work, so we just had to nip in for a drink.
+    We are proud to feature a phenomenal line up on our main stage in Westow Park on Saturday 29 June this year. From
+    soloists, up and coming young bands, to analogue synths, we have it all. To whet your appetite, with less than a
+    week to go, we caught up with them all to find out more
 ---
 
 We are proud to feature a phenomenal line up on our [main stage][1] in Westow Park on Saturday 29 June this year. From

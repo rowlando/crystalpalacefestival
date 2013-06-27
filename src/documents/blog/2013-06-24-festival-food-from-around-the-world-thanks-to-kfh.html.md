@@ -29,7 +29,7 @@ everything from muesli to a full hearty breakfast.
 
 [The Tartlettes][10] with their cakes and savoury tarts will keep appetites at bay, if you can't wait for lunch!
 
-Did someone mention lunch? Asian from Monk 29, West Indian thanks to Little Honeybeez, Turkish wraps 
+Did someone mention lunch? Asian from Monk 29, West Indian thanks to Little Honeybeez, Turkish wraps and Hog Roast
 from [Neriman Sandwiches][11], and a touch of the Caribbean visits SE19 courtesy of Kerry's Real Jerk.
 
 A little closer to UK borders tuck into Austrian street food, meats and sandwiches from the [Fleisch Mob][12]; French 
@@ -38,7 +38,7 @@ and Italian inspired pizza from the back of [Bosco and Bee's][14] little Piaggi
 
 We haven't forgotten festival favourites, with [Jacob Ladder Foods][15] and [Mama Vastys][16] offering a range of organic 
 burgers and natural spicy delights. For a much lighter alternative Comfort and Joy will be on hand with a range of
-wholesome deli delicacies, and [Thyme and Place][17] hot bagels.
+wholesome deli delicacies.
 
 Peppered with sweet treats from Kodi Cupcake, [Crystal Creams][18] Italian gelato, [Drum & Kernel Popcorn][19], not 
 forgetting fresh oysters from the exquisite [Oyster Meister][20], the food court simply has it all!

@@ -10,9 +10,9 @@ description: >
 
 <img src="/images/blog/2013-06-28-the-hornets.jpg" alt="The Hornets" class="right" />
 
-Instrumental funk is set to bring the whole of Westow Park to its feet as The Hornets, an eight piece funk collective
-of professional musicians, take to the main stage on Saturday 29 June at 3:05pm. With their final preparations well
- underway we visited The Hornets Hive to discover what the buzz was about…
+Instrumental funk is set to bring the whole of Westow Park to its feet as [The Hornets][1],
+an eight piece funk collective of professional musicians, take to the [main music stage][2] on Saturday 29
+June at 3:05pm. With their final preparations well underway we visited The Hornets Hive to discover what the buzz was about&hellip;
 
 "Get ready for 45 minutes of no-holds-barred, full-on FUNK from some of London's finest funk musicians, playing pure
 dirt from Billy Brookes to Breakestra. This funk is served RARE!," the opening words from the shy and retiring co-founder
@@ -70,7 +70,8 @@ and other picnic grub you may have on offer, and hopefully annoy quite a lot of 
 
 "Four days? That's a tenth of our entire lives! We just wanna sting people and nick all your cider!"
 
-We're simply blaggers, get us outa here&hellip;!!!!!!!!!!
+[1]: http://www.thehornetsband.co.uk/
+[2]: /whats-on/saturday-29-june/bands/
 
 
 

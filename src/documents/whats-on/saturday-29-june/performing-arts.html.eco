@@ -19,7 +19,10 @@ mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp
                     
                     <p>Step inside and enter a Victorian wonderland of curiosities and oddities with theatrical,
                         inventive and mind-boggling interpretations of The Great Exhibition and beyond! Let your
-                        hair down, loosen your corset and twiddle that moustache whilst poets, bands and theatremakers take to the main stage.</p>
+                        hair down, loosen your corset and twiddle that moustache whilst poets, bands and theatremakers
+                        take to the main stage.</p>
+
+                    <p><a href="#listing">See the list of events below</a></p>
 
                     <p>Or perhaps take an afternoon perambulation around our Cabinet of Curiosities to meet
                         inspiring minds and take part in workshops that inform and amaze. With a mixture of
@@ -36,6 +39,15 @@ mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp
                         confidence to make-believe, anywhere – <a href="http://www.lastheatre.com/">www.lastheatre.com</a></p>
 
                 </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h3 class="block-heading event-heading" id="listing"><%- @site.highlights.performingarts.heading %></h3>
+                <%- @partial('content/event-list.html.coffee', { events: @site.highlights.performingarts.events, showProgrammeLink: true }) %>
 
             </div>
         </div>

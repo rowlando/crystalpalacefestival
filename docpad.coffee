@@ -533,6 +533,53 @@ module.exports =
 							description: "Relax completely and allow the soothing sounds of gong, singing bowls, flute and voice to wash away stress and tension and restore a sense of calm and stillness."
 							time: "17:15"
 						]
+				performingarts:
+						heading: "Performing Arts Tent"
+						events: [
+							title: "Welcome to Our Magnificent Performing Arts Tent Opening!"
+							description: "Discover the Marvels of the Age!  Be entertained by the stupendous talents of Crystal Palace artistes and beyond!"
+							time: "11:00"
+						,
+							title: "Wooden Fingers Puppetry Workshop"
+							description: "Create your Own Puppet and Learn How to Manipulate and Make your Puppet Play!"
+							time: "11:30"
+						,
+							title: "The Grand Opening"
+							description: "A most Phenomenal Introduction to the World of the Crystal Palace Exhibition! Join in the Fun as The Mayor opens the Cabinets of Curiosities!!!"
+							time: "12:30"
+						,
+							title: "The Cabinet of Curiosities"
+							description: "Feast your Eyes on the Curiosities of Crystal Palace Experts, Makers, Creative Types Exhibiting their Wares for your Edification!"
+							time: "12:45"
+						,
+							title: "Crystal Nuevo"
+							description: "Miss Alison and Miss Agata play Delightfully Classical Duets including Handel’s Water Music and the Firework Suite plus other Well-known Compositions of the Era"
+							time: "13:55"
+						,
+							title: "One Hour Plays"
+							description: "You, the Audience Create, Costume and Cast a 10 Minute Play in just 60 Amazing Minutes!"
+							time: "14:25"
+						,
+							title: "Sirens Burlesque"
+							description: "Taking Burlesque back to Burlar; to Mock! Funny, Feisty and Versatile Performers – Meet Ottolie Divine, Lady Libertine, Bébé Bohème and Violet Empire!"
+							time: "15:30"
+						,
+							title: "The Grand Opening"
+							description: "A most Phenomenal Introduction to the World of the Crystal Palace Exhibition! Join in the Fun as The Mayor opens the Cabinets of Curiosities!!!"
+							time: "16:00"
+						,
+							title: "The Cabinet of Curiosities"
+							description: "Feast your Eyes on the Curiosities of Crystal Palace Experts, Makers, Creative Types Exhibiting their Wares for your Edification!"
+							time: "16:15"
+						,
+							title: "Elena Dana"
+							description: "The Most Beauteous Songbird from Far off Ukraine, a Most Exotic Lady Closes Our Show!"
+							time: "17:30"
+						,
+							title: "Adieu!!!"
+							description: ""
+							time: "18:00"
+						]
 				foodtent:
 						heading: "Food Tasting Tent"
 						events: [
@@ -577,7 +624,7 @@ module.exports =
 						heading: "Sporty area"
 						events: [
 							title: "Hulahooping"
-							description: "Hulahooping with Polina Katkova, ages 4 and above"
+							description: "Hulahooping with Yellokat, ages 4 and above"
 							time: "11:00"
 							url: "http://www.yellokat.com/"
 						,

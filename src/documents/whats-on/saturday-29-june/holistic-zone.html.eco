@@ -28,7 +28,7 @@ mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp
         <div class="row">
             <div class="large-12 columns">
 
-                <h3 class="block-heading event-heading" id="sporty-area"><%- @site.highlights.holisticzone.heading %></h3>
+                <h3 class="block-heading event-heading"><%- @site.highlights.holisticzone.heading %></h3>
                 <%- @partial('content/event-list.html.coffee', { events: @site.highlights.holisticzone.events, showProgrammeLink: true }) %>
 
             </div>

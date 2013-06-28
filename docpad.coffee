@@ -120,6 +120,9 @@ module.exports =
 						,
 							url: '/info/travel'
 							label: 'Getting to the festival'
+						,
+							url: '/info/photos'
+							label: 'Share your pics'
 					]
 				,
 					url: '/volunteer'

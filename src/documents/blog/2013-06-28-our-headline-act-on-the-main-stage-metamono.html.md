@@ -3,9 +3,10 @@ title: "Our headline act on the main stage: Metamono"
 layout: post
 date: '2013-06-28'
 description: >
-    Instrumental funk is set to bring the whole of Westow Park to its feet as The Hornets, an eight piece funk collective
-    of professional musicians, take to the main stage on Saturday 29 June at 3:05pm. With their final preparations well
-    underway we visited The Hornets Hive to discover what the buzz was about.
+    As the name suggests, Metamono, a local Crystal Palace three piece band are into analogue in a big way! Following their
+    strict adherence to their ‘manifesto’ they will never do quite a lot of things, including using a microphone or
+    any mechanical sound generation, instead analogue is King, from analogue electronic sound generation and processing,
+    to building and playing their own instruments.
 ---
 
 <img src="/images/blog/2013-06-28-metamono.jpg" alt="Metamono" class="right" />

@@ -1,0 +1,43 @@
+---
+title: 'Your pics'
+layout: 'default'
+order: 5
+mapUrl: https://maps.google.co.uk/?ie=UTF8&amp;t=m&amp;ll=51.41682,-0.085316&amp;spn=0.007467,0.011587&amp;z=15&amp;
+highlights: westowpark
+---
+
+<div class="row">
+    <div class="columns large-8">
+
+        <div class="row">
+
+            <div class="columns large-12">
+
+                <script src="//storify.com/cpfestival/sunday-at-crystal-palace-festival-2013.js" type="text/javascript" language="javascript"></script><noscript>[<a href="//storify.com/cpfestival/sunday-at-crystal-palace-festival-2013" target="_blank">View the story "Your pics - Sunday @ Crystal Palace Overground Festival 2013" on Storify</a>]</noscript>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="columns large-4">
+
+        <%- @partial('content/sidebar-listing.html.eco', @ , { title: "Sunday 30 June" }) %>
+
+        <div class="page-sidebar">
+
+            <h4>Share your pics</h4>
+            <p>If you have some photos you want to share, please
+            see the <a href="/info/photos">Share Your Pics</a> page to find out about our Flickr Group.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+

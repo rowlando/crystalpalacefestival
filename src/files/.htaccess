@@ -357,7 +357,7 @@ FileETag None
     Redirect 301 /presscontact-2 http://crystalpalacefestival.org/about/press
     Redirect 301 /press-media http://crystalpalacefestival.org/about/press
     Redirect 301 /press/ http://crystalpalacefestival.org/about/press
-    Redirect 303 /survey https://www.surveymonkey.com/s/GVZJ3X5
+    Redirect 303 /survey https://www.surveymonkey.com/s/YDXXL9S
 </IfModule>
 
 # ----------------------------------------------------------------------

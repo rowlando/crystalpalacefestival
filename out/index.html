@@ -12,11 +12,7 @@
     <meta name="generator" content="DocPad v6.53.0" />
     <link href="//cloud.webtype.com/css/2f3c9337-8c23-493e-bbf3-f3d3e7813330.css" rel="stylesheet" type="text/css" />
     <!-- DocPad Styles + Our Own -->
-    <style >html.wait {
-	cursor: wait !important;
-	opacity: 0;
-	transition: opacity 0.5s ease;
-}</style><link  rel="stylesheet" href="/styles/style1.css" />
+    <link  rel="stylesheet" href="/styles/style1.css" />
     <script src="/vendor/custom.modernizr.js"></script>
 </head>
 <body>
@@ -25,7 +21,7 @@
     <a href="https://www.surveymonkey.com/s/GVZJ3X5" class="splash-volunteer">We want your feedback!</a>
     <div class="social-media-icons">
         <a href="https://www.facebook.com/CrystalPalaceFestival" class="facebook"><img width="25" src="/images/icons/facebook.png" alt="Facebook" /></a>
-        <a href="https://twitter.com/se19festival" class="twitter"><img width="25" src="/images/icons/twitter.png" alt="Facebook" /></a>
+        <a href="https://twitter.com/se19festival" class="twitter"><img width="25" src="/images/icons/twitter.png" alt="Twitter" /></a>
     </div>
 </div>
 <header class="header">
@@ -188,43 +184,20 @@
 
     </div>
     <div class="large-8 columns">
-
         <div class="box orbit-homepage">
 
-            <ul data-orbit data-options="timer_speed:10000;bullets:false">
+            <ul data-orbit data-options="timer_speed:0;bullets:false;navigation_arrows:false;slide_number:false">
                 <li>
-                    <p class="posterize left">
-                        <span class="line-1">Good Vibes</span>
-                        <span class="line-2">Live Music</span>
-                        <span class="line-3">Great Food</span>
-                        <span class="line-4"><span>&amp;</span> Drink</span>
+                    <p class="posterize posterize-left posterize-message">
+                        <span class="line-1">Festival open meeting</span>
+                        <span class="line-6">Sunday 6 October 2013</span>
+                        <span class="line-3">6pm at Antenna Café Thing</span>
                     </p>
+                    <p style="padding-left: 3%;">We have lots of varied <a href="/documents/festival-organising-roles.pdf">festival roles</a> and the more volunteers we can
+                    recruit to the organising team, the better! Come along to the meeting to find out more.</p>
+                    <p style="padding-left: 3%;">See you at <a href="http://www.antennastudios.co.uk/cafe-thing/">Cafe Thing</a>!</p>
+                </li>
 
-                    <p class="posterize right">
-                        <span class="line-5">Performing Arts</span>
-                        <span class="line-6">Family Fun</span>
-                        <span class="line-7">Poetry &amp; Tea Dance</span>
-                        <span class="line-8">Art & Craft</span>
-                        <span class="line-9">Bargains Galore!</span>
-                        <span class="hr"></span>
-                    </p>
-                </li>
-                <li>
-                    <img src="/associated-files/index/theboomboombooms.jpg" alt="The Boom Boom Booms" />
-                    <div class="orbit-caption"><p>Put your vintage gear on for an afternoon of music, food and shopping.<a href="/whats-on/sunday-30-june/celebrate-all-things-vintage-and-crystalpalace">Find out more</a></p></div>
-                </li>
-                <li>
-                    <img src="/associated-files/index/ensemble-tramontana.jpg" alt="" />
-                    <div class="orbit-caption"><p>Soundtracks: Experience the incredible acoustics of our beautiful station.<a href="/whats-on/sunday-30-june/soundtracks">Find out when the musicians are playing</a></p></div>
-                </li>
-                <li>
-                    <img src="/associated-files/index/art-great-exhibition.jpg" alt="" />
-                    <div class="orbit-caption"><p>The Great Exhibition – an art project by local primary school children <a href="/whats-on/art/">Find out more about Art at The Festival</a></p></div>
-                </li>
-                <li>
-                    <img src="/associated-files/index/grooveschool.jpg" alt="" />
-                    <div class="orbit-caption"><p>A very special DJ and basic music technology workshops for young people<a href="/whats-on/sunday-30-june/festival-fun-in-the-triangle">Check out this and other stuff in the Triangle</a></p></div>
-                </li>
             </ul>
 
         </div>
@@ -270,51 +243,13 @@
         </div>
     </footer>
 
-    <script >(function(){
-	/* Did we just livereload? */
-var log = !!(localStorage && console && console.log && true);
-if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
-	localStorage.removeItem('/docpad-livereload/reloaded');
-	console.log('LiveReload completed at', new Date())
-}
-
-/* Listen for the regenerated event and perform a reload of the page when the event occurs */
-var listen = function(){
-	var primus = new Primus('/docpad-livereload');
-	primus.on('data', function(data){
-		if ( data && data.message ) {
-			if ( data.message === 'generateBefore' ) {
-				if ( log ) {
-					console.log('LiveReload started at', new Date());
-				}
-				if ( typeof document.getElementsByTagName !== 'undefined' ) {
-	document.getElementsByTagName('html')[0].className += ' wait';
-}
-			}
-			else if ( data.message === 'generateAfter' ) {
-				if ( log ) {
-					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
-				}
-				document.location.reload();
-			}
-		}
-	});
-};
-	/* Inject socket into our page */
-var inject = function(){
-	var t = document.createElement('script');
-	t.type = 'text/javascript';
-	t.async = 'async';
-	t.src = '/primus/primus.js';
-	t.onload = listen;
-	var s = document.getElementsByTagName('script')[0];
-	s.parentNode.insertBefore(t, s);
-};
-	if ( typeof Primus !== 'undefined' ) {
-		listen();
-	} else {
-		inject();
-	}
+    <script >var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-38376680-1']);
+_gaq.push(['_trackPageview']);
+(function(){
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();</script><script defer="defer"  src="/vendor/jquery-1.9.1.js"></script><script defer="defer"  src="/vendor/foundation.js"></script><script defer="defer"  src="/vendor/foundation.topbar.js"></script><script defer="defer"  src="/vendor/foundation.dropdown.js"></script><script defer="defer"  src="/vendor/foundation.orbit.js"></script><script defer="defer"  src="/scripts/script.js"></script>
 
 </body>

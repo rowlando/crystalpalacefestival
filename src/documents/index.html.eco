@@ -47,33 +47,3 @@ layout: default
     </div>
 
 </div>
-
-<div class="row">
-
-    <div class="large-4 columns">
-
-        <div class="box text-center">
-
-            <h2 class="h2 sponsor-home-heading">Lead sponsor</h2>
-            <a href="http://www.acorn.ltd.uk/"><img width="72" src="/images/sponsors/acorn.png" alt="Acorn"/></a>
-
-        </div>
-
-    </div>
-    <div class="large-8 columns">
-
-        <div class="box box-sponsor">
-
-            <h2 class="h2 sponsor-home-heading">Platinum sponsors</h2>
-            <a href="http://www.kfh.co.uk/residential-properties/estate-agents/crystal-palace/"><img width="85" src="/images/sponsors/page/sponsor-kfh.jpg" alt="KFH" /></a>
-            <a href="http://www.smashbangwallop.co.uk/"><img width="61" src="/images/sponsors/sbw.png" alt="SBW"/></a>
-            <a href="http://www.thelittleescape.com/"><img width="133" src="/images/sponsors/page/sponsor-little-escape.jpg" alt="Little Escape"/></a>
-            <a href="http://www.thetransmitter.co.uk/"><img width="130" src="/images/sponsors/transmitter.png" alt="Transmitter"/></a>
-
-            <a class="see-all-sponsors" href="/about/sponsors">See all our sponsors</a>
-
-        </div>
-
-    </div>
-
-</div>

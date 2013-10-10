@@ -19,4 +19,4 @@ voter will win two free tickets to every UK Festivals' award-winning festival in
  
 Please visit [www.festivalawards.com/vote][1] to vote for us.
 
-[1] http://www.festivalawards.com/vote
+[1]: http://www.festivalawards.com/vote

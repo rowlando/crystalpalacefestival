@@ -12,7 +12,11 @@
     <meta name="generator" content="DocPad v6.53.0" />
     <link href="//cloud.webtype.com/css/2f3c9337-8c23-493e-bbf3-f3d3e7813330.css" rel="stylesheet" type="text/css" />
     <!-- DocPad Styles + Our Own -->
-    <link  rel="stylesheet" href="/styles/style1.css" />
+    <style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="/styles/style1.css" />
     <script src="/vendor/custom.modernizr.js"></script>
 </head>
 <body>
@@ -222,13 +226,51 @@
         </div>
     </footer>
 
-    <script >var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-38376680-1']);
-_gaq.push(['_trackPageview']);
-(function(){
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    <script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/primus/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
 })();</script><script defer="defer"  src="/vendor/jquery-1.9.1.js"></script><script defer="defer"  src="/vendor/foundation.js"></script><script defer="defer"  src="/vendor/foundation.topbar.js"></script><script defer="defer"  src="/vendor/foundation.dropdown.js"></script><script defer="defer"  src="/vendor/foundation.orbit.js"></script><script defer="defer"  src="/scripts/script.js"></script>
 
 </body>

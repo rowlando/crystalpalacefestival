@@ -117,7 +117,7 @@ h6,
 * Common Elements
 *****************************/
 .page-sidebar,
-.social-buttons,
+.social-buttons-wrapper,
 .page-comments,
 .page-content,
 .box,
@@ -543,7 +543,7 @@ blockquote p {
 .social-buttons {
   overflow: hidden;
 }
-.social-button {
+.service-button {
   float: left;
 }
 .google-plus-one-button {

@@ -19,7 +19,7 @@ div '.row', ->
 		# Footer
 		footer '.page-footer', ->
 			# Subscribe Buttons
-			section '.page-subscribe.social-buttons', ->
+			section '.page-subscribe.social-buttons-wrapper', ->
 				socialButtons.call(@)
 
 			# Disqus

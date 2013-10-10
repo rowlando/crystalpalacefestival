@@ -30,13 +30,16 @@ layout: default
             <ul data-orbit data-options="timer_speed:0;bullets:false;navigation_arrows:false;slide_number:false">
                 <li>
                     <p class="posterize posterize-left posterize-message">
-                        <span class="line-1">Festival open meeting</span>
-                        <span class="line-6">Sunday 6 October 2013</span>
-                        <span class="line-3">6pm at Antenna Café Thing</span>
+                        <span class="line-3">Please vote for us!</span>
+                        <span class="line-6">Please vote for us!</span>
+                        <span class="line-8">Please vote for us!</span>
                     </p>
-                    <p style="padding-left: 3%;">We have lots of varied <a href="/documents/festival-organising-roles.pdf">festival roles</a> and the more volunteers we can
-                    recruit to the organising team, the better! Come along to the meeting to find out more.</p>
-                    <p style="padding-left: 3%;">See you at <a href="http://www.antennastudios.co.uk/cafe-thing/">Cafe Thing</a>!</p>
+                    <p style="padding-left: 3%;">The Crystal Palace Overground Festival 2013 has been nominated in the ‘Best Grass Roots Festival’ and the ‘Best Small Festival’ categories in the prestigious UK Festival Awards.</p>
+                    <p style="padding-left: 3%;">Please vote for us at <a href="http://www.festivalawards.com/vote">www.festivalawards.com/vote</a>!</p>
+
+
+
+
                 </li>
 
             </ul>

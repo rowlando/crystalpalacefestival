@@ -9,16 +9,19 @@
     <meta name="keywords" content="crystal palace festival, crystal palace overground festival, se19 festival, westow park, crystal palace music festival, crystal palace what's on, crystal palace summer, arts, crafts, music, kids entertainment, food" />
 
     <!-- DocPad Meta -->
-    <meta name="generator" content="DocPad v6.53.0" />
+    <meta name="generator" content="DocPad v6.53.4" />
     <link href="//cloud.webtype.com/css/2f3c9337-8c23-493e-bbf3-f3d3e7813330.css" rel="stylesheet" type="text/css" />
     <!-- DocPad Styles + Our Own -->
-    <link  rel="stylesheet" href="/styles/style1.css" />
+    <style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="/styles/style1.css" />
     <script src="/vendor/custom.modernizr.js"></script>
 </head>
 <body>
     <div class="splash">
     <img src="/images/header/free-splash.png" alt="Free festival"/>
-    <a href="http://ukvoting.festivalawards.com/" class="splash-volunteer">Please vote for us!</a>
     <div class="social-media-icons">
         <a href="https://www.facebook.com/CrystalPalaceFestival" class="facebook"><img width="25" src="/images/icons/facebook.png" alt="Facebook" /></a>
         <a href="https://twitter.com/se19festival" class="twitter"><img width="25" src="/images/icons/twitter.png" alt="Twitter" /></a>
@@ -57,64 +60,7 @@
                     
 
                     
-                        <li class="has-dropdown active"><a href="/whats-on">What's on</a>
-                            <ul class="dropdown">
-                            
-                                <li><a href="/whats-on/thursday-27-june">Thursday 27</a></li>
-                            
-                                <li><a href="/whats-on/friday-28-june">Friday 28</a></li>
-                            
-                                <li><a href="/whats-on/saturday-29-june">Saturday 29</a></li>
-                            
-                                <li><a href="/whats-on/sunday-30-june">Sunday 30</a></li>
-                            
-                            
-                                <li class="divider"></li>
-                                
-                                <li><a href="/whats-on/venues-around-town">Venues around town</a></li>
-                                
-                                <li><a href="/whats-on/art">Art at the festival</a></li>
-                                
-                            
-                            </ul>
-                        </li>
-                    
-
-                
-                    
-                    
-
-                    
-                        <li class="has-dropdown inactive"><a href="/info">Info</a>
-                            <ul class="dropdown">
-                            
-                                <li><a href="/info/programme">Programme</a></li>
-                            
-                                <li><a href="/info/food-drink">Food & drink</a></li>
-                            
-                                <li><a href="/info/travel">Getting to the festival</a></li>
-                            
-                                <li><a href="/info/photos">Share your pics</a></li>
-                            
-                            
-                            </ul>
-                        </li>
-                    
-
-                
-                    
-                    
-
-                    
                         <li class="inactive"><a href="/volunteer">Volunteer</a></li>
-                    
-
-                
-                    
-                    
-
-                    
-                        <li class="inactive"><a href="/blog">blog</a></li>
                     
 
                 
@@ -259,19 +205,51 @@
     </div>
 </div>
 
-    <footer class="footer row">
-        <div class="columns large-12">
-            <img src="/images/decoration/treehill.png" alt=""/>
-        </div>
-    </footer>
+    <script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
 
-    <script >var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-38376680-1']);
-_gaq.push(['_trackPageview']);
-(function(){
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/primus/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
 })();</script><script defer="defer"  src="/vendor/jquery-1.9.1.js"></script><script defer="defer"  src="/vendor/foundation.js"></script><script defer="defer"  src="/vendor/foundation.topbar.js"></script><script defer="defer"  src="/vendor/foundation.dropdown.js"></script><script defer="defer"  src="/vendor/foundation.orbit.js"></script><script defer="defer"  src="/scripts/script.js"></script>
 
 </body>

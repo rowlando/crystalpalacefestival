@@ -84,54 +84,9 @@ module.exports =
 			]
 
 			pages: [
-					url: '/whats-on'
-					label: "What's on"
-					title: 'Return home'
-					pages: [
-							url: '/whats-on/thursday-27-june'
-							label: 'Thursday 27'
-						,
-							url: '/whats-on/friday-28-june'
-							label: 'Friday 28'
-						,
-							url: '/whats-on/saturday-29-june'
-							label: 'Saturday 29'
-						,
-							url: '/whats-on/sunday-30-june'
-							label: 'Sunday 30'
-					]
-					otherPages: [
-							url: "/whats-on/venues-around-town"
-							label: "Venues around town"
-						,
-							url: "/whats-on/art"
-							label: "Art at the festival"
-					]
-				,
-					url: '/info'
-					label: 'Info'
-					title: 'Need to know stuff'
-					pages: [
-							url: '/info/programme'
-							label: 'Programme'
-						,
-							url: '/info/food-drink'
-							label: 'Food & drink'
-						,
-							url: '/info/travel'
-							label: 'Getting to the festival'
-						,
-							url: '/info/photos'
-							label: 'Share your pics'
-					]
-				,
 					url: '/volunteer'
 					label: 'Volunteer'
 					title: 'Help make the festival more brilliant'
-				,
-					url: '/blog'
-					label: 'blog'
-					title: 'View articles'
 				,
 					url: '/about'
 					label: 'About'

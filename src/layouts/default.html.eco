@@ -30,12 +30,6 @@
 
     <%- @content %>
 
-    <footer class="footer row">
-        <div class="columns large-12">
-            <img src="/images/decoration/treehill.png" alt=""/>
-        </div>
-    </footer>
-
     <%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
 </body>

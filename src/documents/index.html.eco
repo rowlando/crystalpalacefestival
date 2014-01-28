@@ -5,48 +5,92 @@ layout: default
 
 <div class="row">
 
-    <div class="large-4 columns">
-
-        <div class="page-sidebar">
-            <h3 class="blog-heading h1">Latest news</h3>
-            <% blogposts = @getCollection('posts').toJSON() %>
-
-            <ul class="side-nav">
-            <% for blogIndex in [0..2]: %>
-                <% blogpost = blogposts[blogIndex] %>
-                <li>
-                    <a href="<%- blogpost.url %>"><%- blogpost.title %></a>
-                    <small><%- blogpost.date.toDateString() %></small>
-                </li>
-
-            <% end %>
-            </ul>
-        </div>
-
-    </div>
-    <div class="large-8 columns">
+    <div class="large-12 columns">
         <div class="box orbit-homepage">
+            <img src="images/homepage/homepage.png" >
+        </div>
+    </div>
 
-            <ul data-orbit data-options="timer_speed:0;bullets:false;navigation_arrows:false;slide_number:false">
-                <li>
-                    <p class="posterize posterize-left posterize-message">
-                        <span class="line-3">Please vote for us!</span>
-                        <span class="line-6">Please vote for us!</span>
-                        <span class="line-8">Please vote for us!</span>
-                    </p>
-                    <p style="padding-left: 3%;">The Crystal Palace Overground Festival 2013 has been nominated in the ‘Best Grass Roots Festival’ and the ‘Best Small Festival’ categories in the prestigious UK Festival Awards.</p>
-                    <p style="padding-left: 3%;">Please vote for us at <a href="http://www.festivalawards.com/vote">www.festivalawards.com/vote</a>!</p>
+</div>
+
+<div class="row">
+
+    <div class="large-4 columns">
+        <h3 class="block-heading event-heading">Submission</h3>
+        <div class="event-container">
+            <p>If you’re a musical act, in the performing arts, interested in running a stall, or have an idea that you’d like to be considered for this year’s festival then do get in touch via the appropriate email address, listed below.</p>
+
+            <a href="/info/programme">See full programme</a>
+        </div>
+    </div>
+
+    <div class="large-4 columns">
+        <h3 class="block-heading event-heading">Get Involved</h3>
+        <div class="event-container">
+            <p>To make the festival a success it needs you!</p>
+
+            <p>Our festival is special and helps our community come together as one so it’s important that it continues. If you can help with fundraising, grants or would like to sponsor or advertise with the festival, then do get in touch and help make the festival even bigger and better in 2013.</p>
+            <a href="/info/programme">Contact us</a>
+        </div>
+    </div>
+
+    <div class="large-4 columns">
+        <h3 class="block-heading event-heading">Volunteer</h3>
+        <div class="event-container">
+            <p>If you can spare a few hours leading up to or across the festival, your time will be invaluable. To learn more visit our volunteer page.</p>
+            <a href="/info/programme">See full programme</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="large-12 columns">
+        <div class="page-sidebar">
+            <h2 class="blog-heading h1">Contact us</h2>
+
+            <div class="row">
+
+                <div class="large-6 columns">
+
+                    <p><a href="mailto:music@crystalpalacefestival.org"><strong class="black">music</strong>@crystalpalacefestival.org</a><br>
+                    If you're interested in playing during the festival, do get in touch!</p>
+
+                    <p><a href="mailto:finance@crystalpalacefestival.org">finance@crystalpalacefestival.org</a><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
+
+                    <p><a href="mailto:press@crystalpalacefestival.org">press@crystalpalacefestival.org</a><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
 
 
+                    <p><a href="mailto:stalls@crystalpalacefestival.org">stalls@crystalpalacefestival.org</a><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
+
+                </div>
+
+                <div class="large-6 columns">
+
+                    <p><a href="mailto:volunteer@crystalpalacefestival.org">volunteer@crystalpalacefestival.org</a><br>
+                    If you're interested in playing during the festival, do get in touch!</p>
+
+                    <p><a href="mailto:community@crystalpalacefestival.org">community@crystalpalacefestival.org</a><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
+
+                    <p><a href="mailto:marketing@crystalpalacefestival.org">marketing@crystalpalacefestival.org</a><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
 
 
-                </li>
+                    <p><a href="mailto:operations@crystalpalacefestival.org">operations@crystalpalacefestival.org</a><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
 
-            </ul>
+                </div>
+
+            </div>
+
+            <p>For anything else, please email <a href="mailto:info@crystalpalacefestival.org">info@crystalpalacefestival.org</a></p>
 
         </div>
-
-
     </div>
 
 </div>

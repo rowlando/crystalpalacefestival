@@ -936,9 +936,6 @@ module.exports =
 		posts: ->
 			@getCollection('documents').findAllLive({relativeOutDirPath:'blog'},[date:-1])
 
-		whatson: ->
-			@getCollection('documents').findAllLive({isDay:true},[order:1])
-
 
 	# =================================
 	# Events

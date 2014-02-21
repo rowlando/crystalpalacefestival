@@ -7,7 +7,36 @@ layout: default
 
     <div class="large-12 columns">
         <div class="box orbit-homepage">
-            <img src="images/homepage/homepage.png" >
+            <img src="images/homepage/homepage.jpg" >
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="large-12 columns">
+        <div class="page-sidebar">
+
+            <p class="posterize posterize-left posterize-message">
+                <span class="line-5">The announcement you’ve all been waiting for</span>
+            </p>
+
+            <div style="width: 97%; padding-left: 3%">
+
+                <p>This year’s festival is taking place between Thursday 26 and Sunday 29 June.</p>
+
+                <p>The free 4-day festival, now in its 8th year, will start with fringe events on Thursday 26 and Friday 27 around Crystal Palace, in anticipation of the main big festival weekend.</p>
+
+                <p>Westow Park will be the main festival hub on Saturday 28, with Sunday 29 focusing around the Upper Norwood Triangle.</p>
+
+                <h2 class="blog-heading h1">What to look forward to</h2>
+
+                <p>It’s early days yet in our planning, but you can look forward to a festival feast of performing arts, crafts, holistic and sports activities, live music, DJs and food, plus antique, craft and vintage shopping throughout the Crystal Palace Triangle. See what happened on <a href="http://2013.crystalpalacefestival.org">2013's festival website</a>.</p>
+
+
+            </div>
+
         </div>
     </div>
 
@@ -16,29 +45,23 @@ layout: default
 <div class="row">
 
     <div class="large-4 columns">
-        <h3 class="block-heading event-heading">Submission</h3>
+        <h3 class="block-heading event-heading">Take part</h3>
         <div class="event-container">
-            <p>If you’re a musical act, in the performing arts, interested in running a stall, or have an idea that you’d like to be considered for this year’s festival then do get in touch via the appropriate email address, listed below.</p>
-
-            <a href="/info/programme">See full programme</a>
+            <p>If you’re a musical act, in the performing arts, prospective stallholder, or have an idea for this year’s festival then get in touch via the appropriate email addresses below.</p>
         </div>
     </div>
 
     <div class="large-4 columns">
         <h3 class="block-heading event-heading">Get Involved</h3>
         <div class="event-container">
-            <p>To make the festival a success it needs you!</p>
-
-            <p>Our festival is special and helps our community come together as one so it’s important that it continues. If you can help with fundraising, grants or would like to sponsor or advertise with the festival, then do get in touch and help make the festival even bigger and better in 2013.</p>
-            <a href="/info/programme">Contact us</a>
+            <p>To make the festival a success we need you! If you can help with fundraising, grants, sponsorship or advertising, you can help make the festival bigger and better in 2014.</p>
         </div>
     </div>
 
     <div class="large-4 columns">
         <h3 class="block-heading event-heading">Volunteer</h3>
         <div class="event-container">
-            <p>If you can spare a few hours leading up to or across the festival, your time will be invaluable. To learn more visit our volunteer page.</p>
-            <a href="/info/programme">See full programme</a>
+            <p>If you can spare a few hours leading up to or across the festival, we’d love your help! Take a look at our Volunteers page for more info on where you can get involved.</p>
         </div>
     </div>
 
@@ -54,35 +77,30 @@ layout: default
 
                 <div class="large-6 columns">
 
-                    <p><a href="mailto:music@crystalpalacefestival.org"><strong class="black">music</strong>@crystalpalacefestival.org</a><br>
-                    If you're interested in playing during the festival, do get in touch!</p>
+                    <p><a href="mailto:music@crystalpalacefestival.org">music@crystalpalacefestival.org</a><br>
+                    If you're interested in playing at the festival <a href="https://docs.google.com/a/crystalpalacefestival.org/forms/d/1s2_hjMFmDKcdaG_Hlt9hS__CiQdJFOhbGTNyYBE-KGU/viewform">apply here</a>. For general music enquiries <a href="mailto:music@crystalpalacefestival.org" title="Contact the music team">contact us</a>.</p>
 
                     <p><a href="mailto:finance@crystalpalacefestival.org">finance@crystalpalacefestival.org</a><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
+                        To advertise with the festival or help with sponsorship and fundraising, <a href="mailto:finance@crystalpalacefestival.org" title="Contact the finance team">contact us</a>.</p>
 
                     <p><a href="mailto:press@crystalpalacefestival.org">press@crystalpalacefestival.org</a><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
+                        For press enquiries, including festival details and image requests, <a href="mailto:press@crystalpalacefestival.org" title="Contac the press team">contact us</a></p>
 
 
-                    <p><a href="mailto:stalls@crystalpalacefestival.org">stalls@crystalpalacefestival.org</a><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
 
                 </div>
 
                 <div class="large-6 columns">
 
+                    <p><a href="mailto:stalls@crystalpalacefestival.org">stalls@crystalpalacefestival.org</a><br>
+                        If you’re interested in running a stall at this year’s festival, <a href="mailto:stalls@crystalpalacefestival.org" title="Contact the stalls team">register your interest with us</a>.</p>
+
                     <p><a href="mailto:volunteer@crystalpalacefestival.org">volunteer@crystalpalacefestival.org</a><br>
-                    If you're interested in playing during the festival, do get in touch!</p>
+                    If you want to help make this year’s festival an even bigger success, <a href="/volunteer" title="Contact the volunteer team">volunteer here</a></p>
 
                     <p><a href="mailto:community@crystalpalacefestival.org">community@crystalpalacefestival.org</a><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
+                        If you’re a community organisation or school and would like to get involved, <a title="Contact the community team" href="mailto:community@crystalpalacefestival.org">contact us</a></p>
 
-                    <p><a href="mailto:marketing@crystalpalacefestival.org">marketing@crystalpalacefestival.org</a><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
-
-
-                    <p><a href="mailto:operations@crystalpalacefestival.org">operations@crystalpalacefestival.org</a><br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed enim sed orci.</p>
 
                 </div>
 

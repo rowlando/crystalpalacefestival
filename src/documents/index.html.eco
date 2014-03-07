@@ -54,14 +54,14 @@ layout: default
     <div class="large-4 columns">
         <h3 class="block-heading event-heading">Get Involved</h3>
         <div class="event-container">
-            <p>To make the festival a success we need you! If you can help with fundraising, grants, sponsorship or advertising find out more information our <a href="/get-involved">Get Involved</a> page.</p>
+            <p>To make the festival a success we need you! If you can help with fundraising, grants, sponsorship or advertising find out more information by visiting our <a href="/get-involved">Get Involved</a> page.</p>
         </div>
     </div>
 
     <div class="large-4 columns">
         <h3 class="block-heading event-heading">Volunteer</h3>
         <div class="event-container">
-            <p>If you can spare a few hours leading up to or across the festival, we’d love your help! Take a look at our Volunteers page for more info on where you can get involved.</p>
+            <p>If you can spare a few hours leading up to or across the festival, we’d love your help! Take a look at our <a href="/volunteer">Volunteers page</a> for more info on where you can get involved.</p>
         </div>
     </div>
 

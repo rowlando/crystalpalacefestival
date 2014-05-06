@@ -84,10 +84,7 @@ module.exports =
 			pages: [
 					url: '/volunteer'
 					label: 'Volunteer'
-					title: 'Help make the festival more brilliant',
-          url: '/get-involved'
-          label: 'Get involved'
-          title: 'Help make the festival more brilliant'
+					title: 'Help make the festival more brilliant'
 			]
 
 		# Link Helper

@@ -4,13 +4,29 @@ layout: default
 ---
 
 <div class="row">
-
     <div class="large-12 columns">
-        <div class="box orbit-homepage">
-            <img src="images/homepage/homepage.jpg" >
+        <div class="box">
+
+            <div class="row">
+                <div class="large-4 columns">
+                    <img src="images/homepage/howard_marks_small.jpg" alt="Howard Marks at Crystal Palace">
+                </div>
+
+                <div class="large-8 columns">
+                    <h2 class="blog-heading">An Audience with Howard Marks</h2>
+                    <p>A very special pre-festival fundraiser at Kingswood House, Kingswood Estate, Dulwich. On Thursday 29 May, intrepid bon viveur Howard Marks will bring his spoken word show; Scholar, Smuggler, Prisoner, Scribe to south east London.</p>
+                    <p>With trademark honesty and penetrating humour, Howard will look back at four extraordinary and action packed phases of his life. Enthralling and hilarious in equal measure, you may think you know the Howard Marks story but there are many tales still left to tell.</p>
+                    <p>Time: Doors 7pm til 11:30pm</p>
+                    <p>Tickets: £12.50 plus £1.50 booking fee. <a href="https://www.ticketline.co.uk/order/tickets/13294073/an-audience-with-howard-marks-kingswood-house-2014-05-29-19-00-00">Click here to book</a>.</p>
+                    <p>Location: <a href="https://goo.gl/maps/m6cQW">Kingswood House, Kingswood Estate, Seeley Drive, Dulwich, London, SE21 8QR</a><br>
+                    Buses: 3, 450<br>
+                    Train: Sydenham Hill</p>
+
+                </div>
+            </div>
+
         </div>
     </div>
-
 </div>
 
 <div class="row">
